@@ -1,1 +1,13 @@
-data/
+# Ignore 17lands draft data files
+*.csv.gz
+*.csv
+
+# Ignore training set files
+*.pth
+
+# Ignore model weights (for now)
+*.pt
+
+# Ignore auto-generated files
+.ipynb_checkpoints/
+.DS_Store
