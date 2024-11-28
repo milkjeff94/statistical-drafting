@@ -11,3 +11,4 @@
 # Ignore auto-generated files
 .ipynb_checkpoints/
 .DS_Store
+*.egg-info
