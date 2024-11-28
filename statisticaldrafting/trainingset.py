@@ -6,6 +6,7 @@ import numpy as np
 import os
 import pandas as pd
 import time
+from typing import Tuple
 
 # def download_file(set: str, type="Premier"):
 #     # TODO: implement this. 
@@ -39,7 +40,7 @@ def create_dataset(set_abbreviation: str,
                    minimum_league: str = "bronze", 
                    train_fraction: float = 0.8,
                    data_folder_17lands: str = "../data/17lands/", 
-                   data_folder_training_set: str = "../data/training_sets/") -> None:
+                   data_folder_training_set: str = "../data/training_sets/") -> Tuple[str, str]:
     """
     Creates clean training and validation datasets from raw 17lands data. 
 
@@ -61,8 +62,8 @@ def create_dataset(set_abbreviation: str,
     train_path = data_folder_training_set + train_filename
     val_path = data_folder_training_set + val_filename
     if overwrite == False and os.path.exists(train_path) and os.path.exists(val_path):
-        print("Training and validation sets already exist. Skipping. Set overwrite=True to reprocess.")
-        return
+        print("Training and validation sets already exist. Skipping.")
+        return train_path, val_path 
 
     # Validate input file. 
     csv_path = f"{data_folder_17lands}draft_data_public.{set_abbreviation}.{draft_mode}Draft.csv.gz"
@@ -133,7 +134,7 @@ def create_dataset(set_abbreviation: str,
         if i % 10 == 0:
             print(f"Loaded {chunk_size * i} picks, t=", round(time.time()-t0, 1), "s")
 
-    print("Done loaded draft data.")
+    print("Loaded all draft data.")
 
     # Concatenate all chunks into a single Dataframe
     picks = np.vstack(pick_chunks)
@@ -152,6 +153,8 @@ def create_dataset(set_abbreviation: str,
     # Write datasets. 
     torch.save(pick_train_dataset, train_path)
     print(f"Saved training set to {train_path}")
-
+    
     torch.save(pick_val_dataset, val_path)
-    print(f"Saved validation set to {train_path}")
+    print(f"Saved validation set to {val_path}")
+
+    return train_path, val_path 

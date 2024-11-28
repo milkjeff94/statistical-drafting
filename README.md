@@ -1,2 +1,2 @@
-# statistical-drafting
+# statisticaldrafting
 Developing machine learning based tools for drafting. Based on data from 17lands. 
