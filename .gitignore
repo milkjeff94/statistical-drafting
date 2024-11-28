@@ -6,7 +6,7 @@
 *.pth
 
 # Ignore model weights (for now)
-*.pt
+# *.pt
 
 # Ignore auto-generated files
 .ipynb_checkpoints/
