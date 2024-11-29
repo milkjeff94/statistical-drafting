@@ -3,18 +3,23 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class DraftMLP(nn.Module):
-    def __init__(self, input_dim, hidden_dims, output_dim, dropout=0.1):
+    def __init__(self,
+                 cardnames,
+                 hidden_dims,
+                 dropout=0.1):
         """
         Args:
-            input_dim (int): Size of the input features.
-            hidden_dims (list): List of integers specifying hidden layer sizes.
-            output_dim (int): Size of the output features.
+            cardnames (List[str]): Names of cards in the set. 
+            hidden_dims (list): List of integers specifying hidden layer sizes (must be equal).
             dropout (float): Dropout rate for regularization.
         """
         super(DraftMLP, self).__init__()
         
+        # Customize to given set. 
+        self.cardnames = cardnames
+
         # Input layer
-        self.input_layer = nn.Linear(input_dim, hidden_dims[0])
+        self.input_layer = nn.Linear(len(cardnames), hidden_dims[0])
         
         # Hidden layers
         self.hidden_layers = nn.ModuleList(
@@ -28,7 +33,7 @@ class DraftMLP(nn.Module):
         )
         
         # Output layer
-        self.output_layer = nn.Linear(hidden_dims[-1], output_dim)
+        self.output_layer = nn.Linear(hidden_dims[-1], len(cardnames))
         
         # Normalization and regularization
         self.norms = nn.ModuleList(nn.LayerNorm(dim) for dim in hidden_dims)

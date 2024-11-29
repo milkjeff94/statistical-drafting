@@ -6,7 +6,7 @@ import numpy as np
 import os
 import pandas as pd
 import time
-from typing import Tuple
+from typing import List, Tuple
 
 # def download_file(set: str, type="Premier"):
 #     # TODO: implement this. 
@@ -33,6 +33,48 @@ class PickDataset(Dataset):
     def __getitem__(self,index):
         return torch.from_numpy(self.pools[index]), torch.from_numpy(self.packs[index]), torch.from_numpy(self.pick_vectors[index])
 
+def create_card_csv(
+        set_abbreviation: str,
+        cardnames: List[str],
+        data_folder_cards: str = "../data/cards/",
+        reprocess: bool = False,
+) -> None:
+    """
+    Creates a csv describing draftable cards, including out-of-set additions. 
+    """
+    # Use existing cardname file if it exists. 
+    set_card_path = data_folder_cards + set_abbreviation + ".csv"
+    if os.path.exists(set_card_path) and reprocess is False:
+        print(f"Using existing cardname file, {set_card_path}")
+        return
+
+    # This file should be most recent list of cards from 17lands. 
+    df = pd.read_csv(data_folder_cards + "/cards.csv")
+
+    # Check that set abbreviation is valid. 
+    if set_abbreviation not in df["expansion"].unique():
+        raise Exception(f"{set_abbreviation} not found in card list. Consider choosing a new set abbreviation or downloading a new list of cards from https://www.17lands.com/public_datasets")
+
+    # Filter down to cards in set. 
+    df = df[df["name"].isin(cardnames)]
+    df = df[df["is_booster"]]
+
+    # Prioritize cards from the current expansion. 
+    df["is_target_expansion"] = df["expansion"] == set_abbreviation
+    df = df.groupby('name').last()
+
+    # Mark non-expansion cards with "special" rarity
+    df.loc[~df['is_target_expansion'], 'rarity'] = 'special'
+    df = df.reset_index()[["name", "rarity", "color_identity"]]
+
+    # Fix color identity
+    df["color_identity"] = df["color_identity"].fillna("Colorless")
+    df["color_identity"] = df["color_identity"].apply(lambda x: "Multicolor" if (len(x) > 1 and x!="Colorless") else x)
+
+    # Write csv with cards in set. 
+    df.to_csv(set_card_path, index=False)
+    print(f"Created new cardname file for {set_abbreviation}, {set_card_path}")
+
 def create_dataset(set_abbreviation: str, 
                    draft_mode: str = "Premier", 
                    overwrite: bool = False,
@@ -40,7 +82,8 @@ def create_dataset(set_abbreviation: str,
                    minimum_league: str = "bronze", 
                    train_fraction: float = 0.8,
                    data_folder_17lands: str = "../data/17lands/", 
-                   data_folder_training_set: str = "../data/training_sets/") -> Tuple[str, str]:
+                   data_folder_training_set: str = "../data/training_sets/",
+                   data_folder_cards: str = "../data/cards/") -> Tuple[str, str]:
     """
     Creates clean training and validation datasets from raw 17lands data. 
 
@@ -53,6 +96,7 @@ def create_dataset(set_abbreviation: str,
         train_fraction (float): Fraction of dataset to use for training. 
         data_folder_17lands (str): Folder where raw 17lands files are stored. 
         data_folder_training_set (str): Folder where processed training & validation sets are stored. 
+        data_folder_cards (str): Folder where card info is stored. 
     """
     # TODO: implement download_file() here. 
     
@@ -153,8 +197,10 @@ def create_dataset(set_abbreviation: str,
     # Write datasets. 
     torch.save(pick_train_dataset, train_path)
     print(f"Saved training set to {train_path}")
-    
     torch.save(pick_val_dataset, val_path)
     print(f"Saved validation set to {val_path}")
+
+    # Write card info to file. 
+    create_card_csv(set_abbreviation=set_abbreviation, cardnames=pick_train_dataset.cardnames)
 
     return train_path, val_path 

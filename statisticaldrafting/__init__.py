@@ -1,3 +1,3 @@
-from .trainingset import create_dataset
+from .trainingset import *
 from .train import *
 from .model import *
