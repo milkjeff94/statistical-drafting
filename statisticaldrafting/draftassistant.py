@@ -123,7 +123,9 @@ class DraftAssistant:
         self.filtered_table = self.pick_table.copy()
 
         # If the rarity filter is "All", exclude cards with "Basic" rarity
-        if self.rarity_filter.value == "common+uncommon":
+        if self.rarity_filter.value == "All":
+            pass 
+        elif self.rarity_filter.value == "common+uncommon":
             self.filtered_table = self.filtered_table[self.filtered_table['rarity'].isin(["common", "uncommon"])]
         else:
             self.filtered_table = self.filtered_table[self.filtered_table['rarity'] == self.rarity_filter.value]
