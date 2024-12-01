@@ -89,7 +89,7 @@ class DraftAssistant:
     def remove_card(self, index):
         """Remove a card from the collection by index and update tables."""
         # global collection
-        self.collection = self.collection.drop(self.index).reset_index(drop=True)
+        self.collection = self.collection.drop(index).reset_index(drop=True)
         self.update_table()
         
     # Function to reset the collection
