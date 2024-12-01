@@ -156,7 +156,7 @@ class DraftAssistant:
 
 
         # Display the filtered pick table with buttons
-        print(f'{" Card Name":<{max_name_length}} | {"Rarity":<9} | {"Color":<12} | {"Synergy":+>7}| {"Rating":>6}')
+        print(f'{" Card Name":<{max_name_length}} | {"Rarity":<9} | {"Color":<12} | {"Synergy":>7}| {"Rating":>6}')
         for row_count, (index, row) in enumerate(self.filtered_table.iterrows()):
             row_widget = widgets.Output()
             with row_widget:
