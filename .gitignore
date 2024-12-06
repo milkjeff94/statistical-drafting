@@ -10,3 +10,4 @@
 *.egg-info
 __pycache__
 build/*
+training_sets/*
