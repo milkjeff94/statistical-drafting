@@ -1,0 +1,2321 @@
+Starting training for LTR, Premier
+Using input file ../data/17lands/draft_data_public.LTR.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 1.9 s
+Loaded 1000000 picks, t= 19.8 s
+Loaded 2000000 picks, t= 37.5 s
+Loaded 3000000 picks, t= 54.6 s
+Loaded 4000000 picks, t= 71.8 s
+Loaded 5000000 picks, t= 88.9 s
+Loaded 6000000 picks, t= 105.6 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/LTR_Premier_train.pth
+Saved validation set to ../data/training_sets/LTR_Premier_val.pth
+Using existing cardname file, ../data/cards/LTR.csv
+Starting to train model
+Validation set pick accuracy = 18.2%
+
+Starting epoch 0
+Training loss: 1.5677
+
+Starting epoch 1
+Training loss: 0.8958
+
+Starting epoch 2
+Training loss: 0.8574
+Validation set pick accuracy = 70.2%
+Saving model weights to ../data/models/LTR_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8394
+
+Starting epoch 4
+Training loss: 0.8275
+Validation set pick accuracy = 70.6%
+Saving model weights to ../data/models/LTR_Premier.pt
+
+Starting epoch 5
+Training loss: 0.8197
+
+Starting epoch 6
+Training loss: 0.8139
+Validation set pick accuracy = 70.8%
+Saving model weights to ../data/models/LTR_Premier.pt
+
+Starting epoch 7
+Training loss: 0.8095
+
+Starting epoch 8
+Training loss: 0.8057
+Validation set pick accuracy = 71.0%
+Saving model weights to ../data/models/LTR_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8025
+
+Starting epoch 10
+Training loss: 0.7999
+Validation set pick accuracy = 71.1%
+Saving model weights to ../data/models/LTR_Premier.pt
+
+Starting epoch 11
+Training loss: 0.7978
+
+Starting epoch 12
+Training loss: 0.7959
+Validation set pick accuracy = 71.1%
+Saving model weights to ../data/models/LTR_Premier.pt
+
+Starting epoch 13
+Training loss: 0.7938
+
+Starting epoch 14
+Training loss: 0.7919
+Validation set pick accuracy = 71.1%
+
+Starting epoch 15
+Training loss: 0.7904
+
+Starting epoch 16
+Training loss: 0.7895
+Validation set pick accuracy = 71.0%
+
+Starting epoch 17
+Training loss: 0.788
+
+Starting epoch 18
+Training loss: 0.7867
+Validation set pick accuracy = 71.1%
+
+Starting epoch 19
+Training loss: 0.786
+Training completed.
+Starting training for HBG, Premier
+Using input file ../data/17lands/draft_data_public.HBG.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 1.6 s
+Loaded 1000000 picks, t= 18.3 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/HBG_Premier_train.pth
+Saved validation set to ../data/training_sets/HBG_Premier_val.pth
+Using existing cardname file, ../data/cards/HBG.csv
+Starting to train model
+Validation set pick accuracy = 18.4%
+
+Starting epoch 0
+Training loss: 3.9155
+
+Starting epoch 1
+Training loss: 1.7194
+
+Starting epoch 2
+Training loss: 1.2523
+Validation set pick accuracy = 60.1%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 3
+Training loss: 1.0926
+
+Starting epoch 4
+Training loss: 0.9948
+Validation set pick accuracy = 66.1%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 5
+Training loss: 0.9395
+
+Starting epoch 6
+Training loss: 0.9079
+Validation set pick accuracy = 67.3%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 7
+Training loss: 0.8842
+
+Starting epoch 8
+Training loss: 0.8686
+Validation set pick accuracy = 67.8%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8586
+
+Starting epoch 10
+Training loss: 0.8486
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 11
+Training loss: 0.8402
+
+Starting epoch 12
+Training loss: 0.8309
+Validation set pick accuracy = 68.4%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 13
+Training loss: 0.8249
+
+Starting epoch 14
+Training loss: 0.8205
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 15
+Training loss: 0.8149
+
+Starting epoch 16
+Training loss: 0.8078
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 17
+Training loss: 0.8029
+
+Starting epoch 18
+Training loss: 0.7969
+Validation set pick accuracy = 68.7%
+Saving model weights to ../data/models/HBG_Premier.pt
+
+Starting epoch 19
+Training loss: 0.7924
+Training completed.
+Starting training for ONE, Premier
+Using input file ../data/17lands/draft_data_public.ONE.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 1.4 s
+Loaded 1000000 picks, t= 15.9 s
+Loaded 2000000 picks, t= 478.9 s
+Loaded 3000000 picks, t= 495.6 s
+Loaded 4000000 picks, t= 512.2 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/ONE_Premier_train.pth
+Saved validation set to ../data/training_sets/ONE_Premier_val.pth
+Created new cardname file for ONE, ../data/cards/ONE.csv
+Starting to train model
+Validation set pick accuracy = 17.7%
+
+Starting epoch 0
+Training loss: 2.1534
+
+Starting epoch 1
+Training loss: 0.9831
+
+Starting epoch 2
+Training loss: 0.9025
+Validation set pick accuracy = 68.0%
+Saving model weights to ../data/models/ONE_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8737
+
+Starting epoch 4
+Training loss: 0.8571
+Validation set pick accuracy = 68.7%
+Saving model weights to ../data/models/ONE_Premier.pt
+
+Starting epoch 5
+Training loss: 0.8451
+
+Starting epoch 6
+Training loss: 0.8358
+Validation set pick accuracy = 69.2%
+Saving model weights to ../data/models/ONE_Premier.pt
+
+Starting epoch 7
+Training loss: 0.828
+
+Starting epoch 8
+Training loss: 0.8219
+Validation set pick accuracy = 69.3%
+Saving model weights to ../data/models/ONE_Premier.pt
+
+Starting epoch 9
+Training loss: 0.816
+
+Starting epoch 10
+Training loss: 0.8116
+Validation set pick accuracy = 69.6%
+Saving model weights to ../data/models/ONE_Premier.pt
+
+Starting epoch 11
+Training loss: 0.8079
+
+Starting epoch 12
+Training loss: 0.8044
+Validation set pick accuracy = 69.8%
+Saving model weights to ../data/models/ONE_Premier.pt
+
+Starting epoch 13
+Training loss: 0.8007
+
+Starting epoch 14
+Training loss: 0.798
+Validation set pick accuracy = 69.7%
+
+Starting epoch 15
+Training loss: 0.7951
+
+Starting epoch 16
+Training loss: 0.7926
+Validation set pick accuracy = 69.8%
+Saving model weights to ../data/models/ONE_Premier.pt
+
+Starting epoch 17
+Training loss: 0.7907
+
+Starting epoch 18
+Training loss: 0.789
+Validation set pick accuracy = 69.6%
+
+Starting epoch 19
+Training loss: 0.7865
+Training completed.
+Starting training for DSK, Premier
+Using input file ../data/17lands/draft_data_public.DSK.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 1.7 s
+Loaded 1000000 picks, t= 18.7 s
+Loaded 2000000 picks, t= 35.7 s
+Loaded 3000000 picks, t= 53.1 s
+Loaded 4000000 picks, t= 70.6 s
+Loaded 5000000 picks, t= 87.0 s
+Loaded 6000000 picks, t= 103.5 s
+Loaded 7000000 picks, t= 120.1 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/DSK_Premier_train.pth
+Saved validation set to ../data/training_sets/DSK_Premier_val.pth
+Created new cardname file for DSK, ../data/cards/DSK.csv
+Starting to train model
+Validation set pick accuracy = 18.7%
+
+Starting epoch 0
+Training loss: 1.8921
+
+Starting epoch 1
+Training loss: 0.9117
+
+Starting epoch 2
+Training loss: 0.8469
+Validation set pick accuracy = 69.5%
+Saving model weights to ../data/models/DSK_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8214
+
+Starting epoch 4
+Training loss: 0.8057
+Validation set pick accuracy = 70.3%
+Saving model weights to ../data/models/DSK_Premier.pt
+
+Starting epoch 5
+Training loss: 0.7946
+
+Starting epoch 6
+Training loss: 0.7857
+Validation set pick accuracy = 70.6%
+Saving model weights to ../data/models/DSK_Premier.pt
+
+Starting epoch 7
+Training loss: 0.7793
+
+Starting epoch 8
+Training loss: 0.7734
+Validation set pick accuracy = 70.8%
+Saving model weights to ../data/models/DSK_Premier.pt
+
+Starting epoch 9
+Training loss: 0.7691
+
+Starting epoch 10
+Training loss: 0.7653
+Validation set pick accuracy = 70.8%
+
+Starting epoch 11
+Training loss: 0.7618
+
+Starting epoch 12
+Training loss: 0.7585
+Validation set pick accuracy = 70.9%
+Saving model weights to ../data/models/DSK_Premier.pt
+
+Starting epoch 13
+Training loss: 0.7558
+
+Starting epoch 14
+Training loss: 0.7534
+Validation set pick accuracy = 70.9%
+Saving model weights to ../data/models/DSK_Premier.pt
+
+Starting epoch 15
+Training loss: 0.7514
+
+Starting epoch 16
+Training loss: 0.749
+Validation set pick accuracy = 71.0%
+Saving model weights to ../data/models/DSK_Premier.pt
+
+Starting epoch 17
+Training loss: 0.7472
+
+Starting epoch 18
+Training loss: 0.7459
+Validation set pick accuracy = 71.0%
+
+Starting epoch 19
+Training loss: 0.7442
+Training completed.
+Starting training for BRO, Premier
+Using input file ../data/17lands/draft_data_public.BRO.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.2 s
+Loaded 1000000 picks, t= 23.9 s
+Loaded 2000000 picks, t= 47.0 s
+Loaded 3000000 picks, t= 70.6 s
+Loaded 4000000 picks, t= 91.6 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/BRO_Premier_train.pth
+Saved validation set to ../data/training_sets/BRO_Premier_val.pth
+Created new cardname file for BRO, ../data/cards/BRO.csv
+Starting to train model
+Validation set pick accuracy = 17.7%
+
+Starting epoch 0
+Training loss: 2.8286
+
+Starting epoch 1
+Training loss: 1.228
+
+Starting epoch 2
+Training loss: 1.0603
+Validation set pick accuracy = 64.2%
+Saving model weights to ../data/models/BRO_Premier.pt
+
+Starting epoch 3
+Training loss: 1.009
+
+Starting epoch 4
+Training loss: 0.9832
+Validation set pick accuracy = 65.1%
+Saving model weights to ../data/models/BRO_Premier.pt
+
+Starting epoch 5
+Training loss: 0.9645
+
+Starting epoch 6
+Training loss: 0.9512
+Validation set pick accuracy = 65.5%
+Saving model weights to ../data/models/BRO_Premier.pt
+
+Starting epoch 7
+Training loss: 0.9403
+
+Starting epoch 8
+Training loss: 0.9327
+Validation set pick accuracy = 65.8%
+Saving model weights to ../data/models/BRO_Premier.pt
+
+Starting epoch 9
+Training loss: 0.9247
+
+Starting epoch 10
+Training loss: 0.9179
+Validation set pick accuracy = 66.1%
+Saving model weights to ../data/models/BRO_Premier.pt
+
+Starting epoch 11
+Training loss: 0.9123
+
+Starting epoch 12
+Training loss: 0.9064
+Validation set pick accuracy = 65.9%
+
+Starting epoch 13
+Training loss: 0.9031
+
+Starting epoch 14
+Training loss: 0.8977
+Validation set pick accuracy = 66.1%
+Saving model weights to ../data/models/BRO_Premier.pt
+
+Starting epoch 15
+Training loss: 0.894
+
+Starting epoch 16
+Training loss: 0.8895
+Validation set pick accuracy = 66.0%
+
+Starting epoch 17
+Training loss: 0.8867
+
+Starting epoch 18
+Training loss: 0.8832
+Validation set pick accuracy = 66.1%
+
+Starting epoch 19
+Training loss: 0.8799
+Training completed.
+Starting training for OTJ, Premier
+Using input file ../data/17lands/draft_data_public.OTJ.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.6 s
+Loaded 1000000 picks, t= 27.7 s
+Loaded 2000000 picks, t= 52.9 s
+Loaded 3000000 picks, t= 78.5 s
+Loaded 4000000 picks, t= 104.2 s
+Loaded 5000000 picks, t= 129.0 s
+Loaded 6000000 picks, t= 153.5 s
+Loaded 7000000 picks, t= 178.4 s
+Loaded 8000000 picks, t= 204.1 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/OTJ_Premier_train.pth
+Saved validation set to ../data/training_sets/OTJ_Premier_val.pth
+Created new cardname file for OTJ, ../data/cards/OTJ.csv
+Starting to train model
+Validation set pick accuracy = 18.6%
+
+Starting epoch 0
+Training loss: 1.781
+
+Starting epoch 1
+Training loss: 0.9276
+
+Starting epoch 2
+Training loss: 0.881
+Validation set pick accuracy = 68.0%
+Saving model weights to ../data/models/OTJ_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8605
+
+Starting epoch 4
+Training loss: 0.8477
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/OTJ_Premier.pt
+
+Starting epoch 5
+Training loss: 0.8383
+
+Starting epoch 6
+Training loss: 0.8316
+Validation set pick accuracy = 68.8%
+Saving model weights to ../data/models/OTJ_Premier.pt
+
+Starting epoch 7
+Training loss: 0.8258
+
+Starting epoch 8
+Training loss: 0.8208
+Validation set pick accuracy = 69.0%
+Saving model weights to ../data/models/OTJ_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8165
+
+Starting epoch 10
+Training loss: 0.8132
+Validation set pick accuracy = 69.0%
+
+Starting epoch 11
+Training loss: 0.8099
+
+Starting epoch 12
+Training loss: 0.8072
+Validation set pick accuracy = 69.0%
+
+Starting epoch 13
+Training loss: 0.8044
+
+Starting epoch 14
+Training loss: 0.8027
+Validation set pick accuracy = 69.1%
+Saving model weights to ../data/models/OTJ_Premier.pt
+
+Starting epoch 15
+Training loss: 0.8003
+
+Starting epoch 16
+Training loss: 0.7987
+Validation set pick accuracy = 69.1%
+Saving model weights to ../data/models/OTJ_Premier.pt
+
+Starting epoch 17
+Training loss: 0.7966
+
+Starting epoch 18
+Training loss: 0.7947
+Validation set pick accuracy = 69.2%
+Saving model weights to ../data/models/OTJ_Premier.pt
+
+Starting epoch 19
+Training loss: 0.7932
+Training completed.
+Starting training for MOM, Premier
+Using input file ../data/17lands/draft_data_public.MOM.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.3 s
+Loaded 1000000 picks, t= 26.4 s
+Loaded 2000000 picks, t= 50.6 s
+Loaded 3000000 picks, t= 75.0 s
+Loaded 4000000 picks, t= 99.6 s
+Loaded 5000000 picks, t= 122.9 s
+Loaded 6000000 picks, t= 146.6 s
+Loaded 7000000 picks, t= 170.6 s
+Loaded 8000000 picks, t= 194.6 s
+Loaded 9000000 picks, t= 218.2 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/MOM_Premier_train.pth
+Saved validation set to ../data/training_sets/MOM_Premier_val.pth
+Created new cardname file for MOM, ../data/cards/MOM.csv
+Starting to train model
+Validation set pick accuracy = 17.6%
+
+Starting epoch 0
+Training loss: 1.5469
+
+Starting epoch 1
+Training loss: 0.9362
+
+Starting epoch 2
+Training loss: 0.9007
+Validation set pick accuracy = 67.6%
+Saving model weights to ../data/models/MOM_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8837
+
+Starting epoch 4
+Training loss: 0.8726
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/MOM_Premier.pt
+
+Starting epoch 5
+Training loss: 0.8649
+
+Starting epoch 6
+Training loss: 0.8589
+Validation set pick accuracy = 68.4%
+Saving model weights to ../data/models/MOM_Premier.pt
+
+Starting epoch 7
+Training loss: 0.8547
+
+Starting epoch 8
+Training loss: 0.8511
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/MOM_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8478
+
+Starting epoch 10
+Training loss: 0.8452
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/MOM_Premier.pt
+
+Starting epoch 11
+Training loss: 0.8432
+
+Starting epoch 12
+Training loss: 0.8408
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/MOM_Premier.pt
+
+Starting epoch 13
+Training loss: 0.8389
+
+Starting epoch 14
+Training loss: 0.8376
+Validation set pick accuracy = 68.5%
+
+Starting epoch 15
+Training loss: 0.8362
+
+Starting epoch 16
+Training loss: 0.8345
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/MOM_Premier.pt
+
+Starting epoch 17
+Training loss: 0.8333
+
+Starting epoch 18
+Training loss: 0.8321
+Validation set pick accuracy = 68.8%
+Saving model weights to ../data/models/MOM_Premier.pt
+
+Starting epoch 19
+Training loss: 0.8311
+Training completed.
+Starting training for MH3, Premier
+Using input file ../data/17lands/draft_data_public.MH3.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.1 s
+Loaded 1000000 picks, t= 24.0 s
+Loaded 2000000 picks, t= 46.7 s
+Loaded 3000000 picks, t= 69.7 s
+Loaded 4000000 picks, t= 92.2 s
+Loaded 5000000 picks, t= 114.2 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/MH3_Premier_train.pth
+Saved validation set to ../data/training_sets/MH3_Premier_val.pth
+Using existing cardname file, ../data/cards/MH3.csv
+Starting to train model
+Validation set pick accuracy = 18.1%
+
+Starting epoch 0
+Training loss: 2.3671
+
+Starting epoch 1
+Training loss: 1.0374
+
+Starting epoch 2
+Training loss: 0.9361
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/MH3_Premier.pt
+
+Starting epoch 3
+Training loss: 0.9029
+
+Starting epoch 4
+Training loss: 0.8843
+Validation set pick accuracy = 68.9%
+Saving model weights to ../data/models/MH3_Premier.pt
+
+Starting epoch 5
+Training loss: 0.8716
+
+Starting epoch 6
+Training loss: 0.8618
+Validation set pick accuracy = 69.3%
+Saving model weights to ../data/models/MH3_Premier.pt
+
+Starting epoch 7
+Training loss: 0.8536
+
+Starting epoch 8
+Training loss: 0.8471
+Validation set pick accuracy = 69.5%
+Saving model weights to ../data/models/MH3_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8411
+
+Starting epoch 10
+Training loss: 0.8368
+Validation set pick accuracy = 69.6%
+Saving model weights to ../data/models/MH3_Premier.pt
+
+Starting epoch 11
+Training loss: 0.831
+
+Starting epoch 12
+Training loss: 0.8283
+Validation set pick accuracy = 69.6%
+
+Starting epoch 13
+Training loss: 0.8238
+
+Starting epoch 14
+Training loss: 0.8205
+Validation set pick accuracy = 69.7%
+Saving model weights to ../data/models/MH3_Premier.pt
+
+Starting epoch 15
+Training loss: 0.817
+
+Starting epoch 16
+Training loss: 0.8149
+Validation set pick accuracy = 69.7%
+
+Starting epoch 17
+Training loss: 0.8117
+
+Starting epoch 18
+Training loss: 0.809
+Validation set pick accuracy = 69.7%
+
+Starting epoch 19
+Training loss: 0.8064
+Training completed.
+Starting training for DSK, Trad
+Using input file ../data/17lands/draft_data_public.DSK.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.0 s
+Loaded 1000000 picks, t= 22.1 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/DSK_Trad_train.pth
+Saved validation set to ../data/training_sets/DSK_Trad_val.pth
+Using existing cardname file, ../data/cards/DSK.csv
+Starting to train model
+Validation set pick accuracy = 18.3%
+
+Starting epoch 0
+Training loss: 3.5239
+
+Starting epoch 1
+Training loss: 1.4475
+
+Starting epoch 2
+Training loss: 1.1116
+Validation set pick accuracy = 65.3%
+Saving model weights to ../data/models/DSK_Trad.pt
+
+Starting epoch 3
+Training loss: 0.9868
+
+Starting epoch 4
+Training loss: 0.9252
+Validation set pick accuracy = 68.0%
+Saving model weights to ../data/models/DSK_Trad.pt
+
+Starting epoch 5
+Training loss: 0.891
+
+Starting epoch 6
+Training loss: 0.8676
+Validation set pick accuracy = 69.1%
+Saving model weights to ../data/models/DSK_Trad.pt
+
+Starting epoch 7
+Training loss: 0.8504
+
+Starting epoch 8
+Training loss: 0.8381
+Validation set pick accuracy = 69.4%
+Saving model weights to ../data/models/DSK_Trad.pt
+
+Starting epoch 9
+Training loss: 0.8278
+
+Starting epoch 10
+Training loss: 0.8189
+Validation set pick accuracy = 69.8%
+Saving model weights to ../data/models/DSK_Trad.pt
+
+Starting epoch 11
+Training loss: 0.8105
+
+Starting epoch 12
+Training loss: 0.8033
+Validation set pick accuracy = 69.9%
+Saving model weights to ../data/models/DSK_Trad.pt
+
+Starting epoch 13
+Training loss: 0.7971
+
+Starting epoch 14
+Training loss: 0.7904
+Validation set pick accuracy = 70.2%
+Saving model weights to ../data/models/DSK_Trad.pt
+
+Starting epoch 15
+Training loss: 0.784
+
+Starting epoch 16
+Training loss: 0.7803
+Validation set pick accuracy = 70.3%
+Saving model weights to ../data/models/DSK_Trad.pt
+
+Starting epoch 17
+Training loss: 0.775
+
+Starting epoch 18
+Training loss: 0.77
+Validation set pick accuracy = 70.3%
+
+Starting epoch 19
+Training loss: 0.7664
+Training completed.
+Starting training for MKM, Trad
+Using input file ../data/17lands/draft_data_public.MKM.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.2 s
+Loaded 1000000 picks, t= 25.5 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/MKM_Trad_train.pth
+Saved validation set to ../data/training_sets/MKM_Trad_val.pth
+Created new cardname file for MKM, ../data/cards/MKM.csv
+Starting to train model
+Validation set pick accuracy = 19.0%
+
+Starting epoch 0
+Training loss: 3.3944
+
+Starting epoch 1
+Training loss: 1.3722
+
+Starting epoch 2
+Training loss: 1.0933
+Validation set pick accuracy = 65.7%
+Saving model weights to ../data/models/MKM_Trad.pt
+
+Starting epoch 3
+Training loss: 0.9767
+
+Starting epoch 4
+Training loss: 0.926
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/MKM_Trad.pt
+
+Starting epoch 5
+Training loss: 0.8972
+
+Starting epoch 6
+Training loss: 0.8787
+Validation set pick accuracy = 68.7%
+Saving model weights to ../data/models/MKM_Trad.pt
+
+Starting epoch 7
+Training loss: 0.8637
+
+Starting epoch 8
+Training loss: 0.8516
+Validation set pick accuracy = 69.0%
+Saving model weights to ../data/models/MKM_Trad.pt
+
+Starting epoch 9
+Training loss: 0.8424
+
+Starting epoch 10
+Training loss: 0.8335
+Validation set pick accuracy = 69.3%
+Saving model weights to ../data/models/MKM_Trad.pt
+
+Starting epoch 11
+Training loss: 0.8258
+
+Starting epoch 12
+Training loss: 0.8191
+Validation set pick accuracy = 69.6%
+Saving model weights to ../data/models/MKM_Trad.pt
+
+Starting epoch 13
+Training loss: 0.8131
+
+Starting epoch 14
+Training loss: 0.8074
+Validation set pick accuracy = 69.8%
+Saving model weights to ../data/models/MKM_Trad.pt
+
+Starting epoch 15
+Training loss: 0.8025
+
+Starting epoch 16
+Training loss: 0.7966
+Validation set pick accuracy = 69.7%
+
+Starting epoch 17
+Training loss: 0.792
+
+Starting epoch 18
+Training loss: 0.7892
+Validation set pick accuracy = 69.8%
+Saving model weights to ../data/models/MKM_Trad.pt
+
+Starting epoch 19
+Training loss: 0.7821
+Training completed.
+Starting training for NEO, Trad
+Using input file ../data/17lands/draft_data_public.NEO.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.1 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/NEO_Trad_train.pth
+Saved validation set to ../data/training_sets/NEO_Trad_val.pth
+Using existing cardname file, ../data/cards/NEO.csv
+Starting to train model
+Validation set pick accuracy = 17.6%
+
+Starting epoch 0
+Training loss: 3.4009
+
+Starting epoch 1
+Training loss: 1.3929
+
+Starting epoch 2
+Training loss: 1.1043
+Validation set pick accuracy = 64.2%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 3
+Training loss: 0.9933
+
+Starting epoch 4
+Training loss: 0.9389
+Validation set pick accuracy = 66.5%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 5
+Training loss: 0.9077
+
+Starting epoch 6
+Training loss: 0.8873
+Validation set pick accuracy = 67.3%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 7
+Training loss: 0.8729
+
+Starting epoch 8
+Training loss: 0.8604
+Validation set pick accuracy = 67.6%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 9
+Training loss: 0.8509
+
+Starting epoch 10
+Training loss: 0.8422
+Validation set pick accuracy = 67.9%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 11
+Training loss: 0.8346
+
+Starting epoch 12
+Training loss: 0.8271
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 13
+Training loss: 0.822
+
+Starting epoch 14
+Training loss: 0.8162
+Validation set pick accuracy = 68.3%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 15
+Training loss: 0.8108
+
+Starting epoch 16
+Training loss: 0.806
+Validation set pick accuracy = 68.3%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 17
+Training loss: 0.801
+
+Starting epoch 18
+Training loss: 0.7976
+Validation set pick accuracy = 68.3%
+Saving model weights to ../data/models/NEO_Trad.pt
+
+Starting epoch 19
+Training loss: 0.7932
+Training completed.
+Starting training for ONE, Trad
+Using input file ../data/17lands/draft_data_public.ONE.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 1.9 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/ONE_Trad_train.pth
+Saved validation set to ../data/training_sets/ONE_Trad_val.pth
+Using existing cardname file, ../data/cards/ONE.csv
+Starting to train model
+Validation set pick accuracy = 17.8%
+
+Starting epoch 0
+Training loss: 4.3104
+
+Starting epoch 1
+Training loss: 2.1396
+
+Starting epoch 2
+Training loss: 1.4698
+Validation set pick accuracy = 56.6%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 3
+Training loss: 1.2361
+
+Starting epoch 4
+Training loss: 1.1152
+Validation set pick accuracy = 64.0%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 5
+Training loss: 1.0387
+
+Starting epoch 6
+Training loss: 0.9813
+Validation set pick accuracy = 66.1%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 7
+Training loss: 0.9546
+
+Starting epoch 8
+Training loss: 0.9276
+Validation set pick accuracy = 67.1%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 9
+Training loss: 0.9084
+
+Starting epoch 10
+Training loss: 0.8971
+Validation set pick accuracy = 67.7%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 11
+Training loss: 0.8807
+
+Starting epoch 12
+Training loss: 0.8712
+Validation set pick accuracy = 67.9%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 13
+Training loss: 0.8663
+
+Starting epoch 14
+Training loss: 0.8603
+Validation set pick accuracy = 68.2%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 15
+Training loss: 0.8454
+
+Starting epoch 16
+Training loss: 0.8463
+Validation set pick accuracy = 68.3%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 17
+Training loss: 0.8366
+
+Starting epoch 18
+Training loss: 0.8274
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/ONE_Trad.pt
+
+Starting epoch 19
+Training loss: 0.8308
+Training completed.
+Starting training for DMU, Premier
+Using input file ../data/17lands/draft_data_public.DMU.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.0 s
+Loaded 1000000 picks, t= 21.4 s
+Loaded 2000000 picks, t= 41.1 s
+Loaded 3000000 picks, t= 60.0 s
+Loaded 4000000 picks, t= 78.8 s
+Loaded 5000000 picks, t= 97.5 s
+Loaded 6000000 picks, t= 115.0 s
+Loaded 7000000 picks, t= 132.9 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/DMU_Premier_train.pth
+Saved validation set to ../data/training_sets/DMU_Premier_val.pth
+Created new cardname file for DMU, ../data/cards/DMU.csv
+Starting to train model
+Validation set pick accuracy = 18.6%
+
+Starting epoch 0
+Training loss: 1.7248
+
+Starting epoch 1
+Training loss: 0.9628
+
+Starting epoch 2
+Training loss: 0.9183
+Validation set pick accuracy = 67.4%
+Saving model weights to ../data/models/DMU_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8984
+
+Starting epoch 4
+Training loss: 0.886
+Validation set pick accuracy = 67.9%
+Saving model weights to ../data/models/DMU_Premier.pt
+
+Starting epoch 5
+Training loss: 0.8776
+
+Starting epoch 6
+Training loss: 0.8704
+Validation set pick accuracy = 68.3%
+Saving model weights to ../data/models/DMU_Premier.pt
+
+Starting epoch 7
+Training loss: 0.865
+
+Starting epoch 8
+Training loss: 0.8608
+Validation set pick accuracy = 68.4%
+Saving model weights to ../data/models/DMU_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8569
+
+Starting epoch 10
+Training loss: 0.8537
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/DMU_Premier.pt
+
+Starting epoch 11
+Training loss: 0.8508
+
+Starting epoch 12
+Training loss: 0.8486
+Validation set pick accuracy = 68.4%
+
+Starting epoch 13
+Training loss: 0.8468
+
+Starting epoch 14
+Training loss: 0.8446
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/DMU_Premier.pt
+
+Starting epoch 15
+Training loss: 0.8427
+
+Starting epoch 16
+Training loss: 0.8412
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/DMU_Premier.pt
+
+Starting epoch 17
+Training loss: 0.8394
+
+Starting epoch 18
+Training loss: 0.8381
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/DMU_Premier.pt
+
+Starting epoch 19
+Training loss: 0.8372
+Training completed.
+Starting training for LCI, Trad
+Using input file ../data/17lands/draft_data_public.LCI.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.0 s
+Loaded 1000000 picks, t= 23.7 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/LCI_Trad_train.pth
+Saved validation set to ../data/training_sets/LCI_Trad_val.pth
+Created new cardname file for LCI, ../data/cards/LCI.csv
+Starting to train model
+Validation set pick accuracy = 17.2%
+
+Starting epoch 0
+Training loss: 3.4033
+
+Starting epoch 1
+Training loss: 1.4214
+
+Starting epoch 2
+Training loss: 1.1215
+Validation set pick accuracy = 64.2%
+Saving model weights to ../data/models/LCI_Trad.pt
+
+Starting epoch 3
+Training loss: 1.0142
+
+Starting epoch 4
+Training loss: 0.9625
+Validation set pick accuracy = 66.8%
+Saving model weights to ../data/models/LCI_Trad.pt
+
+Starting epoch 5
+Training loss: 0.9296
+
+Starting epoch 6
+Training loss: 0.9062
+Validation set pick accuracy = 67.7%
+Saving model weights to ../data/models/LCI_Trad.pt
+
+Starting epoch 7
+Training loss: 0.8915
+
+Starting epoch 8
+Training loss: 0.8805
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/LCI_Trad.pt
+
+Starting epoch 9
+Training loss: 0.8714
+
+Starting epoch 10
+Training loss: 0.8636
+Validation set pick accuracy = 68.3%
+Saving model weights to ../data/models/LCI_Trad.pt
+
+Starting epoch 11
+Training loss: 0.8545
+
+Starting epoch 12
+Training loss: 0.849
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/LCI_Trad.pt
+
+Starting epoch 13
+Training loss: 0.8431
+
+Starting epoch 14
+Training loss: 0.8367
+Validation set pick accuracy = 68.7%
+Saving model weights to ../data/models/LCI_Trad.pt
+
+Starting epoch 15
+Training loss: 0.8321
+
+Starting epoch 16
+Training loss: 0.8261
+Validation set pick accuracy = 68.8%
+Saving model weights to ../data/models/LCI_Trad.pt
+
+Starting epoch 17
+Training loss: 0.8228
+
+Starting epoch 18
+Training loss: 0.8178
+Validation set pick accuracy = 68.7%
+
+Starting epoch 19
+Training loss: 0.815
+Training completed.
+Starting training for KTK, Premier
+Using input file ../data/17lands/draft_data_public.KTK.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 1.8 s
+Loaded 1000000 picks, t= 19.8 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/KTK_Premier_train.pth
+Saved validation set to ../data/training_sets/KTK_Premier_val.pth
+Using existing cardname file, ../data/cards/KTK.csv
+Starting to train model
+Validation set pick accuracy = 17.3%
+
+Starting epoch 0
+Training loss: 4.4186
+
+Starting epoch 1
+Training loss: 2.3177
+
+Starting epoch 2
+Training loss: 1.5174
+Validation set pick accuracy = 56.6%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 3
+Training loss: 1.2418
+
+Starting epoch 4
+Training loss: 1.1055
+Validation set pick accuracy = 64.8%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 5
+Training loss: 1.0292
+
+Starting epoch 6
+Training loss: 0.9872
+Validation set pick accuracy = 66.0%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 7
+Training loss: 0.9564
+
+Starting epoch 8
+Training loss: 0.9321
+Validation set pick accuracy = 66.9%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 9
+Training loss: 0.9131
+
+Starting epoch 10
+Training loss: 0.8983
+Validation set pick accuracy = 67.6%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 11
+Training loss: 0.885
+
+Starting epoch 12
+Training loss: 0.8752
+Validation set pick accuracy = 68.0%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 13
+Training loss: 0.8645
+
+Starting epoch 14
+Training loss: 0.8571
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 15
+Training loss: 0.8506
+
+Starting epoch 16
+Training loss: 0.844
+Validation set pick accuracy = 68.2%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 17
+Training loss: 0.8386
+
+Starting epoch 18
+Training loss: 0.8355
+Validation set pick accuracy = 68.4%
+Saving model weights to ../data/models/KTK_Premier.pt
+
+Starting epoch 19
+Training loss: 0.8282
+Training completed.
+Starting training for VOW, Premier
+Using input file ../data/17lands/draft_data_public.VOW.PremierDraft.csv.gz
+Completed initialization.
+League data not available for this set. Using all data.
+Loaded 0 picks, t= 2.1 s
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+Loaded 1000000 picks, t= 22.2 s
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+Loaded 2000000 picks, t= 41.0 s
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+Loaded 3000000 picks, t= 59.7 s
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+League data not available for this set. Using all data.
+Loaded 4000000 picks, t= 78.3 s
+League data not available for this set. Using all data.
+Loaded all draft data.
+Saved training set to ../data/training_sets/VOW_Premier_train.pth
+Saved validation set to ../data/training_sets/VOW_Premier_val.pth
+Created new cardname file for VOW, ../data/cards/VOW.csv
+Starting to train model
+Validation set pick accuracy = 18.7%
+
+Starting epoch 0
+Training loss: 1.3563
+
+Starting epoch 1
+Training loss: 0.9006
+
+Starting epoch 2
+Training loss: 0.8721
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/VOW_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8573
+
+Starting epoch 4
+Training loss: 0.8495
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/VOW_Premier.pt
+
+Starting epoch 5
+Training loss: 0.8436
+
+Starting epoch 6
+Training loss: 0.8385
+Validation set pick accuracy = 68.7%
+Saving model weights to ../data/models/VOW_Premier.pt
+
+Starting epoch 7
+Training loss: 0.8354
+
+Starting epoch 8
+Training loss: 0.8327
+Validation set pick accuracy = 68.8%
+Saving model weights to ../data/models/VOW_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8302
+
+Starting epoch 10
+Training loss: 0.8279
+Validation set pick accuracy = 68.8%
+Saving model weights to ../data/models/VOW_Premier.pt
+
+Starting epoch 11
+Training loss: 0.827
+
+Starting epoch 12
+Training loss: 0.8258
+Validation set pick accuracy = 68.9%
+Saving model weights to ../data/models/VOW_Premier.pt
+
+Starting epoch 13
+Training loss: 0.8245
+
+Starting epoch 14
+Training loss: 0.8231
+Validation set pick accuracy = 68.9%
+Saving model weights to ../data/models/VOW_Premier.pt
+
+Starting epoch 15
+Training loss: 0.8217
+
+Starting epoch 16
+Training loss: 0.8211
+Validation set pick accuracy = 68.9%
+Saving model weights to ../data/models/VOW_Premier.pt
+
+Starting epoch 17
+Training loss: 0.8204
+
+Starting epoch 18
+Training loss: 0.8192
+Validation set pick accuracy = 68.9%
+
+Starting epoch 19
+Training loss: 0.8186
+Training completed.
+Starting training for BRO, Trad
+Using input file ../data/17lands/draft_data_public.BRO.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.1 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/BRO_Trad_train.pth
+Saved validation set to ../data/training_sets/BRO_Trad_val.pth
+Using existing cardname file, ../data/cards/BRO.csv
+Starting to train model
+Validation set pick accuracy = 17.3%
+
+Starting epoch 0
+Training loss: 4.3599
+
+Starting epoch 1
+Training loss: 2.0424
+
+Starting epoch 2
+Training loss: 1.4412
+Validation set pick accuracy = 57.4%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 3
+Training loss: 1.2388
+
+Starting epoch 4
+Training loss: 1.1281
+Validation set pick accuracy = 63.0%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 5
+Training loss: 1.065
+
+Starting epoch 6
+Training loss: 1.0288
+Validation set pick accuracy = 64.4%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 7
+Training loss: 1.0031
+
+Starting epoch 8
+Training loss: 0.9834
+Validation set pick accuracy = 65.1%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 9
+Training loss: 0.9684
+
+Starting epoch 10
+Training loss: 0.9562
+Validation set pick accuracy = 65.4%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 11
+Training loss: 0.9455
+
+Starting epoch 12
+Training loss: 0.9359
+Validation set pick accuracy = 65.6%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 13
+Training loss: 0.9275
+
+Starting epoch 14
+Training loss: 0.9199
+Validation set pick accuracy = 65.7%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 15
+Training loss: 0.9109
+
+Starting epoch 16
+Training loss: 0.9057
+Validation set pick accuracy = 65.8%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 17
+Training loss: 0.8982
+
+Starting epoch 18
+Training loss: 0.8914
+Validation set pick accuracy = 65.8%
+Saving model weights to ../data/models/BRO_Trad.pt
+
+Starting epoch 19
+Training loss: 0.885
+Training completed.
+Starting training for OTJ, Trad
+Using input file ../data/17lands/draft_data_public.OTJ.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.6 s
+Loaded 1000000 picks, t= 29.3 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/OTJ_Trad_train.pth
+Saved validation set to ../data/training_sets/OTJ_Trad_val.pth
+Using existing cardname file, ../data/cards/OTJ.csv
+Starting to train model
+Validation set pick accuracy = 18.7%
+
+Starting epoch 0
+Training loss: 3.4514
+
+Starting epoch 1
+Training loss: 1.3693
+
+Starting epoch 2
+Training loss: 1.1
+Validation set pick accuracy = 64.8%
+Saving model weights to ../data/models/OTJ_Trad.pt
+
+Starting epoch 3
+Training loss: 0.9881
+
+Starting epoch 4
+Training loss: 0.9355
+Validation set pick accuracy = 67.1%
+Saving model weights to ../data/models/OTJ_Trad.pt
+
+Starting epoch 5
+Training loss: 0.904
+
+Starting epoch 6
+Training loss: 0.8818
+Validation set pick accuracy = 67.9%
+Saving model weights to ../data/models/OTJ_Trad.pt
+
+Starting epoch 7
+Training loss: 0.8693
+
+Starting epoch 8
+Training loss: 0.8594
+Validation set pick accuracy = 68.2%
+Saving model weights to ../data/models/OTJ_Trad.pt
+
+Starting epoch 9
+Training loss: 0.8493
+
+Starting epoch 10
+Training loss: 0.843
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/OTJ_Trad.pt
+
+Starting epoch 11
+Training loss: 0.8344
+
+Starting epoch 12
+Training loss: 0.8294
+Validation set pick accuracy = 68.8%
+Saving model weights to ../data/models/OTJ_Trad.pt
+
+Starting epoch 13
+Training loss: 0.8245
+
+Starting epoch 14
+Training loss: 0.8162
+Validation set pick accuracy = 68.9%
+Saving model weights to ../data/models/OTJ_Trad.pt
+
+Starting epoch 15
+Training loss: 0.8131
+
+Starting epoch 16
+Training loss: 0.803
+Validation set pick accuracy = 69.0%
+Saving model weights to ../data/models/OTJ_Trad.pt
+
+Starting epoch 17
+Training loss: 0.7995
+
+Starting epoch 18
+Training loss: 0.7949
+Validation set pick accuracy = 69.0%
+
+Starting epoch 19
+Training loss: 0.7927
+Training completed.
+Starting training for SIR, Premier
+Using input file ../data/17lands/draft_data_public.SIR.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.3 s
+Loaded 1000000 picks, t= 25.3 s
+Loaded 2000000 picks, t= 50.2 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/SIR_Premier_train.pth
+Saved validation set to ../data/training_sets/SIR_Premier_val.pth
+Using existing cardname file, ../data/cards/SIR.csv
+Starting to train model
+Validation set pick accuracy = 17.2%
+
+Starting epoch 0
+Training loss: 3.9561
+
+Starting epoch 1
+Training loss: 1.7351
+
+Starting epoch 2
+Training loss: 1.3005
+Validation set pick accuracy = 58.9%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 3
+Training loss: 1.1429
+
+Starting epoch 4
+Training loss: 1.0683
+Validation set pick accuracy = 62.6%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 5
+Training loss: 1.0236
+
+Starting epoch 6
+Training loss: 1.002
+Validation set pick accuracy = 63.7%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 7
+Training loss: 0.9835
+
+Starting epoch 8
+Training loss: 0.968
+Validation set pick accuracy = 64.2%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 9
+Training loss: 0.9544
+
+Starting epoch 10
+Training loss: 0.947
+Validation set pick accuracy = 64.6%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 11
+Training loss: 0.9394
+
+Starting epoch 12
+Training loss: 0.9304
+Validation set pick accuracy = 64.8%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 13
+Training loss: 0.9219
+
+Starting epoch 14
+Training loss: 0.9163
+Validation set pick accuracy = 64.9%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 15
+Training loss: 0.9117
+
+Starting epoch 16
+Training loss: 0.902
+Validation set pick accuracy = 65.1%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 17
+Training loss: 0.8966
+
+Starting epoch 18
+Training loss: 0.8922
+Validation set pick accuracy = 65.2%
+Saving model weights to ../data/models/SIR_Premier.pt
+
+Starting epoch 19
+Training loss: 0.8852
+Training completed.
+Starting training for BLB, Premier
+Using input file ../data/17lands/draft_data_public.BLB.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.0 s
+Loaded 1000000 picks, t= 20.0 s
+Loaded 2000000 picks, t= 37.4 s
+Loaded 3000000 picks, t= 56.1 s
+Loaded 4000000 picks, t= 74.1 s
+Loaded 5000000 picks, t= 93.1 s
+Loaded 6000000 picks, t= 111.1 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/BLB_Premier_train.pth
+Saved validation set to ../data/training_sets/BLB_Premier_val.pth
+Using existing cardname file, ../data/cards/BLB.csv
+Starting to train model
+Validation set pick accuracy = 19.1%
+
+Starting epoch 0
+Training loss: 2.0346
+
+Starting epoch 1
+Training loss: 0.9356
+
+Starting epoch 2
+Training loss: 0.8567
+Validation set pick accuracy = 69.5%
+Saving model weights to ../data/models/BLB_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8267
+
+Starting epoch 4
+Training loss: 0.81
+Validation set pick accuracy = 70.4%
+Saving model weights to ../data/models/BLB_Premier.pt
+
+Starting epoch 5
+Training loss: 0.7961
+
+Starting epoch 6
+Training loss: 0.787
+Validation set pick accuracy = 70.8%
+Saving model weights to ../data/models/BLB_Premier.pt
+
+Starting epoch 7
+Training loss: 0.78
+
+Starting epoch 8
+Training loss: 0.7734
+Validation set pick accuracy = 71.1%
+Saving model weights to ../data/models/BLB_Premier.pt
+
+Starting epoch 9
+Training loss: 0.7689
+
+Starting epoch 10
+Training loss: 0.7639
+Validation set pick accuracy = 71.1%
+Saving model weights to ../data/models/BLB_Premier.pt
+
+Starting epoch 11
+Training loss: 0.7593
+
+Starting epoch 12
+Training loss: 0.7563
+Validation set pick accuracy = 71.2%
+Saving model weights to ../data/models/BLB_Premier.pt
+
+Starting epoch 13
+Training loss: 0.754
+
+Starting epoch 14
+Training loss: 0.7513
+Validation set pick accuracy = 71.3%
+Saving model weights to ../data/models/BLB_Premier.pt
+
+Starting epoch 15
+Training loss: 0.7487
+
+Starting epoch 16
+Training loss: 0.746
+Validation set pick accuracy = 71.4%
+Saving model weights to ../data/models/BLB_Premier.pt
+
+Starting epoch 17
+Training loss: 0.7439
+
+Starting epoch 18
+Training loss: 0.7417
+Validation set pick accuracy = 71.4%
+
+Starting epoch 19
+Training loss: 0.74
+Training completed.
+Starting training for FDN, Trad
+Using input file ../data/17lands/draft_data_public.FDN.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 1.9 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/FDN_Trad_train.pth
+Saved validation set to ../data/training_sets/FDN_Trad_val.pth
+Using existing cardname file, ../data/cards/FDN.csv
+Starting to train model
+Validation set pick accuracy = 18.5%
+
+Starting epoch 0
+Training loss: 5.1806
+
+Starting epoch 1
+Training loss: 3.7979
+
+Starting epoch 2
+Training loss: 2.6587
+Validation set pick accuracy = 38.1%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 3
+Training loss: 1.9655
+
+Starting epoch 4
+Training loss: 1.6142
+Validation set pick accuracy = 51.3%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 5
+Training loss: 1.4198
+
+Starting epoch 6
+Training loss: 1.2921
+Validation set pick accuracy = 59.1%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 7
+Training loss: 1.2026
+
+Starting epoch 8
+Training loss: 1.136
+Validation set pick accuracy = 63.4%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 9
+Training loss: 1.0757
+
+Starting epoch 10
+Training loss: 1.0316
+Validation set pick accuracy = 65.3%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 11
+Training loss: 0.9938
+
+Starting epoch 12
+Training loss: 0.9639
+Validation set pick accuracy = 66.2%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 13
+Training loss: 0.9406
+
+Starting epoch 14
+Training loss: 0.9182
+Validation set pick accuracy = 67.1%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 15
+Training loss: 0.9007
+
+Starting epoch 16
+Training loss: 0.8849
+Validation set pick accuracy = 67.3%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 17
+Training loss: 0.8698
+
+Starting epoch 18
+Training loss: 0.8601
+Validation set pick accuracy = 67.8%
+Saving model weights to ../data/models/FDN_Trad.pt
+
+Starting epoch 19
+Training loss: 0.8488
+Training completed.
+Starting training for MKM, Premier
+Using input file ../data/17lands/draft_data_public.MKM.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.1 s
+Loaded 1000000 picks, t= 21.9 s
+Loaded 2000000 picks, t= 41.4 s
+Loaded 3000000 picks, t= 63.2 s
+Loaded 4000000 picks, t= 84.9 s
+Loaded 5000000 picks, t= 105.5 s
+Loaded 6000000 picks, t= 126.5 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/MKM_Premier_train.pth
+Saved validation set to ../data/training_sets/MKM_Premier_val.pth
+Using existing cardname file, ../data/cards/MKM.csv
+Starting to train model
+Validation set pick accuracy = 19.2%
+
+Starting epoch 0
+Training loss: 2.0153
+
+Starting epoch 1
+Training loss: 0.9639
+
+Starting epoch 2
+Training loss: 0.8954
+Validation set pick accuracy = 68.4%
+Saving model weights to ../data/models/MKM_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8695
+
+Starting epoch 4
+Training loss: 0.852
+Validation set pick accuracy = 69.3%
+Saving model weights to ../data/models/MKM_Premier.pt
+
+Starting epoch 5
+Training loss: 0.841
+
+Starting epoch 6
+Training loss: 0.8318
+Validation set pick accuracy = 69.8%
+Saving model weights to ../data/models/MKM_Premier.pt
+
+Starting epoch 7
+Training loss: 0.8252
+
+Starting epoch 8
+Training loss: 0.8187
+Validation set pick accuracy = 69.9%
+Saving model weights to ../data/models/MKM_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8148
+
+Starting epoch 10
+Training loss: 0.8106
+Validation set pick accuracy = 70.1%
+Saving model weights to ../data/models/MKM_Premier.pt
+
+Starting epoch 11
+Training loss: 0.8064
+
+Starting epoch 12
+Training loss: 0.8032
+Validation set pick accuracy = 70.1%
+
+Starting epoch 13
+Training loss: 0.8009
+
+Starting epoch 14
+Training loss: 0.7979
+Validation set pick accuracy = 70.1%
+Saving model weights to ../data/models/MKM_Premier.pt
+
+Starting epoch 15
+Training loss: 0.795
+
+Starting epoch 16
+Training loss: 0.7929
+Validation set pick accuracy = 70.2%
+Saving model weights to ../data/models/MKM_Premier.pt
+
+Starting epoch 17
+Training loss: 0.7907
+
+Starting epoch 18
+Training loss: 0.788
+Validation set pick accuracy = 70.3%
+Saving model weights to ../data/models/MKM_Premier.pt
+
+Starting epoch 19
+Training loss: 0.7866
+Training completed.
+Starting training for LCI, Premier
+Using input file ../data/17lands/draft_data_public.LCI.PremierDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.1 s
+Loaded 1000000 picks, t= 21.5 s
+Loaded 2000000 picks, t= 41.3 s
+Loaded 3000000 picks, t= 61.2 s
+Loaded 4000000 picks, t= 81.5 s
+Loaded 5000000 picks, t= 100.6 s
+Loaded 6000000 picks, t= 119.8 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/LCI_Premier_train.pth
+Saved validation set to ../data/training_sets/LCI_Premier_val.pth
+Using existing cardname file, ../data/cards/LCI.csv
+Starting to train model
+Validation set pick accuracy = 17.5%
+
+Starting epoch 0
+Training loss: 1.9472
+
+Starting epoch 1
+Training loss: 0.981
+
+Starting epoch 2
+Training loss: 0.9155
+Validation set pick accuracy = 67.7%
+Saving model weights to ../data/models/LCI_Premier.pt
+
+Starting epoch 3
+Training loss: 0.8904
+
+Starting epoch 4
+Training loss: 0.8748
+Validation set pick accuracy = 68.4%
+Saving model weights to ../data/models/LCI_Premier.pt
+
+Starting epoch 5
+Training loss: 0.8645
+
+Starting epoch 6
+Training loss: 0.8564
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/LCI_Premier.pt
+
+Starting epoch 7
+Training loss: 0.8493
+
+Starting epoch 8
+Training loss: 0.8435
+Validation set pick accuracy = 69.0%
+Saving model weights to ../data/models/LCI_Premier.pt
+
+Starting epoch 9
+Training loss: 0.8391
+
+Starting epoch 10
+Training loss: 0.8356
+Validation set pick accuracy = 68.9%
+
+Starting epoch 11
+Training loss: 0.8321
+
+Starting epoch 12
+Training loss: 0.8281
+Validation set pick accuracy = 69.1%
+Saving model weights to ../data/models/LCI_Premier.pt
+
+Starting epoch 13
+Training loss: 0.8257
+
+Starting epoch 14
+Training loss: 0.8234
+Validation set pick accuracy = 69.2%
+Saving model weights to ../data/models/LCI_Premier.pt
+
+Starting epoch 15
+Training loss: 0.8216
+
+Starting epoch 16
+Training loss: 0.8196
+Validation set pick accuracy = 69.2%
+Saving model weights to ../data/models/LCI_Premier.pt
+
+Starting epoch 17
+Training loss: 0.8177
+
+Starting epoch 18
+Training loss: 0.8154
+Validation set pick accuracy = 69.2%
+
+Starting epoch 19
+Training loss: 0.8134
+Training completed.
+Starting training for DMU, Trad
+Using input file ../data/17lands/draft_data_public.DMU.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 1.9 s
+Loaded 1000000 picks, t= 21.9 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/DMU_Trad_train.pth
+Saved validation set to ../data/training_sets/DMU_Trad_val.pth
+Using existing cardname file, ../data/cards/DMU.csv
+Starting to train model
+Validation set pick accuracy = 18.6%
+
+Starting epoch 0
+Training loss: 2.5058
+
+Starting epoch 1
+Training loss: 1.144
+
+Starting epoch 2
+Training loss: 0.9998
+Validation set pick accuracy = 65.8%
+Saving model weights to ../data/models/DMU_Trad.pt
+
+Starting epoch 3
+Training loss: 0.9531
+
+Starting epoch 4
+Training loss: 0.9292
+Validation set pick accuracy = 66.9%
+Saving model weights to ../data/models/DMU_Trad.pt
+
+Starting epoch 5
+Training loss: 0.915
+
+Starting epoch 6
+Training loss: 0.9028
+Validation set pick accuracy = 67.2%
+Saving model weights to ../data/models/DMU_Trad.pt
+
+Starting epoch 7
+Training loss: 0.8944
+
+Starting epoch 8
+Training loss: 0.8867
+Validation set pick accuracy = 67.6%
+Saving model weights to ../data/models/DMU_Trad.pt
+
+Starting epoch 9
+Training loss: 0.8805
+
+Starting epoch 10
+Training loss: 0.8747
+Validation set pick accuracy = 67.7%
+Saving model weights to ../data/models/DMU_Trad.pt
+
+Starting epoch 11
+Training loss: 0.8687
+
+Starting epoch 12
+Training loss: 0.8651
+Validation set pick accuracy = 67.9%
+Saving model weights to ../data/models/DMU_Trad.pt
+
+Starting epoch 13
+Training loss: 0.8603
+
+Starting epoch 14
+Training loss: 0.8574
+Validation set pick accuracy = 68.1%
+Saving model weights to ../data/models/DMU_Trad.pt
+
+Starting epoch 15
+Training loss: 0.8542
+
+Starting epoch 16
+Training loss: 0.8503
+Validation set pick accuracy = 68.0%
+
+Starting epoch 17
+Training loss: 0.848
+
+Starting epoch 18
+Training loss: 0.8453
+Validation set pick accuracy = 68.0%
+
+Starting epoch 19
+Training loss: 0.8428
+Training completed.
+Starting training for MOM, Trad
+Using input file ../data/17lands/draft_data_public.MOM.TradDraft.csv.gz
+Completed initialization.
+Loaded 0 picks, t= 2.2 s
+Loaded 1000000 picks, t= 25.6 s
+Loaded all draft data.
+Saved training set to ../data/training_sets/MOM_Trad_train.pth
+Saved validation set to ../data/training_sets/MOM_Trad_val.pth
+Using existing cardname file, ../data/cards/MOM.csv
+Starting to train model
+Validation set pick accuracy = 18.1%
+
+Starting epoch 0
+Training loss: 3.5825
+
+Starting epoch 1
+Training loss: 1.5003
+
+Starting epoch 2
+Training loss: 1.1673
+Validation set pick accuracy = 64.3%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 3
+Training loss: 1.0224
+
+Starting epoch 4
+Training loss: 0.9573
+Validation set pick accuracy = 66.9%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 5
+Training loss: 0.9219
+
+Starting epoch 6
+Training loss: 0.9015
+Validation set pick accuracy = 67.6%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 7
+Training loss: 0.8859
+
+Starting epoch 8
+Training loss: 0.873
+Validation set pick accuracy = 68.0%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 9
+Training loss: 0.8625
+
+Starting epoch 10
+Training loss: 0.8529
+Validation set pick accuracy = 68.2%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 11
+Training loss: 0.8423
+
+Starting epoch 12
+Training loss: 0.837
+Validation set pick accuracy = 68.5%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 13
+Training loss: 0.8297
+
+Starting epoch 14
+Training loss: 0.8213
+Validation set pick accuracy = 68.6%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 15
+Training loss: 0.8165
+
+Starting epoch 16
+Training loss: 0.8112
+Validation set pick accuracy = 68.7%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 17
+Training loss: 0.8058
+
+Starting epoch 18
+Training loss: 0.8008
+Validation set pick accuracy = 68.9%
+Saving model weights to ../data/models/MOM_Trad.pt
+
+Starting epoch 19
+Training loss: 0.7959
+Training completed.

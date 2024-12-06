@@ -2,13 +2,11 @@ import numpy as np
 import time
 import torch
 import torch.optim as optim
-import torch.nn as nn
 from torch.utils.data import DataLoader
 import warnings
 warnings.filterwarnings("ignore")
 
-from .trainingset import PickDataset
-from .model import DraftMLP
+import statisticaldrafting as sd
 
 def evaluate_model(val_dataloader, network):
     """
@@ -87,3 +85,39 @@ def train_model(train_dataloader: DataLoader,
                 torch.save(network.state_dict(), weights_path)                
     print("Training completed.")
     return network
+
+def default_training_pipeline(
+        set_abbreviation: str,
+        draft_mode: str,
+        overwrite_dataset: str = True,
+) -> None:
+        """
+        End to end training pipeline using default values.
+        
+        Args:
+                set_abbreviation (str): Three letter abbreviation of set to create training set of. 
+                draft_mode (str): Use either "Premier" or "Trad" draft data.
+                overwrite_dataset (bool): If False, won't overwrite an existing dataset for the set and draft mode. 
+        """
+        # Create dataset. 
+        train_path, val_path = sd.create_dataset(set_abbreviation=set_abbreviation, 
+                        draft_mode=draft_mode, 
+                        overwrite=True)
+
+        dataset_folder = "../data/training_sets/"
+
+        train_dataset = torch.load(train_path)
+        train_dataloader = DataLoader(train_dataset, batch_size=10000, shuffle=True)
+
+        val_dataset = torch.load(val_path) 
+        val_dataloader = DataLoader(val_dataset, batch_size=1, shuffle=False)
+
+        # Train network. 
+        network = sd.DraftMLP(cardnames=train_dataset.cardnames)
+
+        sd.train_model(train_dataloader,
+                        val_dataloader,
+                        network,
+                        epochs=20,
+                        learning_rate=0.001,
+                        experiment_name=f"{set_abbreviation}_{draft_mode}")

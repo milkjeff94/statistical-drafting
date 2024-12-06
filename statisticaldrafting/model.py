@@ -5,16 +5,16 @@ import torch.nn.functional as F
 class DraftMLP(nn.Module):
     def __init__(self,
                  cardnames,
-                 hidden_dims,
-                 dropout=0.1):
+                 dropout=0.5):
         """
         Args:
             cardnames (List[str]): Names of cards in the set. 
-            hidden_dims (list): List of integers specifying hidden layer sizes (must be equal).
             dropout (float): Dropout rate for regularization.
         """
         super(DraftMLP, self).__init__()
         
+        hidden_dims = [300, 300, 300]
+
         # Customize to given set. 
         self.cardnames = cardnames
 

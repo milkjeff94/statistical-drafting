@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 pd.options.display.max_rows = 1000
 import torch
@@ -8,15 +9,15 @@ warnings.filterwarnings("ignore")
 import statisticaldrafting as sd
 
 class DraftModel:
-    def __init__(self, set: str="FDN"): 
+    def __init__(self, set: str="FDN", draft_mode: str="Premier"): 
         # Get data from set. 
         self.set = set
         self.pick_table = pd.read_csv(f"../data/cards/{self.set}.csv") # will be sorted.
         self.cardnames = self.pick_table["name"].tolist()
 
         # Load model. 
-        model_path = f"../data/models/{set}.pt"
-        self.network = sd.DraftMLP(cardnames=self.cardnames, hidden_dims=[300, 300, 300]) # TODO: remove hidden_dims argument. 
+        model_path = f"../data/models/{set}_{draft_mode}.pt"
+        self.network = sd.DraftMLP(cardnames=self.cardnames)
         self.network.load_state_dict(torch.load(model_path))
 
         # Assign p1p1 ratings. 
@@ -74,7 +75,7 @@ class DraftModel:
         self.pick_table = self.pick_table.sort_values(by="rating", ascending=False)
         return self.pick_table
 
-    def get_deck_recommendation(self, pool_cardnames: List[Union[str, int]], starting_colors: str="") -> pd.DataFrame:
+    def get_deck_recommendation(self, pool_cards: List[Union[str, int]], starting_colors: str="") -> pd.DataFrame:
         """
         Constructs a deck from the cards in a pool. 
 
@@ -89,6 +90,7 @@ class DraftModel:
         NUM_ITERATION = 15
         
         # Initialize pool. 
+        pool_cardnames = [pc if type(pc) is str else self.cardnames[pc] for pc in pool_cards]
         valid_cardnames = [cn for cn in pool_cardnames if cn in self.cardnames]
         df_pool = pd.DataFrame(valid_cardnames, columns=["name"])
         df_pool = pd.merge(df_pool, self.pick_table[["name", "color_identity"]], on='name', how='left')
@@ -130,3 +132,10 @@ def parse_cardnames(card_str, set="FDN"):
             for _ in range(number):
                 pool_cardnames.append(name)
     return pool_cardnames
+
+def list_models(model_path: str = "../data/models"):
+    """
+    List currently available models.
+    """
+    draft_models = [dm.split(".")[0].split("_") for dm in os.listdir(model_path) if ".pt" in dm]
+    return pd.DataFrame(draft_models, columns=["set", "draft_mode"]).sort_values(by=["set", "draft_mode"]).reset_index(drop=True)

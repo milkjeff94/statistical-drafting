@@ -79,7 +79,8 @@ def create_dataset(set_abbreviation: str,
                    draft_mode: str = "Premier", 
                    overwrite: bool = False,
                    omit_first_days: int = 7,
-                   minimum_league: str = "bronze", 
+                   minimum_league: str = "diamond", 
+                   minimum_winrate: float = 0.6,
                    train_fraction: float = 0.8,
                    data_folder_17lands: str = "../data/17lands/", 
                    data_folder_training_set: str = "../data/training_sets/",
@@ -93,6 +94,7 @@ def create_dataset(set_abbreviation: str,
         overwrite (bool): If False, won't overwrite an existing dataset for the set and draft mode. 
         omit_first_days (int): Omit this many days from the beginning of the dataset. 
         minimum_league (str): For Premier draft, use only data from drafts at or above this league. 
+        minimum_winrate (str): For Trad draft, use only data from drafts from users with at least this winrate.
         train_fraction (float): Fraction of dataset to use for training. 
         data_folder_17lands (str): Folder where raw 17lands files are stored. 
         data_folder_training_set (str): Folder where processed training & validation sets are stored. 
@@ -101,8 +103,8 @@ def create_dataset(set_abbreviation: str,
     # TODO: implement download_file() here. 
     
     # Check if training set exists. 
-    train_filename = f"{set_abbreviation}_{draft_mode}_{minimum_league}_train.pth"
-    val_filename = f"{set_abbreviation}_{draft_mode}_{minimum_league}_val.pth"
+    train_filename = f"{set_abbreviation}_{draft_mode}_train.pth"
+    val_filename = f"{set_abbreviation}_{draft_mode}_val.pth"
     train_path = data_folder_training_set + train_filename
     val_path = data_folder_training_set + val_filename
     if overwrite == False and os.path.exists(train_path) and os.path.exists(val_path):
@@ -155,8 +157,17 @@ def create_dataset(set_abbreviation: str,
         draft_chunk = remove_basics(draft_chunk)
         
         # Filtering. 
-        draft_chunk = draft_chunk[draft_chunk["draft_time"] > min_date_str] # Filter out first week. 
-        draft_chunk = draft_chunk[draft_chunk["rank"].isin(included_leagues)] # Only highly ranked. 
+        draft_chunk = draft_chunk[draft_chunk["draft_time"] > min_date_str] # Filter out first week.
+        if draft_mode == "Premier":
+            if "rank" in draft_chunk.columns:
+                draft_chunk = draft_chunk[draft_chunk["rank"].isin(included_leagues)] # Only highly ranked. 
+            else:
+                print("League data not available for this set. Using all data.")
+        else:
+            if "user_game_win_rate_bucket" in draft_chunk.columns:
+                draft_chunk = draft_chunk[draft_chunk["user_game_win_rate_bucket"] >= minimum_winrate] # Only high winrate. 
+            else:
+                print("Winrate data not available for this set. Using all data.")
         
         # Extract packs. 
         pack_chunk = draft_chunk[sorted(pack_cols)].astype(bool)
