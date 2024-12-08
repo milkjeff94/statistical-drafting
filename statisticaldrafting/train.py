@@ -34,8 +34,8 @@ def evaluate_model(val_dataloader, network):
 def train_model(train_dataloader: DataLoader,
                 val_dataloader: DataLoader,
                 network: torch.nn.Module,
-                epochs: int = 20,
-                learning_rate: float = 0.01,
+                epochs: int = 25,
+                learning_rate: float = 0.003,
                 experiment_name: str = "test",
                 model_folder: str = "../data/models/"):    
     """
@@ -102,7 +102,7 @@ def default_training_pipeline(
         # Create dataset. 
         train_path, val_path = sd.create_dataset(set_abbreviation=set_abbreviation, 
                         draft_mode=draft_mode, 
-                        overwrite=True)
+                        overwrite=overwrite_dataset)
 
         dataset_folder = "../data/training_sets/"
 
@@ -113,11 +113,9 @@ def default_training_pipeline(
         val_dataloader = DataLoader(val_dataset, batch_size=1, shuffle=False)
 
         # Train network. 
-        network = sd.DraftMLP(cardnames=train_dataset.cardnames)
+        network = sd.DraftNet(cardnames=train_dataset.cardnames)
 
         sd.train_model(train_dataloader,
                         val_dataloader,
                         network,
-                        epochs=20,
-                        learning_rate=0.001,
                         experiment_name=f"{set_abbreviation}_{draft_mode}")

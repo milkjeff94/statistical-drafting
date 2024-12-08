@@ -17,7 +17,7 @@ class DraftModel:
 
         # Load model. 
         model_path = f"../data/models/{set}_{draft_mode}.pt"
-        self.network = sd.DraftMLP(cardnames=self.cardnames)
+        self.network = sd.DraftNet(cardnames=self.cardnames)
         self.network.load_state_dict(torch.load(model_path))
 
         # Assign p1p1 ratings. 
@@ -44,7 +44,7 @@ class DraftModel:
 
 
     def get_card_ratings(self, collection: List[Union[str, int]]) -> pd.Series:
-        """ Get card ratings (0-150) for input collection."""
+        """ Get card ratings (0.00-5.50) for input collection."""
         # Create collection vector. 
         collection_vector = self.get_collection_vector(collection)
         
@@ -53,12 +53,12 @@ class DraftModel:
         with torch.no_grad():
             card_scores = self.network(collection_vector, torch.ones(len(self.cardnames)))
 
-        # Return card ratings (0, 150).
+        # Return card ratings (0-5).
         card_scores = card_scores.reshape(-1) # Ensure correct shape. 
         min_score = min(card_scores).item()
         max_score = max(card_scores).item()
-        card_ratings = [150 * (cs - min_score) / (max_score - min_score) for cs in card_scores.tolist()]
-        rounded_card_ratings = pd.Series([round(cr, 1) for cr in card_ratings], index=[i for i in range(len(self.cardnames))], name="rating")
+        card_ratings = [5.5 * (cs - min_score) / (max_score - min_score) for cs in card_scores.tolist()]
+        rounded_card_ratings = pd.Series([round(cr, 2) for cr in card_ratings], index=[i for i in range(len(self.cardnames))], name="rating")
         return rounded_card_ratings
     
     def get_pick_order(self, collection: List[Union[str, int]]) -> pd.DataFrame:
@@ -139,3 +139,9 @@ def list_models(model_path: str = "../data/models"):
     """
     draft_models = [dm.split(".")[0].split("_") for dm in os.listdir(model_path) if ".pt" in dm]
     return pd.DataFrame(draft_models, columns=["set", "draft_mode"]).sort_values(by=["set", "draft_mode"]).reset_index(drop=True)
+
+# def evaluate_models(model_path: str = "../data/models"):
+#     """
+#     Get evaluation metrics for all models. Runs for some time. 
+#     """
+    
