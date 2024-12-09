@@ -135,10 +135,12 @@ def parse_cardnames(card_str, set="FDN"):
 
 def list_models(model_path: str = "../data/models"):
     """
-    List currently available models.
+    List currently available sets.
     """
     draft_models = [dm.split(".")[0].split("_") for dm in os.listdir(model_path) if ".pt" in dm]
-    return pd.DataFrame(draft_models, columns=["set", "draft_mode"]).sort_values(by=["set", "draft_mode"]).reset_index(drop=True)
+    draft_models = [dm.split(".")[0].split("_") for dm in os.listdir(model_path) if ".pt" in dm]
+    sets = sorted(list(set([dm[0] for dm in draft_models])))
+    return sets
 
 # def evaluate_models(model_path: str = "../data/models"):
 #     """

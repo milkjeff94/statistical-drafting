@@ -34,8 +34,7 @@ def evaluate_model(val_dataloader, network):
 def train_model(train_dataloader: DataLoader,
                 val_dataloader: DataLoader,
                 network: torch.nn.Module,
-                epochs: int = 25,
-                learning_rate: float = 0.003,
+                learning_rate: float = 0.001,
                 experiment_name: str = "test",
                 model_folder: str = "../data/models/"):    
     """
@@ -46,13 +45,14 @@ def train_model(train_dataloader: DataLoader,
     optimizer = optim.Adam(network.parameters(), lr = learning_rate)
 
     # Initial evaluation. 
-    print("Starting to train model")
-    best_percent_correct = evaluate_model(val_dataloader, network)
+    print(f"Starting to train model. learning_rate={learning_rate}")
+    best_percent_correct, best_epoch = evaluate_model(val_dataloader, network), 0
 
     # Train model.     
     t0 = time.time()
     time_last_message = t0
-    for epoch in range(epochs):
+    epoch = 0
+    while (epoch - best_epoch) <= 10:
         network.train()
         epoch_training_loss = list()
         print(f"\nStarting epoch {epoch}")
@@ -80,10 +80,12 @@ def train_model(train_dataloader: DataLoader,
             # Save best model. 
             if percent_correct > best_percent_correct:
                 best_percent_correct = percent_correct
+                best_epoch = epoch
                 weights_path = model_folder + experiment_name + ".pt" # TODO: change this
                 print(f"Saving model weights to {weights_path}")
-                torch.save(network.state_dict(), weights_path)                
-    print("Training completed.")
+                torch.save(network.state_dict(), weights_path)
+        epoch += 1              
+    print(f"Training complete. Time={round(time.time()-t0)} seconds")
     return network
 
 def default_training_pipeline(
