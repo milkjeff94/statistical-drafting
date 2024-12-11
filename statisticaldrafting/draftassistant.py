@@ -133,7 +133,7 @@ def parse_cardnames(card_str, set="FDN"):
                 pool_cardnames.append(name)
     return pool_cardnames
 
-def list_models(model_path: str = "../data/models"):
+def list_sets(model_path: str = "../data/models"):
     """
     List currently available sets.
     """
