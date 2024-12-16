@@ -4,6 +4,9 @@
 # Ignore training set files
 *.pth
 
+# Ignore dev notebook
+notebooks/test.ipynb
+
 # Ignore auto-generated files
 .ipynb_checkpoints/
 .DS_Store

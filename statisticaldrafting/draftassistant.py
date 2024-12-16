@@ -49,7 +49,11 @@ class DraftModel:
         return collection_vector
 
     def get_card_ratings(self, collection: List[Union[str, int]]) -> pd.Series:
-        """Get card ratings (0.00-5.50) for input collection."""
+        """
+        Get card ratings (0.00-5.00) for input collection.
+
+        Top common/uncommon is set to 4.00
+        """
         # Create collection vector.
         collection_vector = self.get_collection_vector(collection)
 
@@ -59,20 +63,33 @@ class DraftModel:
             card_scores = self.network(
                 collection_vector, torch.ones(len(self.cardnames))
             )
-
-        # Return card ratings (0-5).
         card_scores = card_scores.reshape(-1)  # Ensure correct shape.
+
+        # Get card scores.
+        card_score_series = pd.Series(
+            card_scores, name="card_scores"
+        )  # index is card id
+        cdf = pd.concat([card_score_series, self.pick_table["rarity"]], axis=1)
+        top_uncommon_score = (
+            cdf[cdf["rarity"].isin(["common", "uncommon"])]["card_scores"].max().item()
+        )
         min_score = min(card_scores).item()
         max_score = max(card_scores).item()
-        card_ratings = [
-            5.5 * (cs - min_score) / (max_score - min_score)
-            for cs in card_scores.tolist()
-        ]
+
+        # Scale top card to 5.0, top common/uncommon to 4.0.
+        card_ratings = []
+        for cs in card_scores:
+            if cs >= top_uncommon_score:
+                cr = 4.0 + (cs - top_uncommon_score) / (max_score - top_uncommon_score)
+            else:
+                cr = 4.0 * (cs - min_score) / (top_uncommon_score - min_score)
+            card_ratings.append(cr.item())
+
+        # Return card ratings.
         rounded_card_ratings = pd.Series(
             [round(cr, 2) for cr in card_ratings],
-            index=[i for i in range(len(self.cardnames))],
             name="rating",
-        )
+        )  # index is card id.
         return rounded_card_ratings
 
     def get_pick_order(self, collection: List[Union[str, int]]) -> pd.DataFrame:
@@ -182,9 +199,3 @@ def list_sets(model_path: str = "../data/models"):
     ]
     sets = sorted(list(set([dm[0] for dm in draft_models])))
     return sets
-
-
-# def evaluate_models(model_path: str = "../data/models"):
-#     """
-#     Get evaluation metrics for all models. Runs for some time.
-#     """

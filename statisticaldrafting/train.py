@@ -1,5 +1,6 @@
 import time
 import warnings
+
 warnings.filterwarnings("ignore")
 
 import numpy as np
@@ -38,7 +39,7 @@ def train_model(
     train_dataloader: DataLoader,
     val_dataloader: DataLoader,
     network: torch.nn.Module,
-    learning_rate: float = 0.001,
+    learning_rate: float = 0.01,
     experiment_name: str = "test",
     model_folder: str = "../data/models/",
 ):
@@ -57,7 +58,7 @@ def train_model(
     t0 = time.time()
     time_last_message = t0
     epoch = 0
-    while (epoch - best_epoch) <= 10:
+    while (epoch - best_epoch) <= 20:
         network.train()
         epoch_training_loss = list()
         print(f"\nStarting epoch {epoch}")

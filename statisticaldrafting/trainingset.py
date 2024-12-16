@@ -90,7 +90,7 @@ def create_dataset(
     set_abbreviation: str,
     draft_mode: str = "Premier",
     overwrite: bool = False,
-    omit_first_days: int = 7,
+    omit_first_days: int = 2,
     train_fraction: float = 0.8,
     data_folder_17lands: str = "../data/17lands/",
     data_folder_training_set: str = "../data/training_sets/",
@@ -158,10 +158,19 @@ def create_dataset(
         # Remove basics.
         draft_chunk = remove_basics(draft_chunk)
 
-        # Only keep drafts with maximum # of wins.
-        min_match_wins = 7 if draft_mode == "Premier" else 3
-        draft_chunk = draft_chunk[draft_chunk["event_match_wins"] >= min_match_wins]
-        print(f"Filtering by match wins >= {min_match_wins}")
+        # # Only keep drafts with maximum # of wins.
+        # min_match_wins = 7 if draft_mode == "Premier" else 3
+        # draft_chunk = draft_chunk[draft_chunk["event_match_wins"] >= min_match_wins]
+        # print(f"Filtering by match wins >= {min_match_wins}")
+
+        # Omit first days.
+        draft_chunk = draft_chunk[draft_chunk["draft_time"] >= min_date_str]
+        print("Filtering by date")
+
+        # Top 3% of drafters.
+        draft_chunk = draft_chunk[draft_chunk["user_game_win_rate_bucket"] >= 0.66]
+        draft_chunk = draft_chunk[draft_chunk["user_n_games_bucket"] >= 100]
+        print(f"Filtering by match winrate>=0.66 and n_games>=100")
 
         # Extract packs.
         pack_chunk = draft_chunk[sorted(pack_cols)].astype(bool)
