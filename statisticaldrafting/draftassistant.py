@@ -70,6 +70,7 @@ class DraftModel:
             card_scores, name="card_scores"
         )  # index is card id
         cdf = pd.concat([card_score_series, self.pick_table["rarity"]], axis=1)
+        print(cdf, type(cdf))
         top_uncommon_score = (
             cdf[cdf["rarity"].isin(["common", "uncommon"])]["card_scores"].max().item()
         )
