@@ -19,6 +19,8 @@ class DraftModel:
         self.pick_table = pd.read_csv(
             f"../data/cards/{self.set}.csv"
         )  # will be sorted.
+        self.pick_table["synergy"] = [0.0] * len(self.pick_table)
+        self.pick_table["rating"] = [0.0] * len(self.pick_table)
         self.cardnames = self.pick_table["name"].tolist()
 
         # Load model.
@@ -28,8 +30,6 @@ class DraftModel:
 
         # Assign p1p1 ratings.
         self.pick_table["p1p1_rating"] = self.get_card_ratings([])
-        self.pick_table["synergy"] = [0.0] * len(self.pick_table)
-        self.pick_table["rating"] = [0.0] * len(self.pick_table)
 
     def get_collection_vector(self, collection: List[Union[str, int]]) -> torch.Tensor:
         """Get a collection vector from a list of cardnames and card_ids"""
