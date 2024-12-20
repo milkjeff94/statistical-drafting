@@ -51,8 +51,6 @@ class DraftModel:
     def get_card_ratings(self, collection: List[Union[str, int]]) -> pd.Series:
         """
         Get card ratings (0.00-5.00) for input collection.
-
-        Top common/uncommon is set to 4.00
         """
         # Create collection vector.
         collection_vector = self.get_collection_vector(collection)
@@ -66,25 +64,14 @@ class DraftModel:
         card_scores = card_scores.reshape(-1)  # Ensure correct shape.
 
         # Get card scores.
-        card_score_series = pd.Series(
-            card_scores, name="card_scores"
-        )  # index is card id
-        cdf = pd.concat([card_score_series, self.pick_table["rarity"]], axis=1)
-        # print(cdf, type(cdf))
-        top_uncommon_score = (
-            cdf[cdf["rarity"].isin(["common", "uncommon"])]["card_scores"].max() # .item()
-        )
-        min_score = min(card_scores) #.item()
-        max_score = max(card_scores) #.item()
+        min_score = min(card_scores).item()
+        max_score = max(card_scores).item()
 
-        # Scale top card to 5.0, top common/uncommon to 4.0.
-        card_ratings = []
-        for cs in card_scores:
-            if cs >= top_uncommon_score:
-                cr = 4.0 + (cs - top_uncommon_score) / (max_score - top_uncommon_score)
-            else:
-                cr = 4.0 * (cs - min_score) / (top_uncommon_score - min_score)
-            card_ratings.append(cr.item())
+        # Scale top card to 5.0. 
+        card_ratings = [
+            5.0 * (cs - min_score) / (max_score - min_score)
+            for cs in card_scores.tolist()
+        ]
 
         # Return card ratings.
         rounded_card_ratings = pd.Series(
