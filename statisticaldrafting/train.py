@@ -47,7 +47,8 @@ def train_model(
     Train and evaluate model.
     """
     # Optimizer parameters.
-    loss_fn = torch.nn.CrossEntropyLoss()
+    # loss_fn = torch.nn.CrossEntropyLoss() # Previous implementation. 
+    loss_fn = torch.nn.CrossEntropyLoss(reduction='none')
     optimizer = optim.Adam(network.parameters(), lr=learning_rate)
 
     # Initial evaluation.
@@ -65,10 +66,30 @@ def train_model(
         for i, (pool, pack, pick_vector) in enumerate(train_dataloader):
             optimizer.zero_grad()
             predicted_pick = network(pool.float(), pack.float())
-            loss = loss_fn(predicted_pick, pick_vector.float())
-            loss.backward()
+            
+            # Previous implementation. 
+            # loss = loss_fn(predicted_pick, pick_vector.float())
+            # loss.backward()
+
+            # print(f"predicted_pick.shape, {predicted_pick.shape}")
+            # print(f"pick_vector.float().shape, {pick_vector.float().shape}")
+
+            # New recommended pattern. 
+            loss_per_example = loss_fn(predicted_pick, pick_vector.float())
+            
+            # Find raredraft. 
+            rarities = train_dataloader.dataset.rarities
+            print(len(rarities), predicted_pick.shape)
+            prediction_rarities = [rarities[i] for i in torch.argmax(predicted_pick, dim=1).tolist()]
+            pick_rarities = [rarities[i] for i in torch.argmax(pick_vector.int(), dim=1).tolist()]
+            is_raredraft = [(pick in ["common", "uncommon"]) and (pred not in ["common", "uncommon"]) for pick, pred in zip(pick_rarities, prediction_rarities)]
+            raredraft_weight = torch.Tensor([10 if rd else 1 for rd in is_raredraft]) # Raredraft penalty here. 
+            weighted_loss = loss_per_example * raredraft_weight
+            final_loss = weighted_loss.mean()
+            final_loss.backward()
+
             optimizer.step()
-            epoch_training_loss.append(loss.item())
+            epoch_training_loss.append(final_loss.item())
 
             # Provide updates every 10 seconds.
             if time_last_message - time.time() > 10:

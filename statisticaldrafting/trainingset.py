@@ -1,3 +1,4 @@
+import math
 import os
 import time
 from datetime import datetime, timedelta
@@ -22,11 +23,12 @@ def remove_basics(draft_chunk: pd.DataFrame) -> pd.DataFrame:
 
 
 class PickDataset(Dataset):
-    def __init__(self, pools, packs, pick_vectors, cardnames):
+    def __init__(self, pools, packs, pick_vectors, cardnames, rarities):
         self.pools = pools
         self.packs = packs
         self.pick_vectors = pick_vectors
         self.cardnames = cardnames
+        self.rarities = rarities
 
     def __len__(self):
         return len(self.packs)
@@ -85,6 +87,15 @@ def create_card_csv(
     df.to_csv(set_card_path, index=False)
     print(f"Created new cardname file for {set_abbreviation}, {set_card_path}")
 
+def get_min_winrate(n_games: int,
+                    p: float = 0.55, 
+                    stdev: float = 1.96) -> float:
+    """
+    Returns minimum winrate that true winrate > p
+
+    For the default stdev=1.96, this is 95% confident
+    """
+    return p + stdev * math.sqrt(n_games * p * (1 - p)) / n_games
 
 def create_dataset(
     set_abbreviation: str,
@@ -165,12 +176,17 @@ def create_dataset(
 
         # Omit first days.
         draft_chunk = draft_chunk[draft_chunk["draft_time"] >= min_date_str]
-        print("Filtering by date")
+        # print("Filtering chunk by date")
+
+        # Require 95% confidence that winrate >= 0.54.
+        min_winrate = draft_chunk["user_n_games_bucket"].apply(get_min_winrate, p=0.55, stdev=1.5)
+        draft_chunk = draft_chunk[draft_chunk["user_game_win_rate_bucket"] >= min_winrate]
+        # print("Filtering chunk by confidence winrate >= 0.55")
 
         # Top 3% of drafters.
-        draft_chunk = draft_chunk[draft_chunk["user_game_win_rate_bucket"] >= 0.66]
-        draft_chunk = draft_chunk[draft_chunk["user_n_games_bucket"] >= 100]
-        print(f"Filtering by match winrate>=0.66 and n_games>=100")
+        # draft_chunk = draft_chunk[draft_chunk["user_game_win_rate_bucket"] >= 0.66]
+        # draft_chunk = draft_chunk[draft_chunk["user_n_games_bucket"] >= 100]
+        # print(f"Filtering by match winrate>=0.66 and n_games>=100")
 
         # Extract packs.
         pack_chunk = draft_chunk[sorted(pack_cols)].astype(bool)
@@ -194,6 +210,14 @@ def create_dataset(
 
     print("Loaded all draft data.")
 
+    # Make sure we have a card csv. 
+    create_card_csv(
+        set_abbreviation=set_abbreviation, cardnames=cardnames
+    )
+
+    # Get rarities for set. 
+    rarities = pd.read_csv("../data/cards/" + set_abbreviation + ".csv")["rarity"].tolist() #TODO check if sorted. 
+
     # Concatenate all chunks into a single Dataframe
     picks = np.vstack(pick_chunks)
     packs = pd.concat(pack_chunks, ignore_index=True)
@@ -202,10 +226,10 @@ def create_dataset(
     # Create train and validation datasets.
     tsize = round(len(pools) * train_fraction)
     pick_train_dataset = PickDataset(
-        pools[:tsize].values, packs[:tsize].values, picks[:tsize], cardnames
+        pools[:tsize].values, packs[:tsize].values, picks[:tsize], cardnames, rarities
     )
     pick_val_dataset = PickDataset(
-        pools[tsize:].values, packs[tsize:].values, picks[tsize:], cardnames
+        pools[tsize:].values, packs[tsize:].values, picks[tsize:], cardnames, rarities
     )
 
     # Serialize updated datasets.
@@ -218,10 +242,5 @@ def create_dataset(
     print(f"Saved training set to {train_path}")
     torch.save(pick_val_dataset, val_path)
     print(f"Saved validation set to {val_path}")
-
-    # Write card info to file.
-    create_card_csv(
-        set_abbreviation=set_abbreviation, cardnames=pick_train_dataset.cardnames
-    )
 
     return train_path, val_path
