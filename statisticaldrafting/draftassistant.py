@@ -58,19 +58,19 @@ class DraftModel:
         # Get raw card scores.
         self.network.eval()
         with torch.no_grad():
-            card_scores = self.network(
+            card_scores_torch = self.network(
                 collection_vector, torch.ones(len(self.cardnames))
             )
-        card_scores = card_scores.reshape(-1)  # Ensure correct shape.
+        card_scores = card_scores_torch.reshape(-1).tolist() # List of scores. 
 
         # Get card scores.
-        min_score = min(card_scores).item()
-        max_score = max(card_scores).item()
+        min_score = min(card_scores)
+        max_score = max(card_scores)
 
         # Scale top card to 5.0. 
         card_ratings = [
             5.0 * (cs - min_score) / (max_score - min_score)
-            for cs in card_scores.tolist()
+            for cs in card_scores
         ]
 
         # Return card ratings.
