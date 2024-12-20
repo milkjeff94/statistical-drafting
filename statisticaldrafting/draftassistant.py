@@ -19,8 +19,6 @@ class DraftModel:
         self.pick_table = pd.read_csv(
             f"../data/cards/{self.set}.csv"
         )  # will be sorted.
-        self.pick_table["synergy"] = [0.0] * len(self.pick_table)
-        self.pick_table["rating"] = [0.0] * len(self.pick_table)
         self.cardnames = self.pick_table["name"].tolist()
 
         # Load model.
@@ -30,6 +28,8 @@ class DraftModel:
 
         # Assign p1p1 ratings.
         self.pick_table["p1p1_rating"] = self.get_card_ratings([])
+        self.pick_table["synergy"] = [0.0] * len(self.pick_table)
+        self.pick_table["rating"] = [0.0] * len(self.pick_table)
 
     def get_collection_vector(self, collection: List[Union[str, int]]) -> torch.Tensor:
         """Get a collection vector from a list of cardnames and card_ids"""
@@ -70,12 +70,12 @@ class DraftModel:
             card_scores, name="card_scores"
         )  # index is card id
         cdf = pd.concat([card_score_series, self.pick_table["rarity"]], axis=1)
-        print(cdf, type(cdf))
+        # print(cdf, type(cdf))
         top_uncommon_score = (
-            cdf[cdf["rarity"].isin(["common", "uncommon"])]["card_scores"].max().item()
+            cdf[cdf["rarity"].isin(["common", "uncommon"])]["card_scores"].max() # .item()
         )
-        min_score = min(card_scores).item()
-        max_score = max(card_scores).item()
+        min_score = min(card_scores) #.item()
+        max_score = max(card_scores) #.item()
 
         # Scale top card to 5.0, top common/uncommon to 4.0.
         card_ratings = []
