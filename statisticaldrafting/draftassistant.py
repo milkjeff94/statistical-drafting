@@ -65,8 +65,8 @@ class DraftModel:
         print("card_scores", type(card_scores[0]), card_scores)
 
         # Get card scores.
-        min_score = min(card_scores)
-        max_score = max(card_scores)
+        min_score = float(min(card_scores))
+        max_score = float(max(card_scores))
 
         # Get card scores.
         card_score_series = pd.Series(
