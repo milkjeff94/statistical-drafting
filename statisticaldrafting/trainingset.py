@@ -17,8 +17,12 @@ def remove_basics(draft_chunk: pd.DataFrame) -> pd.DataFrame:
     columns_to_drop = ["pack_card_" + b for b in basic_names] + [
         "pool_" + b for b in basic_names
     ]
-    draft_chunk = draft_chunk.drop(columns=columns_to_drop)
-    draft_chunk = draft_chunk[~draft_chunk["pick"].isin(basic_names)]
+
+    # If basics are in set, drop them: 
+    if len(set(draft_chunk.columns).intersection(columns_to_drop)) > 0:
+        draft_chunk = draft_chunk.drop(columns=columns_to_drop)
+        draft_chunk = draft_chunk[~draft_chunk["pick"].isin(basic_names)]
+
     return draft_chunk
 
 
@@ -120,8 +124,6 @@ def create_dataset(
         data_folder_training_set (str): Folder where processed training & validation sets are stored.
         data_folder_cards (str): Folder where card info is stored.
     """
-    # TODO: implement download_file() here.
-
     # Check if training set exists.
     train_filename = f"{set_abbreviation}_{draft_mode}_train.pth"
     val_filename = f"{set_abbreviation}_{draft_mode}_val.pth"

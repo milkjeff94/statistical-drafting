@@ -67,11 +67,32 @@ class DraftModel:
         min_score = min(card_scores)
         max_score = max(card_scores)
 
-        # Scale top card to 5.0. 
-        card_ratings = [
-            5.0 * (cs - min_score) / (max_score - min_score)
-            for cs in card_scores
-        ]
+        # Get card scores.
+        card_score_series = pd.Series(
+            card_scores, name="card_scores"
+        )  # index is card id
+        cdf = pd.concat([card_score_series, self.pick_table["rarity"]], axis=1)
+        # print(cdf, type(cdf))
+        top_uncommon_score = (
+            cdf[cdf["rarity"].isin(["common", "uncommon"])]["card_scores"].max() # .item()
+        )
+
+        # Scale top card to 5.0, top common/uncommon to 4.0.
+        card_ratings = []
+        for cs in card_scores:
+            if cs >= top_uncommon_score:
+                cr = 4.0 + (cs - top_uncommon_score) / (max_score - top_uncommon_score)
+            else:
+                cr = 4.0 * (cs - min_score) / (top_uncommon_score - min_score)
+            card_ratings.append(cr.item())
+        
+        #todo: test uncommon logic
+
+        # # Scale top card to 5.0. 
+        # card_ratings = [
+        #     5.0 * (cs - min_score) / (max_score - min_score)
+        #     for cs in card_scores
+        # ]
 
         # Return card ratings.
         rounded_card_ratings = pd.Series(

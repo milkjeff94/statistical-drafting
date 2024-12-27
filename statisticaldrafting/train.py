@@ -79,11 +79,10 @@ def train_model(
             
             # Find raredraft. 
             rarities = train_dataloader.dataset.rarities
-            print(len(rarities), predicted_pick.shape)
             prediction_rarities = [rarities[i] for i in torch.argmax(predicted_pick, dim=1).tolist()]
             pick_rarities = [rarities[i] for i in torch.argmax(pick_vector.int(), dim=1).tolist()]
             is_raredraft = [(pick in ["common", "uncommon"]) and (pred not in ["common", "uncommon"]) for pick, pred in zip(pick_rarities, prediction_rarities)]
-            raredraft_weight = torch.Tensor([10 if rd else 1 for rd in is_raredraft]) # Raredraft penalty here. 
+            raredraft_weight = torch.Tensor([5 if rd else 1 for rd in is_raredraft]) # Raredraft penalty here. 
             weighted_loss = loss_per_example * raredraft_weight
             final_loss = weighted_loss.mean()
             final_loss.backward()

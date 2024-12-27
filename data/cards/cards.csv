@@ -19457,3 +19457,508 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 96353,MH3,"A-Nadu, Winged Wisdom",rare,GU,3,Legendary Creature - Bird Wizard,False
 49109,M13,Disciple of Bolas,rare,B,4,Creature - Human Wizard,True
 35537,WWK,Leatherback Baloth,uncommon,G,3,Creature - Beast,True
+94558,PIO,Ajani Steadfast,mythic,W,4,Legendary Planeswalker - Ajani,True
+94339,PIO,Returned Centaur,common,B,4,Creature - Zombie Centaur,True
+94226,PIO,Archangel of Thune,mythic,W,5,Creature - Angel,True
+94289,PIO,Jhessian Thief,uncommon,U,3,Creature - Human Rogue,True
+94342,PIO,Silumgar Butcher,common,B,5,Creature - Zombie Djinn,True
+94496,PIO,Pilgrim's Eye,common,,3,Artifact Creature - Thopter,True
+94245,PIO,Keening Apparition,common,W,2,Creature - Spirit,True
+94436,PIO,Sylvan Primordial,rare,G,7,Creature - Avatar,True
+94444,PIO,Azorius Charm,uncommon,UW,2,Instant,True
+94441,PIO,Anax and Cymede,uncommon,RW,3,Legendary Creature - Human Soldier,True
+94593,PIO,"Kiora, the Crashing Wave",mythic,GU,4,Legendary Planeswalker - Kiora,True
+94582,PIO,Smash to Smithereens,uncommon,R,2,Instant,True
+94345,PIO,Supernatural Stamina,common,B,1,Instant,True
+94413,PIO,Gnarlback Rhino,common,G,4,Creature - Rhino,True
+94565,PIO,Clutch of Currents,common,U,1,Sorcery,True
+94520,PIO,Fiendslayer Paladin,uncommon,W,3,Creature - Human Knight,True
+94541,PIO,Nylea's Disciple,common,G,4,Creature - Centaur Archer,True
+94287,PIO,"Jace, Vryn's Prodigy",mythic,U,2,Legendary Creature - Human Wizard,True
+94585,PIO,Fog,uncommon,G,1,Instant,True
+94263,PIO,Starfield of Nyx,rare,W,5,Enchantment,True
+94486,PIO,Tenth District Legionnaire,uncommon,RW,2,Creature - Human Soldier,True
+94264,PIO,Stasis Snare,uncommon,W,3,Enchantment,True
+94375,PIO,Humble Defector,uncommon,R,2,Creature - Human Rogue,True
+94384,PIO,Outpost Siege,rare,R,4,Enchantment,True
+94309,PIO,Treasure Cruise,common,U,8,Sorcery,True
+94295,PIO,Niblis of Frost,rare,U,4,Creature - Spirit,True
+94577,PIO,Ruinous Path,uncommon,B,3,Sorcery,True
+94545,PIO,Frostburn Weird,uncommon,RU,2,Creature - Weird,True
+94358,PIO,Bloodfire Enforcers,common,R,4,Creature - Human Monk,True
+94605,PIO,Part the Waterveil,rare,U,6,Sorcery,True
+94311,PIO,Zephyr Winder,uncommon,U,2,Creature - Elemental,True
+94502,PIO,Golgari Guildgate,common,BG,0,Land - Gate,True
+94481,PIO,Sire of Insanity,rare,BR,6,Creature - Demon,True
+94451,PIO,Chromanticore,rare,BGRUW,5,Enchantment Creature - Manticore,True
+94411,PIO,Gatebreaker Ram,uncommon,G,3,Creature - Sheep,True
+94463,PIO,Fleecemane Lion,rare,GW,2,Creature - Cat,True
+94346,PIO,"Tasigur, the Golden Fang",rare,BGU,6,Legendary Creature - Human Shaman,True
+94547,PIO,Growing Ranks,uncommon,GW,4,Enchantment,True
+94615,PIO,Mizzium Mortars,mythic,R,2,Sorcery,True
+94347,PIO,Tormented Hero,uncommon,B,1,Creature - Human Warrior,True
+94434,PIO,Skylasher,rare,G,2,Creature - Insect,True
+94405,PIO,Clear Shot,uncommon,G,3,Instant,True
+94440,PIO,Woodland Wanderer,rare,G,4,Creature - Elemental,True
+94303,PIO,Silundi Vision,common,U,3,Instant,True
+94464,PIO,"Garruk, Apex Predator",mythic,BG,7,Legendary Planeswalker - Garruk,True
+94370,PIO,Furious Rise,uncommon,R,3,Enchantment,True
+94446,PIO,Bloodtithe Harvester,uncommon,BR,2,Creature - Vampire,True
+94539,PIO,Bounding Krasis,uncommon,GU,3,Creature - Fish Lizard,True
+94492,PIO,Crackdown Construct,uncommon,,4,Artifact Creature - Construct,True
+94540,PIO,"Nylea, God of the Hunt",mythic,G,4,Legendary Enchantment Creature - God,True
+94592,PIO,Domri Rade,mythic,GR,3,Legendary Planeswalker - Domri,True
+94556,PIO,Rubblebelt Raiders,uncommon,GR,4,Creature - Human Warrior,True
+94255,PIO,Phalanx Tactics,uncommon,W,2,Instant,True
+94430,PIO,Pulse of Murasa,uncommon,G,3,Instant,True
+94425,PIO,"Nissa, Vastwood Seer",mythic,G,3,Legendary Creature - Elf Scout,True
+94351,PIO,"Urborg, Tomb of Yawgmoth",rare,,0,Legendary Land,True
+94588,PIO,Skyreaping,uncommon,G,2,Sorcery,True
+94472,PIO,Medomai the Ageless,rare,UW,6,Legendary Creature - Sphinx,True
+94423,PIO,Nemesis of Mortals,common,G,6,Creature - Snake,True
+94447,PIO,Boros Reckoner,rare,RW,3,Creature - Minotaur Wizard,True
+94528,PIO,Abhorrent Overlord,uncommon,B,7,Creature - Demon,True
+94686,PIO,Profit // Loss,uncommon,BW,5,Instant,True
+94546,PIO,Gift of Orzhova,uncommon,BW,3,Enchantment - Aura,True
+94261,PIO,Sphere of Safety,uncommon,W,5,Enchantment,True
+94453,PIO,Destructive Revelry,uncommon,GR,2,Instant,True
+94382,PIO,Oath of Chandra,rare,R,2,Legendary Enchantment,True
+94460,PIO,Dreadbore,common,BR,2,Sorcery,True
+94510,PIO,Orzhov Guildgate,common,BW,0,Land - Gate,True
+94454,PIO,Dinrova Horror,uncommon,BU,6,Creature - Horror,True
+94614,PIO,Limits of Solidarity,uncommon,R,4,Sorcery,True
+94498,PIO,Boros Guildgate,common,RW,0,Land - Gate,True
+94415,PIO,Hero of Leina Tower,uncommon,G,1,Creature - Human Warrior,True
+94266,PIO,Swift Reckoning,common,W,2,Sorcery,True
+94421,PIO,Leafcrown Dryad,common,G,2,Enchantment Creature - Nymph Dryad,True
+94337,PIO,Read the Bones,common,B,3,Sorcery,True
+94327,PIO,"Liliana, Heretical Healer",mythic,B,3,Legendary Creature - Human Cleric,True
+94274,PIO,Bident of Thassa,rare,U,4,Legendary Enchantment Artifact,True
+94326,PIO,Lifebane Zombie,rare,B,3,Creature - Zombie Warrior,True
+94410,PIO,Experiment One,uncommon,G,1,Creature - Human Ooze,True
+94365,PIO,Dragon Mantle,common,R,1,Enchantment - Aura,True
+94412,PIO,Gladecover Scout,common,G,1,Creature - Elf Scout,True
+94286,PIO,Ingenious Skaab,common,U,3,Creature - Zombie Horror,True
+94364,PIO,Draconic Roar,uncommon,R,2,Instant,True
+94437,PIO,Unravel the Aether,common,G,2,Instant,True
+94299,PIO,Rapid Hybridization,uncommon,U,1,Instant,True
+94385,PIO,Pia and Kiran Nalaar,rare,R,4,Legendary Creature - Human Artificer,True
+94571,PIO,Retraction Helix,uncommon,U,1,Instant,True
+94525,PIO,Sphinx of Magosi,uncommon,U,6,Creature - Sphinx,True
+94613,PIO,Expedite,common,R,1,Instant,True
+94324,PIO,Fell Stinger,uncommon,B,3,Creature - Zombie Scorpion,True
+94458,PIO,Dragonlord Ojutai,mythic,UW,5,Legendary Creature - Elder Dragon,True
+94386,PIO,Purphoros's Emissary,common,R,4,Enchantment Creature - Ox,True
+94281,PIO,Essence Scatter,common,U,2,Instant,True
+94380,PIO,Mogis's Warhound,uncommon,R,2,Enchantment Creature - Dog,True
+94455,PIO,Dragonlord Atarka,mythic,GR,7,Legendary Creature - Elder Dragon,True
+94292,PIO,Master of Waves,rare,U,4,Creature - Merfolk Wizard,True
+94381,PIO,Monastery Swiftspear,uncommon,R,1,Creature - Human Monk,True
+94611,PIO,Touch of Moonglove,uncommon,B,1,Instant,True
+94596,PIO,"Xenagos, the Reveler",mythic,GR,4,Legendary Planeswalker - Xenagos,True
+94480,PIO,Sin Collector,uncommon,BW,3,Creature - Human Cleric,True
+94374,PIO,Heart-Piercer Manticore,uncommon,R,4,Creature - Manticore,True
+94487,PIO,Thunderclap Wyvern,uncommon,UW,4,Creature - Drake,True
+94341,PIO,"Sidisi, Undead Vizier",rare,B,5,Legendary Creature - Zombie Snake,True
+94409,PIO,District Guide,common,G,3,Creature - Elf Scout,True
+94618,PIO,Gather the Pack,uncommon,G,2,Sorcery,True
+94234,PIO,Dictate of Heliod,rare,W,5,Enchantment,True
+94610,PIO,Dark Petition,rare,B,5,Sorcery,True
+94325,PIO,Gurmag Angler,common,B,7,Creature - Zombie Fish,True
+94427,PIO,"Nissa, Voice of Zendikar",mythic,G,3,Legendary Planeswalker - Nissa,True
+94407,PIO,Conclave Naturalists,uncommon,G,5,Creature - Dryad,True
+94583,PIO,Thopter Engineer,uncommon,R,3,Creature - Human Artificer,True
+94578,PIO,Stain the Mind,uncommon,B,5,Sorcery,True
+94533,PIO,Ash Zealot,uncommon,R,2,Creature - Human Warrior,True
+94562,PIO,Oath of Gideon,uncommon,W,3,Legendary Enchantment,True
+94517,PIO,Wandering Fumarole,rare,RU,0,Land,True
+94243,PIO,Kabira Takedown,uncommon,W,2,Instant,True
+94431,PIO,Savage Punch,common,G,2,Sorcery,True
+94432,PIO,Seed Guardian,uncommon,G,4,Creature - Elemental,True
+94511,PIO,Rakdos Guildgate,common,BR,0,Land - Gate,True
+94566,PIO,Flitterstep Eidolon,uncommon,U,2,Enchantment Creature - Spirit,True
+94278,PIO,Consider,common,U,1,Instant,True
+94271,PIO,Anchor to the Aether,uncommon,U,3,Sorcery,True
+94363,PIO,Coordinated Assault,uncommon,R,1,Instant,True
+94563,PIO,Sage's Reverie,uncommon,W,4,Enchantment - Aura,True
+94609,PIO,Dark Betrayal,uncommon,B,1,Instant,True
+94391,PIO,Scytheclaw Raptor,uncommon,R,3,Creature - Dinosaur,True
+94586,PIO,"Garruk, Caller of Beasts",mythic,G,6,Legendary Planeswalker - Garruk,True
+94602,PIO,Tragic Arrogance,mythic,W,5,Sorcery,True
+94387,PIO,Rimrock Knight,common,R,2,Creature - Dwarf Knight,True
+94450,PIO,Catacomb Sifter,uncommon,BG,3,Creature - Eldrazi Drone,True
+94414,PIO,"Goreclaw, Terror of Qal Sisma",uncommon,G,4,Legendary Creature - Bear,True
+94367,PIO,Exquisite Firecraft,rare,R,3,Sorcery,True
+94621,PIO,Miming Slime,common,G,3,Sorcery,True
+94671,PIO,Alive // Well,uncommon,GW,5,Sorcery,True
+94527,PIO,"Thassa, God of the Sea",mythic,U,3,Legendary Enchantment Creature - God,True
+94584,PIO,Brood Monitor,uncommon,G,6,Creature - Eldrazi Drone,True
+94680,PIO,Far // Away,uncommon,BU,5,Instant,True
+94401,PIO,Bala Ged Recovery,uncommon,G,3,Sorcery,True
+94554,PIO,"Pharika, God of Affliction",mythic,BG,3,Legendary Enchantment Creature - God,True
+94606,PIO,Tome Scour,uncommon,U,1,Sorcery,True
+94371,PIO,Gates Ablaze,uncommon,R,3,Sorcery,True
+94397,PIO,Zurgo Bellstriker,rare,R,1,Legendary Creature - Orc Warrior,True
+94551,PIO,"Kruphix, God of Horizons",mythic,GU,5,Legendary Enchantment Creature - God,True
+94516,PIO,Spawning Bed,uncommon,,0,Land,True
+94500,PIO,Evolving Wilds,common,,0,Land,True
+94248,PIO,"Kytheon, Hero of Akros",mythic,W,1,Legendary Creature - Human Soldier,True
+94603,PIO,Dramatic Reversal,uncommon,U,2,Instant,True
+94552,PIO,"Mogis, God of Slaughter",mythic,BR,4,Legendary Enchantment Creature - God,True
+94456,PIO,Dragonlord Dromoka,mythic,GW,6,Legendary Creature - Elder Dragon,True
+94449,PIO,Cartel Aristocrat,uncommon,BW,2,Creature - Human Advisor,True
+94260,PIO,Silkwrap,uncommon,W,2,Enchantment,True
+94698,PIO,Wear // Tear,uncommon,RW,3,Instant,True
+94334,PIO,Pelakka Predation,common,B,3,Sorcery,True
+94674,PIO,Armed // Dangerous,uncommon,GR,6,Sorcery,True
+94473,PIO,Nivix Cyclops,common,RU,3,Creature - Cyclops,True
+94581,PIO,Reckless Bushwhacker,uncommon,R,3,Creature - Goblin Warrior Ally,True
+94428,PIO,Oath of Nissa,rare,G,1,Legendary Enchantment,True
+94532,PIO,Keepsake Gorgon,uncommon,B,5,Creature - Gorgon,True
+94591,PIO,"Ashiok, Nightmare Weaver",mythic,BU,3,Legendary Planeswalker - Ashiok,True
+94479,PIO,Selesnya Charm,common,GW,2,Instant,True
+94267,PIO,Syndicate Messenger,common,W,4,Creature - Bird,True
+94521,PIO,"Heliod, God of the Sun",mythic,W,4,Legendary Enchantment Creature - God,True
+94247,PIO,Knightly Valor,common,W,5,Enchantment - Aura,True
+94482,PIO,Skyrider Elf,common,GU,2,Creature - Elf Warrior Ally,True
+94408,PIO,Courier's Briefcase,common,BGRUW,2,Artifact - Treasure,True
+94224,PIO,Scion of Ugin,common,,6,Creature - Dragon Spirit,True
+94318,PIO,Cruel Revival,uncommon,B,5,Instant,True
+94377,PIO,Labyrinth Champion,uncommon,R,4,Creature - Human Warrior,True
+94506,PIO,Izzet Guildgate,common,RU,0,Land - Gate,True
+94542,PIO,Reverent Hunter,uncommon,G,3,Creature - Human Archer,True
+94548,PIO,"Iroas, God of Victory",mythic,RW,4,Legendary Enchantment Creature - God,True
+94336,PIO,Priest of the Blood Rite,uncommon,B,5,Creature - Human Cleric,True
+94471,PIO,Martial Glory,common,RW,2,Instant,True
+94484,PIO,Stormchaser Mage,uncommon,RU,2,Creature - Human Wizard,True
+94355,PIO,Akoum Warrior,common,R,6,Creature - Minotaur Warrior,True
+94262,PIO,Spirit of the Labyrinth,rare,W,2,Enchantment Creature - Spirit,True
+94515,PIO,Simic Guildgate,common,GU,0,Land - Gate,True
+94518,PIO,Eidolon of Rhetoric,uncommon,W,3,Enchantment Creature - Spirit,True
+94557,PIO,"Xenagos, God of Revels",mythic,GR,5,Legendary Enchantment Creature - God,True
+94598,PIO,Hallowed Moonlight,rare,W,2,Instant,True
+94524,PIO,Silumgar Sorcerer,uncommon,U,3,Creature - Human Wizard,True
+94362,PIO,"Chandra, Flamecaller",mythic,R,6,Legendary Planeswalker - Chandra,True
+94490,PIO,Urban Evolution,uncommon,GU,5,Sorcery,True
+94239,PIO,Heliod's Pilgrim,common,W,3,Creature - Human Cleric,True
+94429,PIO,"Polukranos, World Eater",rare,G,4,Legendary Creature - Hydra,True
+94344,PIO,Stab Wound,uncommon,B,3,Enchantment - Aura,True
+94575,PIO,Oath of Liliana,uncommon,B,3,Legendary Enchantment,True
+94297,PIO,Opal Lake Gatekeepers,common,U,4,Creature - Vedalken Soldier,True
+94513,PIO,Selesnya Guildgate,common,GW,0,Land - Gate,True
+94601,PIO,Shoulder to Shoulder,common,W,3,Sorcery,True
+94240,PIO,Hero of Iroas,common,W,2,Creature - Human Soldier,True
+94398,PIO,Alpha Authority,uncommon,G,2,Enchantment - Aura,True
+94550,PIO,"Keranos, God of Storms",mythic,RU,5,Legendary Enchantment Creature - God,True
+94622,PIO,Natural State,uncommon,G,1,Instant,True
+94320,PIO,Dark Deal,uncommon,B,3,Sorcery,True
+94508,PIO,Maze's End,mythic,,0,Land,True
+94530,PIO,"Erebos, God of the Dead",mythic,B,4,Legendary Enchantment Creature - God,True
+94230,PIO,Artful Maneuver,common,W,2,Instant,True
+94461,PIO,Dreg Mangler,common,BG,3,Creature - Plant Zombie,True
+94340,PIO,Sanitarium Skeleton,common,B,1,Creature - Skeleton,True
+94505,PIO,Hissing Quagmire,rare,BG,0,Land,True
+94357,PIO,Akroan Crusader,common,R,1,Creature - Human Soldier,True
+94538,PIO,Avatar of the Resolute,uncommon,G,2,Creature - Avatar,True
+94322,PIO,Dictate of Erebos,rare,B,5,Enchantment,True
+94608,PIO,Bile Blight,common,B,2,Instant,True
+94361,PIO,Burning Anger,rare,R,5,Enchantment - Aura,True
+94570,PIO,Oath of Jace,uncommon,U,3,Legendary Enchantment,True
+94296,PIO,Nimbus Naiad,common,U,3,Enchantment Creature - Nymph,True
+94392,PIO,Stormbreath Dragon,mythic,R,5,Creature - Dragon,True
+94580,PIO,Goblin Heelcutter,common,R,4,Creature - Goblin Berserker,True
+94537,PIO,Stoneshock Giant,common,R,5,Creature - Giant,True
+94507,PIO,Lumbering Falls,rare,GU,0,Land,True
+94350,PIO,Undead Butler,common,B,2,Creature - Zombie,True
+94445,PIO,Blood Baron of Vizkopa,mythic,BW,5,Creature - Vampire,True
+94270,PIO,Aetherling,rare,U,6,Creature - Shapeshifter,True
+94531,PIO,Illness in the Ranks,uncommon,B,1,Enchantment,True
+94383,PIO,Ordeal of Purphoros,uncommon,R,2,Enchantment - Aura,True
+94290,PIO,Jwari Disruption,uncommon,U,2,Instant,True
+94393,PIO,Valakut Awakening,uncommon,R,3,Instant,True
+94677,PIO,Down // Dirty,uncommon,BG,7,Sorcery,True
+94564,PIO,Sungrace Pegasus,common,W,2,Creature - Pegasus,True
+94225,PIO,Void Winnower,mythic,,9,Creature - Eldrazi,True
+94439,PIO,Whisperwood Elemental,mythic,G,5,Creature - Elemental,True
+94475,PIO,Nyx Weaver,uncommon,BG,3,Enchantment Creature - Spider,True
+94590,PIO,"Ajani, Mentor of Heroes",mythic,GW,5,Legendary Planeswalker - Ajani,True
+94308,PIO,Tidebinder Mage,rare,U,2,Creature - Merfolk Wizard,True
+94257,PIO,Sejiri Shelter,common,W,2,Instant,True
+94572,PIO,Cavern Lampad,common,B,4,Enchantment Creature - Nymph,True
+94420,PIO,Kraul Harpooner,uncommon,G,2,Creature - Insect Warrior,True
+94623,PIO,Aurelia's Fury,rare,RW,2,Instant,True
+94314,PIO,Behold the Beyond,mythic,B,7,Sorcery,True
+94457,PIO,Dragonlord Kolaghan,mythic,BR,6,Legendary Creature - Elder Dragon,True
+94625,PIO,Rakdos's Return,rare,BR,2,Sorcery,True
+94366,PIO,Dragon-Style Twins,uncommon,R,5,Creature - Human Monk,True
+94389,PIO,Scab-Clan Berserker,uncommon,R,3,Creature - Human Berserker,True
+94379,PIO,Makindi Sliderunner,common,R,2,Creature - Beast,True
+94536,PIO,Pyromancer's Assault,uncommon,R,4,Enchantment,True
+94406,PIO,Commune with the Gods,common,G,2,Sorcery,True
+94417,PIO,Hornet Nest,rare,G,3,Creature - Insect,True
+94514,PIO,Shambling Vent,rare,BW,0,Land,True
+94504,PIO,Haven of the Spirit Dragon,rare,,0,Land,True
+94305,PIO,Stormtide Leviathan,rare,U,8,Creature - Leviathan,True
+94573,PIO,Liliana of the Dark Realms,mythic,B,4,Legendary Planeswalker - Liliana,True
+94284,PIO,Gust of Wind,common,U,4,Sorcery,True
+94587,PIO,Nissa's Pilgrimage,uncommon,G,3,Sorcery,True
+94319,PIO,Crypt Incursion,uncommon,B,3,Instant,True
+94376,PIO,Kozilek's Return,mythic,R,3,Instant,True
+94555,PIO,"Phenax, God of Deception",mythic,BU,5,Legendary Enchantment Creature - God,True
+94569,PIO,"Jace, Memory Adept",mythic,U,5,Legendary Planeswalker - Jace,True
+94228,PIO,Ardenvale Tactician,common,W,3,Creature - Human Knight,True
+94474,PIO,Notion Thief,rare,BU,4,Creature - Human Rogue,True
+94595,PIO,Sarkhan Unbroken,mythic,GRU,5,Legendary Planeswalker - Sarkhan,True
+94269,PIO,War Oracle,uncommon,W,4,Creature - Human Cleric,True
+94259,PIO,Silence,rare,W,1,Instant,True
+94332,PIO,Ob Nixilis's Cruelty,common,B,3,Instant,True
+94619,PIO,The Great Aurora,mythic,G,9,Sorcery,True
+94543,PIO,"Athreos, God of Passage",mythic,BW,3,Legendary Enchantment Creature - God,True
+94443,PIO,Assemble the Legion,mythic,RW,5,Enchantment,True
+94238,PIO,"Gideon, Ally of Zendikar",mythic,W,4,Legendary Planeswalker - Gideon,True
+94561,PIO,Hushwing Gryff,uncommon,W,3,Creature - Hippogriff,True
+94627,PIO,Unexpected Results,rare,GU,4,Sorcery,True
+94519,PIO,Evangel of Heliod,uncommon,W,6,Creature - Human Cleric,True
+94495,PIO,Halo Scarab,common,,2,Artifact Creature - Insect,True
+94612,PIO,Worst Fears,mythic,B,8,Sorcery,True
+94491,PIO,Zendikar Incarnate,common,GR,4,Creature - Elemental,True
+94576,PIO,Ovalchase Daredevil,uncommon,B,4,Creature - Human Pilot,True
+94509,PIO,Needle Spires,rare,RW,0,Land,True
+94399,PIO,Aspect of Hydra,uncommon,G,1,Instant,True
+94330,PIO,Nighthowler,uncommon,B,3,Enchantment Creature - Horror,True
+94272,PIO,Aqueous Form,uncommon,U,1,Enchantment - Aura,True
+94617,PIO,Seismic Stomp,uncommon,R,2,Sorcery,True
+94493,PIO,Darksteel Ingot,common,,3,Artifact,True
+94396,PIO,Witch's Mark,common,R,2,Sorcery,True
+94279,PIO,Crush of Tentacles,rare,U,6,Sorcery,True
+94252,PIO,Lotus-Eye Mystics,common,W,4,Creature - Human Monk,True
+94467,PIO,Kiora's Follower,uncommon,GU,2,Creature - Merfolk,True
+94683,PIO,Give // Take,uncommon,GU,6,Sorcery,True
+94251,PIO,"Linvala, the Preserver",rare,W,6,Legendary Creature - Angel,True
+94452,PIO,Counterflux,rare,RU,3,Instant,True
+94488,PIO,Tomebound Lich,uncommon,BU,3,Creature - Zombie Wizard,True
+94294,PIO,Murmuring Mystic,uncommon,U,4,Creature - Human Wizard,True
+94512,PIO,Rogue's Passage,uncommon,,0,Land,True
+94317,PIO,Blood Scrivener,uncommon,B,2,Creature - Zombie Wizard,True
+94277,PIO,Cloudfin Raptor,common,U,1,Creature - Bird Mutant,True
+94369,PIO,Fight with Fire,uncommon,R,3,Sorcery,True
+94302,PIO,Sight Beyond Sight,uncommon,U,4,Sorcery,True
+94354,PIO,Zulaport Cutthroat,uncommon,B,2,Creature - Human Rogue Ally,True
+94424,PIO,Nessian Asp,common,G,5,Creature - Snake,True
+94246,PIO,Knight of the White Orchid,rare,W,2,Creature - Human Knight,True
+94416,PIO,Honored Hydra,uncommon,G,6,Creature - Snake Hydra,True
+94560,PIO,"Elspeth, Sun's Champion",mythic,W,6,Legendary Planeswalker - Elspeth,True
+94523,PIO,Archaeomancer,common,U,4,Creature - Human Wizard,True
+94494,PIO,Gate Colossus,uncommon,,8,Artifact Creature - Construct,True
+94306,PIO,Tah-Crop Skirmisher,common,U,2,Creature - Snake Warrior,True
+94607,PIO,Void Shatter,common,U,3,Instant,True
+94331,PIO,Ob Nixilis Reignited,mythic,B,5,Legendary Planeswalker - Nixilis,True
+94359,PIO,Boulder Salvo,common,R,5,Sorcery,True
+94395,PIO,Wild Slash,common,R,1,Instant,True
+94579,PIO,Crumble to Dust,uncommon,R,4,Sorcery,True
+94497,PIO,Azorius Guildgate,common,UW,0,Land - Gate,True
+94283,PIO,Guild Summit,uncommon,U,3,Enchantment,True
+94280,PIO,Day's Undoing,mythic,U,3,Sorcery,True
+94526,PIO,Sphinx's Tutelage,uncommon,U,3,Enchantment,True
+94534,PIO,Fanatic of Mogis,uncommon,R,4,Creature - Minotaur Shaman,True
+94468,PIO,Lotleth Troll,rare,BG,2,Creature - Zombie Troll,True
+94276,PIO,Chasm Skulker,rare,U,3,Creature - Squid Horror,True
+94404,PIO,Boon Satyr,uncommon,G,3,Enchantment Creature - Satyr,True
+94298,PIO,Quicken,uncommon,U,1,Instant,True
+94599,PIO,Open the Armory,uncommon,W,2,Sorcery,True
+94422,PIO,Mistcutter Hydra,rare,G,1,Creature - Hydra,True
+94695,PIO,Turn // Burn,uncommon,RU,5,Instant,True
+94600,PIO,Reprisal,uncommon,W,2,Instant,True
+94466,PIO,Imperious Oligarch,common,BW,2,Creature - Human Cleric,True
+94689,PIO,Protect // Serve,uncommon,UW,5,Instant,True
+94329,PIO,Nantuko Husk,common,B,3,Creature - Zombie Insect,True
+94469,PIO,Loxodon Smiter,uncommon,GW,3,Creature - Elephant Soldier,True
+94338,PIO,Rescue from the Underworld,uncommon,B,5,Instant,True
+94438,PIO,Voyaging Satyr,common,G,2,Creature - Satyr Druid,True
+94604,PIO,Enter the Infinite,mythic,U,12,Sorcery,True
+94232,PIO,Chained to the Rocks,rare,W,1,Enchantment - Aura,True
+94626,PIO,Render Silent,rare,UW,3,Instant,True
+94285,PIO,Illusory Angel,uncommon,U,3,Creature - Angel Illusion,True
+94544,PIO,"Ephara, God of the Polis",mythic,UW,4,Legendary Enchantment Creature - God,True
+94250,PIO,Lagonna-Band Trailblazer,common,W,1,Creature - Centaur Scout,True
+94378,PIO,Legion Loyalist,rare,R,1,Creature - Goblin Soldier,True
+94435,PIO,Sylvan Caryatid,rare,G,2,Creature - Plant,True
+94616,PIO,Radiant Flames,rare,R,3,Sorcery,True
+94390,PIO,Scourge of Valkas,rare,R,5,Creature - Dragon,True
+94501,PIO,Gateway Plaza,common,,0,Land - Gate,True
+94360,PIO,Boundary Lands Ranger,common,R,2,Creature - Human Ranger,True
+94483,PIO,Steam Augury,uncommon,RU,4,Instant,True
+94348,PIO,Ubul Sar Gatekeepers,uncommon,B,4,Creature - Zombie Soldier,True
+94353,PIO,Xathrid Necromancer,rare,B,3,Creature - Human Wizard,True
+94522,PIO,Wingsteed Rider,common,W,3,Creature - Human Knight,True
+94343,PIO,Soulflayer,rare,B,6,Creature - Demon,True
+94233,PIO,Compulsory Rest,common,W,2,Enchantment - Aura,True
+94535,PIO,"Purphoros, God of the Forge",mythic,R,4,Legendary Enchantment Creature - God,True
+94282,PIO,Fallaji Archaeologist,common,U,2,Creature - Human Scout,True
+94373,PIO,Goblin Rabblemaster,rare,R,3,Creature - Goblin Warrior,True
+94352,PIO,Whip of Erebos,rare,B,4,Legendary Enchantment Artifact,True
+94597,PIO,The Chain Veil,mythic,,4,Legendary Artifact,True
+94237,PIO,Ghostblade Eidolon,common,W,3,Enchantment Creature - Spirit,True
+94312,PIO,Baleful Eidolon,common,B,2,Enchantment Creature - Spirit,True
+94268,PIO,Triplicate Spirits,uncommon,W,6,Sorcery,True
+94242,PIO,Imposing Sovereign,uncommon,W,2,Creature - Human Noble,True
+94300,PIO,Scatter to the Winds,uncommon,U,3,Instant,True
+94470,PIO,Lyev Skyknight,common,UW,3,Creature - Human Knight,True
+94620,PIO,Hunter's Prowess,rare,G,5,Sorcery,True
+94559,PIO,Call the Gatewatch,uncommon,W,3,Sorcery,True
+94253,PIO,Mentor of the Meek,uncommon,W,3,Creature - Human Soldier,True
+94254,PIO,Phalanx Leader,uncommon,W,2,Creature - Human Soldier,True
+94553,PIO,Nightveil Specter,uncommon,BU,3,Creature - Specter,True
+94529,PIO,Disciple of Phenax,common,B,4,Creature - Human Cleric,True
+94568,PIO,"Jace, Architect of Thought",mythic,U,4,Legendary Planeswalker - Jace,True
+94692,PIO,Toil // Trouble,uncommon,BR,6,Sorcery,True
+94485,PIO,Swift Warkite,uncommon,BR,6,Creature - Dragon,True
+94307,PIO,Temporal Trespass,mythic,U,11,Sorcery,True
+94349,PIO,Ultimate Price,uncommon,B,2,Instant,True
+94256,PIO,Secure the Wastes,rare,W,1,Instant,True
+94589,PIO,Stampeding Elk Herd,common,G,5,Creature - Elk,True
+94227,PIO,Archway Angel,uncommon,W,6,Creature - Angel,True
+94368,PIO,Fall of the Hammer,common,R,2,Instant,True
+94223,PIO,Bane of Bala Ged,uncommon,,7,Creature - Eldrazi,True
+94301,PIO,Shipbreaker Kraken,uncommon,U,6,Creature - Kraken,True
+94442,PIO,Ashen Rider,rare,BW,8,Creature - Archon,True
+94594,PIO,Narset Transcendent,mythic,UW,4,Legendary Planeswalker - Narset,True
+94477,PIO,Progenitor Mimic,mythic,GU,6,Creature - Shapeshifter,True
+94403,PIO,Bassara Tower Archer,uncommon,G,2,Creature - Human Archer,True
+94478,PIO,"Ruric Thar, the Unbowed",rare,GR,6,Legendary Creature - Ogre Warrior,True
+94400,PIO,Audacity,common,G,1,Enchantment - Aura,True
+94293,PIO,Mizzium Skin,common,U,1,Instant,True
+94372,PIO,Ghirapur Gearcrafter,common,R,3,Creature - Human Artificer,True
+94462,PIO,Epic Experiment,mythic,RU,2,Sorcery,True
+94549,PIO,"Karametra, God of Harvests",mythic,GW,5,Legendary Enchantment Creature - God,True
+94499,PIO,Dimir Guildgate,common,BU,0,Land - Gate,True
+94231,PIO,Celestial Archon,uncommon,W,5,Enchantment Creature - Archon,True
+94433,PIO,Shamanic Revelation,rare,G,5,Sorcery,True
+94310,PIO,Windrider Patrol,common,U,5,Creature - Merfolk Wizard,True
+94241,PIO,Hopeful Eidolon,uncommon,W,1,Enchantment Creature - Spirit,True
+94273,PIO,Artisan of Forms,uncommon,U,2,Creature - Human Wizard,True
+94315,PIO,Blackbloom Rogue,uncommon,B,3,Creature - Human Rogue,True
+94418,PIO,Khalni Ambush,common,G,3,Instant,True
+94323,PIO,Dreadhound,uncommon,B,6,Creature - Demon Dog,True
+94574,PIO,Liliana Vess,mythic,B,5,Legendary Planeswalker - Liliana,True
+94275,PIO,Brineborn Cutthroat,uncommon,U,2,Creature - Merfolk Pirate,True
+94459,PIO,Dragonlord Silumgar,mythic,BU,6,Legendary Creature - Elder Dragon,True
+94313,PIO,Basilica Screecher,common,B,2,Creature - Bat,True
+94235,PIO,Extricator of Sin,uncommon,W,3,Creature - Human Cleric,True
+94489,PIO,Unflinching Courage,uncommon,GW,3,Enchantment - Aura,True
+94333,PIO,Painful Truths,rare,B,3,Sorcery,True
+94465,PIO,Ghor-Clan Rampager,uncommon,GR,4,Creature - Beast,True
+94476,PIO,Possessed Skaab,common,BU,5,Creature - Zombie,True
+94265,PIO,Steward of Solidarity,uncommon,W,2,Creature - Human Warrior,True
+94503,PIO,Gruul Guildgate,common,GR,0,Land - Gate,True
+94567,PIO,Hidden Strings,uncommon,U,2,Sorcery,True
+94321,PIO,Devour Flesh,common,B,2,Instant,True
+94624,PIO,Jarad's Orders,rare,BG,4,Sorcery,True
+94448,PIO,Bring to Light,rare,GU,5,Sorcery,True
+94229,PIO,Dizzying Swoop,common,W,2,Instant - Adventure,False
+94236,PIO,Extricator of Flesh,uncommon,W,0,Creature - Eldrazi Horror,False
+94244,PIO,Kabira Plateau,uncommon,W,0,Land,False
+94249,PIO,"Gideon, Battle-Forged",mythic,W,0,Legendary Planeswalker - Gideon,False
+94258,PIO,Sejiri Glacier,common,W,0,Land,False
+94288,PIO,"Jace, Telepath Unbound",mythic,U,0,Legendary Planeswalker - Jace,False
+94291,PIO,Jwari Ruins,uncommon,U,0,Land,False
+94304,PIO,Silundi Isle,common,U,0,Land,False
+94316,PIO,Blackbloom Bog,uncommon,B,0,Land,False
+94328,PIO,"Liliana, Defiant Necromancer",mythic,B,0,Legendary Planeswalker - Liliana,False
+94335,PIO,Pelakka Caverns,common,B,0,Land,False
+94356,PIO,Akoum Teeth,common,R,0,Land,False
+94388,PIO,Boulder Rush,common,R,1,Instant - Adventure,False
+94394,PIO,Valakut Stoneforge,uncommon,R,0,Land,False
+94402,PIO,Bala Ged Sanctuary,uncommon,G,0,Land,False
+94419,PIO,Khalni Territory,common,G,0,Land,False
+94426,PIO,"Nissa, Sage Animist",mythic,G,0,Legendary Planeswalker - Nissa,False
+94672,PIO,Alive,uncommon,GW,4,Sorcery,False
+94673,PIO,Well,uncommon,GW,1,Sorcery,False
+94675,PIO,Armed,uncommon,GR,2,Sorcery,False
+94676,PIO,Dangerous,uncommon,GR,4,Sorcery,False
+94678,PIO,Down,uncommon,BG,4,Sorcery,False
+94679,PIO,Dirty,uncommon,BG,3,Sorcery,False
+94681,PIO,Far,uncommon,BU,2,Instant,False
+94682,PIO,Away,uncommon,BU,3,Instant,False
+94684,PIO,Give,uncommon,GU,3,Sorcery,False
+94685,PIO,Take,uncommon,GU,3,Sorcery,False
+94687,PIO,Profit,uncommon,BW,2,Instant,False
+94688,PIO,Loss,uncommon,BW,3,Instant,False
+94690,PIO,Protect,uncommon,UW,3,Instant,False
+94691,PIO,Serve,uncommon,UW,2,Instant,False
+94693,PIO,Toil,uncommon,BR,3,Sorcery,False
+94694,PIO,Trouble,uncommon,BR,3,Sorcery,False
+94696,PIO,Turn,uncommon,RU,3,Instant,False
+94697,PIO,Burn,uncommon,RU,2,Instant,False
+94699,PIO,Wear,uncommon,RW,2,Instant,False
+94700,PIO,Tear,uncommon,RW,1,Instant,False
+95284,TPIO,Spirit,token,,0,Creature - Spirit,False
+95285,TPIO,Plant,token,,0,Creature - Plant,False
+95286,TPIO,Elemental,token,,0,Creature - Elemental,False
+95287,TPIO,Snake,token,,0,Enchantment Creature - Snake,False
+95288,TPIO,Harpy,token,,0,Creature - Harpy,False
+95289,TPIO,Bird Illusion,token,,0,Creature - Bird Illusion,False
+95290,TPIO,Squid,token,,0,Creature - Squid,False
+95291,TPIO,Eldrazi Scion,token,,0,Creature - Eldrazi Scion,False
+95292,TPIO,Eldrazi Scion,token,,0,Creature - Eldrazi Scion,False
+95294,TPIO,Thopter,token,,0,Artifact Creature - Thopter,False
+95295,TPIO,Citizen,token,,0,Creature - Citizen,False
+95296,TPIO,Insect,token,,0,Creature - Insect,False
+95297,TPIO,Goblin,token,,0,Creature - Goblin,False
+95298,TPIO,Soldier,token,,0,Creature - Soldier,False
+95299,TPIO,Soldier,token,,0,Creature - Soldier,False
+95300,TPIO,Kor Ally,token,,0,Creature - Kor Ally,False
+95301,TPIO,Soldier,token,,0,Creature - Soldier,False
+95302,TPIO,Spirit,token,,0,Creature - Spirit,False
+95303,TPIO,Warrior,token,,0,Creature - Warrior,False
+95304,TPIO,Warrior,token,,0,Creature - Warrior,False
+95305,TPIO,Cleric,token,,0,Enchantment Creature - Cleric,False
+95306,TPIO,Zombie,token,,0,Creature - Zombie,False
+95307,TPIO,Satyr,token,,0,Creature - Satyr,False
+95308,TPIO,Knight,token,,0,Creature - Knight,False
+95309,TPIO,Knight Ally,token,,0,Creature - Knight Ally,False
+95310,TPIO,Elemental,token,,0,Creature - Elemental,False
+95311,TPIO,Eldrazi Horror,token,,0,Creature - Eldrazi Horror,False
+95312,TPIO,Beast,token,,0,Creature - Beast,False
+95313,TPIO,Centaur,token,,0,Creature - Centaur,False
+95314,TPIO,Frog Lizard,token,,0,Creature - Frog Lizard,False
+95315,TPIO,Angel,token,,0,Creature - Angel,False
+95316,TPIO,Dragon,token,,0,Creature - Dragon,False
+95317,TPIO,Demon,token,,0,Creature - Demon,False
+95318,TPIO,Octopus,token,,0,Creature - Octopus,False
+95319,TPIO,Kraken,token,,0,Creature - Kraken,False
+95320,TPIO,"Ashaya, the Awoken World",token,,0,Legendary Creature - Elemental,False
+95321,TPIO,Blood,token,,0,Artifact - Blood,False
+95322,TPIO,Treasure,token,,0,Artifact - Treasure,False
+95323,TPIO,Wicked,token,,0,Enchantment - Aura Role,False
+95324,TPIO,Elemental,token,,0,Creature - Elemental,False
+95325,TPIO,Ooze,token,,0,Creature - Ooze,False
+95326,TPIO,Heart-Piercer Manticore,token,,0,Creature - Zombie Manticore,False
+95327,TPIO,Honored Hydra,token,,0,Creature - Zombie Snake Hydra,False
+95328,TPIO,Tah-Crop Skirmisher,token,,0,Creature - Zombie Snake Warrior,False
+95846,ANA,Snow-Covered Plains,common,W,0,Basic Snow Land - Plains,False
+95847,ANA,Snow-Covered Island,common,U,0,Basic Snow Land - Island,False
+95848,ANA,Snow-Covered Swamp,common,B,0,Basic Snow Land - Swamp,False
+95849,ANA,Snow-Covered Mountain,common,R,0,Basic Snow Land - Mountain,False
+95850,ANA,Snow-Covered Forest,common,G,0,Basic Snow Land - Forest,False
+92843,TCMM,Treasure,token,,0,Artifact - Treasure,False
+92830,TCMM,Saproling,token,,0,Creature - Saproling,False
+92736,CMM,Storm-Kiln Artist,uncommon,R,4,Creature - Dwarf Shaman,False
+92768,CMM,Finale of Devastation,mythic,G,2,Sorcery,False
+92795,CMM,"Zacama, Primal Calamity",rare,GRW,9,Legendary Creature - Elder Dinosaur,False
+92772,CMM,"Kozilek, the Great Distortion",mythic,,10,Legendary Creature - Eldrazi,False
+92714,CMM,All That Glitters,common,W,2,Enchantment - Aura,False
+92782,CMM,"Neheb, the Eternal",mythic,R,5,Legendary Creature - Zombie Minotaur Warrior,False
+92722,CMM,Counterspell,common,U,2,Instant,False
+92755,CMM,Reliquary Tower,uncommon,,0,Land,False
+92790,CMM,"Slimefoot, the Stowaway",uncommon,BG,3,Legendary Creature - Fungus,False
+92791,CMM,"Tatyova, Benthic Druid",uncommon,GU,5,Legendary Creature - Merfolk Druid,False
+92792,CMM,Teysa Karlov,rare,BW,4,Legendary Creature - Human Advisor,False
+92761,CMM,Smothering Tithe,mythic,W,4,Enchantment,False
+92731,CMM,Grave Pact,mythic,B,4,Enchantment,False
+96351,UMA,"Urborg, Tomb of Yawgmoth",mythic,,0,Legendary Land,False
+76202,MH2,Arid Mesa,rare,,0,Land,False
+76205,MH2,Marsh Flats,rare,,0,Land,False
+76207,MH2,Misty Rainforest,rare,,0,Land,False
+76211,MH2,Scalding Tarn,rare,,0,Land,False
+76218,MH2,Verdant Catacombs,rare,,0,Land,False
