@@ -62,6 +62,7 @@ class DraftModel:
                 collection_vector, torch.ones(len(self.cardnames))
             )
         card_scores = card_scores_torch.reshape(-1).tolist() # List of scores. 
+        print("card_scores", type(card_scores[0]), card_scores)
 
         # Get card scores.
         min_score = min(card_scores)
@@ -72,10 +73,11 @@ class DraftModel:
             card_scores, name="card_scores"
         )  # index is card id
         cdf = pd.concat([card_score_series, self.pick_table["rarity"]], axis=1)
-        # print(cdf, type(cdf))
+        print("cdf", type(cdf), cdf)
         top_uncommon_score = (
             cdf[cdf["rarity"].isin(["common", "uncommon"])]["card_scores"].max() # .item()
         )
+        print("top_uncommon_score", type(top_uncommon_score), top_uncommon_score)
 
         # Scale top card to 5.0, top common/uncommon to 4.0.
         card_ratings = []
@@ -84,7 +86,7 @@ class DraftModel:
                 cr = 4.0 + (cs - top_uncommon_score) / (max_score - top_uncommon_score)
             else:
                 cr = 4.0 * (cs - min_score) / (top_uncommon_score - min_score)
-            print(type(cr), cr)
+            print("cr", type(cr), cr)
             card_ratings.append(cr)
             # card_ratings.append(cr.item())
 
