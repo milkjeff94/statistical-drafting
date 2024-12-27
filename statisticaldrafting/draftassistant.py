@@ -84,6 +84,7 @@ class DraftModel:
                 cr = 4.0 + (cs - top_uncommon_score) / (max_score - top_uncommon_score)
             else:
                 cr = 4.0 * (cs - min_score) / (top_uncommon_score - min_score)
+            print(type(cr), cr)
             card_ratings.append(cr)
             # card_ratings.append(cr.item())
 
