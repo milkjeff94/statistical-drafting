@@ -84,8 +84,10 @@ class DraftModel:
                 cr = 4.0 + (cs - top_uncommon_score) / (max_score - top_uncommon_score)
             else:
                 cr = 4.0 * (cs - min_score) / (top_uncommon_score - min_score)
-            card_ratings.append(cr.item())
-        
+            card_ratings.append(cr)
+            # card_ratings.append(cr.item())
+
+
         #todo: test uncommon logic
 
         # # Scale top card to 5.0. 
