@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 
 class DraftNet(nn.Module):
-    def __init__(self, cardnames, dropout=0.5):
+    def __init__(self, cardnames):
         """
         Simple MLP network to predict draft picks.
 
@@ -14,13 +14,15 @@ class DraftNet(nn.Module):
         """
         super(DraftNet, self).__init__()
 
-        hidden_dims = [400, 300]
+        hidden_dims = [400, 400]
 
         # Customize to given set.
         self.cardnames = cardnames
 
         # Input layer
         self.input_layer = nn.Linear(len(self.cardnames), hidden_dims[0])
+        self.dropout_input = nn.Dropout(0.6)
+        self.dropout_layer = nn.Dropout(0.6)
 
         # Hidden layers
         self.hidden_layers = nn.ModuleList(
@@ -33,19 +35,17 @@ class DraftNet(nn.Module):
 
         # Normalization and regularization
         self.norms = nn.ModuleList(nn.BatchNorm1d(dim) for dim in hidden_dims[1:])
-        self.dropout = nn.Dropout(dropout)
 
     def forward(self, x, pack):
         # Input layer
         x = self.input_layer(x)
-        x = F.gelu(x)  # Activation function
-        x = self.dropout(x)
+        x = self.dropout_input(x) # Try to get rid of this. 
 
         # Hidden layers
         for layer, norm in zip(self.hidden_layers, self.norms):
             x = layer(x)
             x = F.gelu(x)
-            x = self.dropout(x)
+            x = self.dropout_layer(x)
 
             # Apply BatchNorm1d (ensure correct shape: [batch_size, num_features])
             x = norm(x)

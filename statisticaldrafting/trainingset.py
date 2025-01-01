@@ -7,6 +7,7 @@ from typing import List, Tuple
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from sklearn.model_selection import train_test_split
 import torch
 from torch.utils.data import DataLoader, Dataset
 
@@ -226,13 +227,24 @@ def create_dataset(
     pools = pd.concat(pool_chunks, ignore_index=True)
 
     # Create train and validation datasets.
-    tsize = round(len(pools) * train_fraction)
+    pools_train, pools_test, packs_train, packs_test, picks_train, picks_test = train_test_split(
+        pools, packs, picks, test_size=0.2, random_state=42
+    )
     pick_train_dataset = PickDataset(
-        pools[:tsize].values, packs[:tsize].values, picks[:tsize], cardnames, rarities
+        pools_train.values, packs_train.values, picks_train, cardnames, rarities
     )
     pick_val_dataset = PickDataset(
-        pools[tsize:].values, packs[tsize:].values, picks[tsize:], cardnames, rarities
+        pools_test.values, packs_test.values, picks_test, cardnames, rarities
     )
+
+    # Previous train/test split - segmented by time. 
+    # tsize = round(len(pools) * train_fraction)
+    # pick_train_dataset = PickDataset(
+    #     pools[:tsize].values, packs[:tsize].values, picks[:tsize], cardnames, rarities
+    # )
+    # pick_val_dataset = PickDataset(
+    #     pools[tsize:].values, packs[tsize:].values, picks[tsize:], cardnames, rarities
+    # )
 
     # Serialize updated datasets.
     if not os.path.exists(data_folder_training_set):

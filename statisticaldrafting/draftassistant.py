@@ -79,7 +79,7 @@ class DraftModel:
         # Scale top card to 5.0, top common/uncommon to 4.0.
         card_ratings = []
         for cs in card_scores:
-            if cs >= top_uncommon_score:
+            if cs >= top_uncommon_score and top_uncommon_score != max_score: #
                 cr = 4.0 + (cs - top_uncommon_score) / (max_score - top_uncommon_score)
             else:
                 cr = 4.0 * (cs - min_score) / (top_uncommon_score - min_score)

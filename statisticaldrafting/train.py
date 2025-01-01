@@ -31,7 +31,7 @@ def evaluate_model(val_dataloader, network):
 
     # Return and print result.
     percent_correct = 100 * num_correct / (num_correct + num_incorrect)
-    print(f"Validation set pick accuracy = {round(percent_correct, 1)}%")
+    print(f"Validation set pick accuracy = {round(percent_correct, 2)}%")
     return percent_correct
 
 
@@ -39,7 +39,7 @@ def train_model(
     train_dataloader: DataLoader,
     val_dataloader: DataLoader,
     network: torch.nn.Module,
-    learning_rate: float = 0.01,
+    learning_rate: float = 0.03,
     experiment_name: str = "test",
     model_folder: str = "../data/models/",
 ):
@@ -49,7 +49,7 @@ def train_model(
     # Optimizer parameters.
     # loss_fn = torch.nn.CrossEntropyLoss() # Previous implementation. 
     loss_fn = torch.nn.CrossEntropyLoss(reduction='none')
-    optimizer = optim.Adam(network.parameters(), lr=learning_rate)
+    optimizer = optim.Adam(network.parameters(), lr=learning_rate) # , weight_decay=1e-5)
 
     # Initial evaluation.
     print(f"Starting to train model. learning_rate={learning_rate}")
@@ -59,10 +59,11 @@ def train_model(
     t0 = time.time()
     time_last_message = t0
     epoch = 0
-    while (epoch - best_epoch) <= 20:
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.94) # added
+    while (epoch - best_epoch) <= 40:
         network.train()
         epoch_training_loss = list()
-        print(f"\nStarting epoch {epoch}")
+        print(f"\nStarting epoch {epoch}  lr={round(scheduler.get_last_lr()[0], 5)}")
         for i, (pool, pack, pick_vector) in enumerate(train_dataloader):
             optimizer.zero_grad()
             predicted_pick = network(pool.float(), pack.float())
@@ -82,7 +83,7 @@ def train_model(
             prediction_rarities = [rarities[i] for i in torch.argmax(predicted_pick, dim=1).tolist()]
             pick_rarities = [rarities[i] for i in torch.argmax(pick_vector.int(), dim=1).tolist()]
             is_raredraft = [(pick in ["common", "uncommon"]) and (pred not in ["common", "uncommon"]) for pick, pred in zip(pick_rarities, prediction_rarities)]
-            raredraft_weight = torch.Tensor([5 if rd else 1 for rd in is_raredraft]) # Raredraft penalty here. 
+            raredraft_weight = torch.Tensor([3 if rd else 1 for rd in is_raredraft]) # Raredraft penalty here. 
             weighted_loss = loss_per_example * raredraft_weight
             final_loss = weighted_loss.mean()
             final_loss.backward()
@@ -115,7 +116,8 @@ def train_model(
                 print(f"Saving model weights to {weights_path}")
                 torch.save(network.state_dict(), weights_path)
         epoch += 1
-    print(f"Training complete. Time={round(time.time()-t0)} seconds")
+        scheduler.step() # Update learning rate. 
+    print(f"Training complete for {weights_path}. Best performance={round(best_percent_correct, 2)}% Time={round(time.time()-t0)} seconds\n")
     return network
 
 
