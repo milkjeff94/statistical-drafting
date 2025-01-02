@@ -59,22 +59,23 @@ class DraftModel:
         collection_vector = self.get_collection_vector(collection)
         print(f"collection_vector {type(collection_vector)} {collection_vector}")
 
-
         # Get raw card scores.
         self.network.eval()
         with torch.no_grad():
             card_scores_torch = self.network(
                 collection_vector, torch.ones(len(self.cardnames))
             )
-        card_scores = card_scores_torch.reshape(-1).tolist() # List of scores. 
 
-        print(f"card_scores {type(card_scores)} {card_scores}")
+        card_score_series = pd.Series(card_scores_torch.reshape(-1), name="scores").astype("float")
+        # card_scores = card_scores_torch.reshape(-1).tolist() # List of scores. 
+
+        # print(f"card_scores {type(card_scores)} {card_scores}")
         # Get card scores.
         # min_score = float(min(card_scores))
         # max_score = float(max(card_scores))
 
         # Get card scores.
-        card_score_series = pd.Series(card_scores, name="scores")  # index is card id
+        # card_score_series = pd.Series(card_scores, name="scores")  # index is card id
 
         # New rating logic - average card in set is 50.0. 
         mean = card_score_series.mean()
