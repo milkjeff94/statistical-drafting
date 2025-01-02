@@ -4,6 +4,7 @@ from typing import List, Union
 
 warnings.filterwarnings("ignore")
 
+import numpy as np
 import pandas as pd
 import torch
 
@@ -50,7 +51,7 @@ class DraftModel:
 
     def get_card_ratings(self, collection: List[Union[str, int]]) -> pd.Series:
         """
-        Get card ratings (0.00-5.00) for input collection.
+        Get card ratings (0.0-100.0) for input collection.
         """
         # Create collection vector.
         collection_vector = self.get_collection_vector(collection)
@@ -68,29 +69,13 @@ class DraftModel:
         max_score = float(max(card_scores))
 
         # Get card scores.
-        card_score_series = pd.Series(
-            card_scores, name="card_scores"
-        )  # index is card id
-        cdf = pd.concat([card_score_series, self.pick_table["rarity"]], axis=1)
-        top_uncommon_score = (
-            cdf[cdf["rarity"].isin(["common", "uncommon"])]["card_scores"].max() # .item()
-        )
+        card_score_series = pd.Series(card_scores)  # index is card id
 
-        # Scale top card to 5.0, top common/uncommon to 4.0.
-        card_ratings = []
-        for cs in card_scores:
-            if cs >= top_uncommon_score and top_uncommon_score != max_score: #
-                cr = 4.0 + (cs - top_uncommon_score) / (max_score - top_uncommon_score)
-            else:
-                cr = 4.0 * (cs - min_score) / (top_uncommon_score - min_score)
-            card_ratings.append(cr)
-
-        # Return card ratings.
-        rounded_card_ratings = pd.Series(
-            [round(cr, 2) for cr in card_ratings],
-            name="rating",
-        )  # index is card id.
-        return rounded_card_ratings
+        # New rating logic - average card in set is 50.0. 
+        mean = card_score_series.mean().item()
+        std = card_score_series.std().item()
+        rating = 100 / (1 + np.exp(-1.2 * (card_score_series - mean) / std)) # Scale cards 0-100. 
+        return pd.Series(round(rating, 1), name="rating")
 
     def get_pick_order(self, collection: List[Union[str, int]]) -> pd.DataFrame:
         """Returns pick order table for collection."""

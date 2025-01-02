@@ -19,15 +19,15 @@
 ## Methodology
 - Network architecture (simple MLP)
 - Training details (loss details, learning rates, batch norm)
-- Description of draft assistant (full pick orders, )
+- Description of draft assistant (full pick orders, etc)
 
 ## Results
 - Training results for all sets (set name, draft mode, num examples, validation accuracy)
 
 ## Discussion
-- Quirks of the dataset (rare-drafting, )
+- Quirks of the dataset (rare-drafting, etc)
 - Examples of synergies (Hare Apparent, etc)
-- Examples from assistantes (draft assistant, draft review, deckbuild assistant)
+- Examples from assistants (draft assistant, draft review, deckbuild assistant)
 
 ## Conclusions
 - Goal of project is to make drafting AI more available to the MTG community
