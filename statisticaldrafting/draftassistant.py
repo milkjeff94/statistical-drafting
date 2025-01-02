@@ -34,6 +34,7 @@ class DraftModel:
 
     def get_collection_vector(self, collection: List[Union[str, int]]) -> torch.Tensor:
         """Get a collection vector from a list of cardnames and card_ids"""
+        print("Getting collection vector")
         collection_vector = torch.zeros([1, len(self.cardnames)])
         for card in collection:
             if type(card) is str:
@@ -53,8 +54,11 @@ class DraftModel:
         """
         Get card ratings (0.0-100.0) for input collection.
         """
+        print("Getting card ratings")
         # Create collection vector.
         collection_vector = self.get_collection_vector(collection)
+        print(f"collection_vector {type(collection_vector)} {collection_vector}")
+
 
         # Get raw card scores.
         self.network.eval()
