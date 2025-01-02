@@ -72,8 +72,8 @@ class DraftModel:
         card_score_series = pd.Series(card_scores)  # index is card id
 
         # New rating logic - average card in set is 50.0. 
-        mean = card_score_series.mean().item()
-        std = card_score_series.std().item()
+        mean = card_score_series.mean()
+        std = card_score_series.std()
         rating = 100 / (1 + np.exp(-1.2 * (card_score_series - mean) / std)) # Scale cards 0-100. 
         return pd.Series(round(rating, 1), name="rating")
 
