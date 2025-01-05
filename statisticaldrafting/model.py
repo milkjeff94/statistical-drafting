@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 
 class DraftNet(nn.Module):
-    def __init__(self, cardnames):
+    def __init__(self, cardnames, dropout_input=0.6):
         """
         Simple MLP network to predict draft picks.
 
@@ -21,7 +21,7 @@ class DraftNet(nn.Module):
 
         # Input layer
         self.input_layer = nn.Linear(len(self.cardnames), hidden_dims[0])
-        self.dropout_input = nn.Dropout(0.6)
+        self.dropout_input = nn.Dropout(dropout_input)
         self.dropout_layer = nn.Dropout(0.6)
 
         # Hidden layers

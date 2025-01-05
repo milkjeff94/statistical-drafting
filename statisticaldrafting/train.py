@@ -125,6 +125,7 @@ def default_training_pipeline(
     set_abbreviation: str,
     draft_mode: str,
     overwrite_dataset: str = True,
+    dropout_input: float=0.6
 ) -> None:
     """
     End to end training pipeline using default values.
@@ -150,7 +151,7 @@ def default_training_pipeline(
     val_dataloader = DataLoader(val_dataset, batch_size=1, shuffle=False)
 
     # Train network.
-    network = sd.DraftNet(cardnames=train_dataset.cardnames)
+    network = sd.DraftNet(cardnames=train_dataset.cardnames, dropout_input=dropout_input)
 
     sd.train_model(
         train_dataloader,
