@@ -1161,7 +1161,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 68323,TM19,Beast,token,,0,Creature - Beast,False
 68324,TM19,Elf Warrior,token,,0,Creature - Elf Warrior,False
 68325,TM19,Thopter,token,,0,Artifact Creature - Thopter,False
-68326,ARENASUP,Factory of Momir Vig,mythic,,0,Legendary Artifact,False
+68326,ARENASUP,Factory of Momir Vig,mythic,,0,Artifact,False
 35569,WWK,Dragonmaster Outcast,mythic,R,1,Creature - Human Shaman,True
 35573,WWK,Death's Shadow,rare,B,1,Creature - Avatar,True
 68369,DOM,Firesong and Sunspeaker,rare,RW,6,Legendary Creature - Minotaur Cleric,False
@@ -2119,17 +2119,17 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 69742,TWAR,Citizen,token,,0,Creature - Citizen,False
 69743,TWAR,"Voja, Friend to Elves",token,,0,Legendary Creature - Wolf,False
 69744,TWAR,Servo,token,,0,Artifact Creature - Servo,False
-69746,ARENASUP,Maelstrom Nexus Emblem,mythic,,0,Legendary Artifact,False
-69761,ARENASUP,Omniscience Emblem,mythic,BGRUW,0,Legendary Artifact,False
+69746,ARENASUP,Maelstrom Nexus Emblem,mythic,,0,Artifact,False
+69761,ARENASUP,Omniscience Emblem,mythic,BGRUW,0,Artifact,False
 69762,WAR,Despark,uncommon,BW,2,Instant,True
 69763,WAR,Invade the City,uncommon,RU,3,Sorcery,True
 69764,WAR,Living Twister,rare,GR,3,Creature - Elemental,True
 69765,WAR,"Vraska, Swarm's Eminence",uncommon,BG,4,Legendary Planeswalker - Vraska,True
 69766,WAR,Blast Zone,rare,,0,Land,True
-69769,ARENASUP,Treasure Token Factory,mythic,,0,Legendary Artifact,False
-69775,ARENASUP,Pandemonium Emblem,mythic,,0,Legendary Artifact,False
+69769,ARENASUP,Treasure Token Factory,mythic,,0,Artifact,False
+69775,ARENASUP,Pandemonium Emblem,mythic,,0,Artifact,False
 69776,TARENASUP,Treasure,token,,0,Artifact - Treasure,False
-69777,ARENASUP,Giant Monsters Emblem,mythic,,0,Legendary Artifact,False
+69777,ARENASUP,Giant Monsters Emblem,mythic,,0,Artifact,False
 69780,GRN,Firemind's Research,rare,RU,2,Enchantment,False
 69781,DOM,Llanowar Elves,common,G,1,Creature - Elf Druid,False
 69784,TARENASUP,Abundant Falls,token,,0,Land,False
@@ -2491,7 +2491,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 70141,M19,Duress,common,B,1,Sorcery,False
 72556,JMP,Riptide Laboratory,rare,U,0,Land,True
 72557,JMP,Rupture Spire,common,,0,Land,True
-70146,ARENASUP,Overflowing Counters,mythic,,0,Legendary Artifact,False
+70146,ARENASUP,Overflowing Counters,mythic,,0,Artifact,False
 70148,ELD,Acclaimed Contender,rare,W,3,Creature - Human Knight,True
 70149,ELD,All That Glitters,uncommon,W,2,Enchantment - Aura,True
 70150,ELD,Archon of Absolution,uncommon,W,4,Creature - Archon,True
@@ -2841,7 +2841,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 70497,ELD,Seasonal Ritual,common,G,1,Sorcery - Adventure,False
 70498,ELD,Oaken Boon,common,G,4,Sorcery - Adventure,False
 70499,ELD,Bring Back,uncommon,GW,4,Sorcery - Adventure,False
-70500,ARENASUP,Landfall Satchel,mythic,,0,Legendary Artifact,False
+70500,ARENASUP,Landfall Satchel,mythic,,0,Artifact,False
 70501,ANA,Plains,basic,W,0,Basic Land - Plains,False
 70502,ANA,Island,basic,U,0,Basic Land - Island,False
 70503,ANA,Swamp,basic,B,0,Basic Land - Swamp,False
@@ -3151,7 +3151,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 70812,TTHB,Nightmare,token,,0,Creature - Nightmare,False
 70813,TTHB,Gold,token,,0,Artifact - Gold,False
 70814,TTHB,Wall,token,,0,Artifact Creature - Wall,False
-70815,ARENASUP,Oko's Whims,mythic,,0,Legendary Artifact,False
+70815,ARENASUP,Oko's Whims,mythic,,0,Artifact,False
 70826,TISD,Spider,token,,0,Creature - Spider,False
 70832,TTHS,Bird,token,,0,Creature - Bird,False
 38091,SOM,Inexorable Tide,rare,U,5,Enchantment,True
@@ -3430,7 +3430,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 71335,TIKO,Feather,token,,0,Artifact,False
 71336,TIKO,Beast,token,,0,Creature - Beast,False
 71337,TIKO,Dinosaur Beast,token,,0,Creature - Dinosaur Beast,False
-71340,ARENASUP,Extra Life,mythic,,0,Legendary Artifact,False
+71340,ARENASUP,Extra Life,mythic,,0,Artifact,False
 71341,IKO,"Zilortha, Strength Incarnate",mythic,GR,5,Legendary Creature - Dinosaur,False
 71345,MH1,Battle Screech,uncommon,W,4,Sorcery,True
 71347,MH1,Enduring Sliver,common,W,2,Creature - Sliver,True
@@ -4710,7 +4710,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 73529,IKO,"Vadrok, Apex of Thunder",mythic,RUW,3,Legendary Creature - Elemental Dinosaur Cat,False
 73530,IKO,"Gyruda, Doom of Depths",rare,BU,6,Legendary Creature - Demon Kraken,False
 73574,C20,Sawtusk Demolisher,rare,G,6,Creature - Beast,False
-73582,ARENASUP,Zombies!,mythic,,0,Legendary Artifact,False
+73582,ARENASUP,Zombies!,mythic,,0,Artifact,False
 79757,TNEO,Construct,token,,0,Artifact Creature - Construct,False
 79758,TNEO,Tamiyo's Notebook,token,,0,Legendary Artifact,False
 79759,TNEO,Treasure,token,,0,Artifact - Treasure,False
@@ -4837,7 +4837,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 73765,IKO,"Lukka, Coppercoat Outcast",mythic,R,5,Legendary Planeswalker - Lukka,False
 73766,IKO,"Vivien, Monsters' Advocate",mythic,G,5,Legendary Planeswalker - Vivien,False
 73767,IKO,Narset of the Ancient Way,mythic,RUW,4,Legendary Planeswalker - Narset,False
-73768,ARENASUP,Mastermind Emblem,mythic,,0,Legendary Artifact,False
+73768,ARENASUP,Mastermind Emblem,mythic,,0,Artifact,False
 73769,SLD,"Thalia, Guardian of Thraben",rare,W,2,Legendary Creature - Human Soldier,False
 73770,SLD,"Thalia, Guardian of Thraben",rare,W,2,Legendary Creature - Human Soldier,False
 73771,SLD,"Thalia, Guardian of Thraben",rare,W,2,Legendary Creature - Human Soldier,False
@@ -5362,10 +5362,10 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 75023,UST,Swamp,basic,B,0,Basic Land - Swamp,True
 75024,UST,Mountain,basic,R,0,Basic Land - Mountain,True
 75025,UST,Forest,basic,G,0,Basic Land - Forest,True
-75030,ARENASUP,Turbo Magic Emblem,mythic,,0,Legendary Artifact,False
+75030,ARENASUP,Turbo Magic Emblem,mythic,,0,Artifact,False
 75031,TJMP,Goat,token,,0,Creature - Goat,False
 75032,TJMP,Pegasus,token,,0,Creature - Pegasus,False
-75033,ARENASUP,Happy Yargle Day!,mythic,,0,Legendary Artifact,False
+75033,ARENASUP,Happy Yargle Day!,mythic,,0,Artifact,False
 75034,AKR,Dusk,rare,W,4,Sorcery,False
 75035,AKR,Regal Caracal,rare,W,5,Creature - Cat,False
 75036,KHM,Axgard Braggart,common,W,4,Creature - Dwarf Warrior,True
@@ -7726,7 +7726,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 78739,MID,Overgrown Farmland,rare,GW,0,Land,False
 78740,MID,Rockfall Vale,rare,GR,0,Land,False
 78741,MID,Shipwreck Marsh,rare,BU,0,Land,False
-78754,ARENASUP,On a Quest!,mythic,,0,Legendary Artifact,False
+78754,ARENASUP,On a Quest!,mythic,,0,Artifact,False
 78768,TAFR,Dungeon of the Mad Mage,token,,0,Dungeon,False
 78769,TAFR,Lost Mine of Phandelver,token,,0,Dungeon,False
 78770,TAFR,Tomb of Annihilation,token,,0,Dungeon,False
@@ -8343,12 +8343,12 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 79406,TJ21,Phyrexian Golem,token,,0,Artifact Creature - Phyrexian Golem,False
 79407,J21,Davriel Offers Ability Template,mythic,B,0,Artifact,False
 79408,J21,Davriel Conditions Ability Template,mythic,B,0,Artifact,False
-79409,ARENASUP,Mana Link Emblem,mythic,,0,Legendary Artifact,False
+79409,ARENASUP,Mana Link Emblem,mythic,,0,Artifact,False
 79411,TM20,Phyrexian Golem,token,,0,Artifact Creature - Phyrexian Golem,False
 79412,TMID,Day,token,,0,,False
 79413,TMID,Night,token,,0,,False
-79414,ARENASUP,Gift Bag Emblem,mythic,,0,Legendary Artifact,False
-79415,ARENASUP,Nightfall Emblem,mythic,,0,Legendary Artifact,False
+79414,ARENASUP,Gift Bag Emblem,mythic,,0,Artifact,False
+79415,ARENASUP,Nightfall Emblem,mythic,,0,Artifact,False
 79416,ANB,Arcane Signet,common,,2,Artifact,False
 79417,ANB,Command Tower,common,,0,Land,False
 79418,NEO,Ancestral Katana,common,W,2,Artifact - Equipment,True
@@ -8824,8 +8824,8 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 79893,SLD,Craterhoof Behemoth,mythic,G,8,Creature - Beast,False
 79894,SLD,Metalwork Colossus,rare,,11,Artifact Creature - Construct,False
 79895,SLD,Metalwork Colossus,rare,,11,Artifact Creature - Construct,False
-79898,ARENASUP,Bonds of Blood Emblem,mythic,,0,Legendary Artifact,False
-79899,ARENASUP,Slowdown Emblem,mythic,,0,Legendary Artifact,False
+79898,ARENASUP,Bonds of Blood Emblem,mythic,,0,Artifact,False
+79899,ARENASUP,Slowdown Emblem,mythic,,0,Artifact,False
 79900,IKO,"Zilortha, Strength Incarnate",mythic,GR,5,Legendary Creature - Dinosaur,False
 79901,SLD,Plains,basic,W,0,Basic Land - Plains,False
 79902,SLD,Island,basic,U,0,Basic Land - Island,False
@@ -9610,9 +9610,9 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 81163,Y22,Forest,basic,G,0,Basic Land - Forest,False
 81164,NEO,"Jin-Gitaxias, Progress Tyrant",mythic,U,7,Legendary Creature - Phyrexian Praetor,False
 81165,NEO,"Tamiyo, Compleated Sage",mythic,GU,5,Legendary Planeswalker - Tamiyo,False
-81166,ARENASUP,High Score Emblem,mythic,,0,Legendary Artifact,False
-81167,ARENASUP,Out of the Shadows Emblem,mythic,,0,Legendary Artifact,False
-81168,ARENASUP,Studying the Blade Emblem,mythic,,0,Legendary Artifact,False
+81166,ARENASUP,High Score Emblem,mythic,,0,Artifact,False
+81167,ARENASUP,Out of the Shadows Emblem,mythic,,0,Artifact,False
+81168,ARENASUP,Studying the Blade Emblem,mythic,,0,Artifact,False
 81184,STX,A-Divide by Zero,uncommon,U,3,Instant,False
 81185,AFR,A-Cloister Gargoyle,uncommon,W,2,Artifact Creature - Gargoyle,False
 81186,AFR,A-Cloister Gargoyle,uncommon,W,2,Artifact Creature - Gargoyle,False
@@ -9646,9 +9646,9 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 81217,MID,A-Falcon Abomination,common,U,3,Creature - Zombie Bird,False
 81218,MID,A-Hobbling Zombie,common,B,2,Creature - Zombie,False
 81219,AFR,A-Sepulcher Ghoul,common,B,2,Creature - Zombie,False
-81220,ARENASUP,Brokers Emblem,mythic,,0,Legendary Artifact,False
-81221,ARENASUP,Cabaretti Emblem,mythic,,0,Legendary Artifact,False
-81222,ARENASUP,Obscura Emblem,mythic,,0,Legendary Artifact,False
+81220,ARENASUP,Brokers Emblem,mythic,,0,Artifact,False
+81221,ARENASUP,Cabaretti Emblem,mythic,,0,Artifact,False
+81222,ARENASUP,Obscura Emblem,mythic,,0,Artifact,False
 81230,Y22,A-Blood Artist,uncommon,B,2,Creature - Vampire,True
 48499,INV,"Hanna, Ship's Navigator",rare,UW,3,Legendary Creature - Human Artificer,True
 42284,ISD,Silent Departure,common,U,1,Sorcery,True
@@ -10782,7 +10782,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 83504,MID,A-The Meathook Massacre,mythic,B,2,Legendary Enchantment,False
 83506,VOW,A-Sigardian Paladin,uncommon,GW,3,Creature - Human Knight,False
 83505,Y22,A-Cauldron Familiar,uncommon,B,1,Creature - Cat,True
-82938,ARENASUP,Reign of Dragons Emblem,mythic,,0,Legendary Artifact,False
+82938,ARENASUP,Reign of Dragons Emblem,mythic,,0,Artifact,False
 46669,AVR,"Avacyn, Angel of Hope",mythic,W,8,Legendary Creature - Angel,True
 55043,BNG,Searing Blood,uncommon,R,2,Instant,True
 83000,C18,Retrofitter Foundry,rare,,1,Artifact,False
@@ -11392,8 +11392,8 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 79887,SLD,Fatal Push,rare,B,1,Instant,False
 79888,SLD,Anger of the Gods,rare,R,3,Sorcery,False
 79889,SLD,Explore,rare,G,2,Sorcery,False
-83512,ARENASUP,You Are What You Eat,mythic,,0,Legendary Artifact,False
-83513,ARENASUP,Sleeper Agents,mythic,,0,Legendary Artifact,False
+83512,ARENASUP,You Are What You Eat,mythic,,0,Artifact,False
+83513,ARENASUP,Sleeper Agents,mythic,,0,Artifact,False
 82841,BRR,Precursor Golem,rare,,5,Artifact Creature - Golem,True
 82814,BRR,Elsewhere Flask,uncommon,,2,Artifact,True
 82827,BRR,Liquimetal Coating,uncommon,,2,Artifact,True
@@ -12506,11 +12506,11 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 86494,TY23,Phyrexian Golem,token,,0,Artifact Creature - Phyrexian Golem,False
 86495,TY23,Phyrexian Mite,token,,0,Artifact Creature - Phyrexian Mite,False
 86459,SNC,Vivien on the Hunt,mythic,G,6,Legendary Planeswalker - Vivien,False
-85664,ARENASUP,Surgical Bay Emblem,mythic,,0,Legendary Artifact,False
-85665,ARENASUP,Dross Pits Emblem,mythic,,0,Legendary Artifact,False
-85666,ARENASUP,Fair Basilica Emblem,mythic,,0,Legendary Artifact,False
-85662,ARENASUP,Autonomous Furnace Emblem,mythic,,0,Legendary Artifact,False
-85663,ARENASUP,Hunter Maze Emblem,mythic,,0,Legendary Artifact,False
+85664,ARENASUP,Surgical Bay Emblem,mythic,,0,Artifact,False
+85665,ARENASUP,Dross Pits Emblem,mythic,,0,Artifact,False
+85666,ARENASUP,Fair Basilica Emblem,mythic,,0,Artifact,False
+85662,ARENASUP,Autonomous Furnace Emblem,mythic,,0,Artifact,False
+85663,ARENASUP,Hunter Maze Emblem,mythic,,0,Artifact,False
 86669,SIS,Spider Spawning,uncommon,BG,5,Sorcery,True
 86652,SIS,Devil's Play,rare,R,1,Sorcery,True
 86448,SIS,Vessel of Endless Rest,uncommon,,3,Artifact,True
@@ -14658,9 +14658,9 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 90184,Y24,Third Little Pig,uncommon,BG,2,Creature - Boar,False
 90185,Y24,Golden Egg,common,,2,Artifact - Food,False
 90186,Y24,Brawler's Plate,uncommon,,3,Artifact - Equipment,False
-90112,ARENASUP,Season of Growth Emblem,mythic,,0,Legendary Artifact,False
-90113,ARENASUP,Dark Tutelage Emblem,mythic,,0,Legendary Artifact,False
-90114,ARENASUP,Storm of Saruman Emblem,mythic,,0,Legendary Artifact,False
+90112,ARENASUP,Season of Growth Emblem,mythic,,0,Artifact,False
+90113,ARENASUP,Dark Tutelage Emblem,mythic,,0,Artifact,False
+90114,ARENASUP,Storm of Saruman Emblem,mythic,,0,Artifact,False
 87254,LCI,Greedy Freebooter,common,B,1,Creature - Human Pirate,True
 87263,LCI,Screaming Phantom,common,B,3,Creature - Spirit,True
 87413,LCI,Contested Game Ball,uncommon,,2,Artifact,True
@@ -15057,8 +15057,8 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 90236,REX,Island,basic,U,0,Basic Land - Island,False
 90242,REX,Forest,basic,G,0,Basic Land - Forest,False
 90243,REX,Forest,basic,G,0,Basic Land - Forest,False
-90345,ARENASUP,The Immortal Sun Emblem,mythic,,0,Legendary Artifact,False
-90346,ARENASUP,"Chimil, the Inner Sun Emblem",mythic,,0,Legendary Artifact,False
+90345,ARENASUP,The Immortal Sun Emblem,mythic,,0,Artifact,False
+90346,ARENASUP,"Chimil, the Inner Sun Emblem",mythic,,0,Artifact,False
 90772,LCC,"Admiral Brass, Unsinkable",mythic,BRU,5,Legendary Creature - Human Pirate,False
 90775,LCC,"Pantlaza, Sun-Favored",mythic,GRW,5,Legendary Creature - Dinosaur,True
 90773,LCC,"Clavileño, First of the Blessed",mythic,BW,3,Legendary Creature - Vampire Cleric,False
@@ -16217,9 +16217,9 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 90697,TBIG,Golem,token,,0,Artifact Creature - Golem,False
 90698,TBIG,Map,token,,0,Artifact - Map,False
 91485,TBIG,Clue,token,,0,Artifact - Clue,False
-91904,ARENASUP,"Lilah, Undefeated Slickshot Emblem",mythic,,0,Legendary Artifact,False
-91905,ARENASUP,"Malcolm, the Eyes Emblem",mythic,,0,Legendary Artifact,False
-91903,ARENASUP,"Bonny Pall, Clearcutter Emblem",mythic,,0,Legendary Artifact,False
+91904,ARENASUP,"Lilah, Undefeated Slickshot Emblem",mythic,,0,Artifact,False
+91905,ARENASUP,"Malcolm, the Eyes Emblem",mythic,,0,Artifact,False
+91903,ARENASUP,"Bonny Pall, Clearcutter Emblem",mythic,,0,Artifact,False
 91480,OTC,"Gonti, Canny Acquisitor",mythic,BGU,5,Legendary Creature - Aetherborn Rogue,False
 91481,OTC,"Olivia, Opulent Outlaw",mythic,BRW,4,Legendary Creature - Vampire Assassin,False
 91482,OTC,"Stella Lee, Wild Card",mythic,RU,3,Legendary Creature - Human Rogue,False
@@ -17362,9 +17362,9 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 92711,BLC,Liliana of the Dark Realms,mythic,B,4,Legendary Planeswalker - Liliana,False
 92712,BLC,"Chatterfang, Squirrel General",mythic,BG,3,Legendary Creature - Squirrel Warrior,False
 92713,BLC,"Nissa, Who Shakes the World",rare,G,5,Legendary Planeswalker - Nissa,False
-94668,ARENASUP,Constant Discovery Emblem,mythic,,0,Legendary Artifact,False
-94669,ARENASUP,Chimil Nexus Emblem,mythic,,0,Legendary Artifact,False
-94670,ARENASUP,Maskwood Nexus Emblem,mythic,,0,Legendary Artifact,False
+94668,ARENASUP,Constant Discovery Emblem,mythic,,0,Artifact,False
+94669,ARENASUP,Chimil Nexus Emblem,mythic,,0,Artifact,False
+94670,ARENASUP,Maskwood Nexus Emblem,mythic,,0,Artifact,False
 95161,MH3,A-Guide of Souls,rare,W,1,Creature - Human Cleric,False
 95159,MH3,A-Galvanic Discharge,common,R,1,Instant,False
 95162,MH3,A-Ocelot Pride,mythic,W,2,Creature - Cat,False
@@ -17380,7 +17380,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 94214,Y25,Thought Rattle,rare,BU,2,Sorcery,True
 94215,Y25,Marshland Hordemaster,rare,BR,3,Creature - Lizard Warlock,True
 94216,Y25,Resourceful Collector,rare,GR,3,Creature - Raccoon Druid,True
-94217,Y25,"Buxton, Decorated Host",mythic,GW,5,Legendary Creature - Rabbit Noble,True
+94217,Y25,"Buxton, Decorated Host",mythic,GW,6,Legendary Creature - Rabbit Noble,True
 94218,Y25,Sanguine Soothsayer,rare,B,2,Creature - Bat Cleric,True
 94219,Y25,"Indris, the Hydrostatic Surge",mythic,RU,6,Legendary Creature - Otter Incarnation,True
 94220,Y25,"Euru, Acorn Scrounger",mythic,BG,4,Legendary Creature - Squirrel Soldier,True
@@ -17906,7 +17906,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 95362,Y25,Polterheist,rare,BR,3,Creature - Spirit,True
 95363,Y25,Unnatural Summons,rare,GU,3,Sorcery,True
 95364,Y25,Valiant Emberkin,rare,RW,3,Enchantment Creature - Mouse Glimmer,True
-95365,Y25,Wingbright Thief,uncommon,UW,3,Enchantment Creature - Bird Glimmer,True
+95365,Y25,Wingbright Thief,uncommon,UW,2,Enchantment Creature - Bird Glimmer,True
 95366,Y25,Soul Shredder,rare,,2,Artifact - Vehicle,True
 95333,Y25,"Ethrimik, Imagined Fiend",mythic,W,4,Legendary Creature - Illusion Beast,True
 95334,Y25,Improvising Aerialist,uncommon,W,2,Creature - Human Survivor,True
@@ -17922,7 +17922,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 95346,Y25,Anguished Recollection,uncommon,R,2,Sorcery,True
 95347,Y25,Crude Abattoir // Unsavory Kitchen,rare,R,4,Enchantment - Room,True
 95350,Y25,Eager Flameguide,uncommon,R,3,Enchantment Creature - Raccoon Glimmer,True
-95351,Y25,Chittering Illuminator,rare,G,3,Enchantment Creature - Squirrel Glimmer,True
+95351,Y25,Chittering Illuminator,rare,G,2,Enchantment Creature - Squirrel Glimmer,True
 95352,Y25,Harrowing Swarm,uncommon,G,2,Sorcery,True
 95353,Y25,Verdant Dread,mythic,G,2,Enchantment,True
 95354,Y25,Wary Zone Guard,uncommon,G,3,Creature - Human Survivor,True
@@ -19962,3 +19962,966 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 76207,MH2,Misty Rainforest,rare,,0,Land,False
 76211,MH2,Scalding Tarn,rare,,0,Land,False
 76218,MH2,Verdant Catacombs,rare,,0,Land,False
+94871,DFT,Trade the Helm,uncommon,U,5,Sorcery,True
+94884,DFT,Deathless Pilot,common,B,2,Creature - Zombie Pilot,True
+95010,DFT,Haunted Hellride,uncommon,BU,3,Artifact - Vehicle,True
+95021,DFT,Riptide Gearhulk,mythic,UW,5,Artifact Creature - Construct,True
+94956,DFT,Beastrider Vanguard,common,G,2,Creature - Human Knight,True
+95038,DFT,Marshals' Pathcruiser,uncommon,BGRUW,3,Artifact - Vehicle,True
+94856,DFT,Possession Engine,rare,U,5,Artifact - Vehicle,True
+94910,DFT,Syphon Fuel,common,B,5,Instant,True
+94949,DFT,Spire Mechcycle,uncommon,R,5,Artifact - Vehicle,True
+94942,DFT,Pacesetter Paragon,uncommon,R,3,Creature - Human Pilot,True
+95013,DFT,"Lagorin, Soul of Alacria",uncommon,GW,2,Legendary Creature - Beast Mount,True
+94963,DFT,Elvish Refueler,uncommon,G,3,Creature - Elf Druid,True
+94854,DFT,"Mu Yanling, Wind Rider",mythic,U,4,Legendary Creature - Human Wizard Pilot,True
+94848,DFT,Howler's Heavy,common,U,4,Creature - Seal Pirate,True
+94808,DFT,Broadcast Rambler,common,W,5,Artifact - Vehicle,True
+95026,DFT,Skyserpent Seeker,uncommon,GU,2,Creature - Snake,True
+94870,DFT,Thopter Fabricator,rare,U,3,Artifact - Vehicle,True
+95024,DFT,"Samut, the Driving Force",rare,GRW,6,Legendary Creature - Human Warrior Cleric,True
+94809,DFT,Bulwark Ox,rare,W,2,Creature - Ox Mount,True
+95041,DFT,Racers' Scoreboard,uncommon,,4,Artifact,True
+94824,DFT,Nesting Bot,uncommon,W,1,Artifact Creature - Robot,True
+94904,DFT,Risen Necroregent,uncommon,B,5,Creature - Zombie Cat Knight,True
+95068,DFT,Thornwood Falls,common,GU,0,Land,True
+95050,DFT,Amonkhet Raceway,uncommon,,0,Land,True
+94885,DFT,Demonic Junker,rare,B,7,Artifact - Vehicle,True
+94833,DFT,"Sundial, Dawn Tyrant",uncommon,W,2,Legendary Artifact Creature - Construct,True
+94826,DFT,Pride of the Road,uncommon,W,4,Creature - Zombie Cat Warrior,True
+94911,DFT,Wickerfolk Indomitable,uncommon,B,4,Artifact Creature - Scarecrow,True
+94851,DFT,Memory Guardian,uncommon,U,5,Artifact Creature - Robot Artificer,True
+94989,DFT,"Aatchik, Emerald Radian",rare,BG,6,Legendary Creature - Insect Druid,True
+94987,DFT,Venomsac Lagac,common,G,2,Creature - Lizard Mount,True
+94998,DFT,Cloudspire Coordinator,uncommon,RW,2,Creature - Human Pilot,True
+94950,DFT,Thunderhead Gunner,common,R,5,Creature - Shark Pirate,True
+94813,DFT,Daring Mechanic,common,W,3,Creature - Human Artificer,True
+94844,DFT,Flood the Engine,common,U,3,Enchantment - Aura,True
+95039,DFT,Monument to Endurance,rare,,3,Artifact,True
+94823,DFT,Lotusguard Disciple,common,W,3,Creature - Bird Cleric,True
+94830,DFT,Skyseer's Chariot,rare,W,2,Artifact - Vehicle,True
+94883,DFT,Cursecloth Wrappings,rare,B,4,Artifact,True
+94946,DFT,Reckless Velocitaur,uncommon,R,4,Creature - Minotaur Pilot,True
+94997,DFT,"Caradora, Heart of Alacria",rare,GW,4,Legendary Creature - Human Knight,True
+94874,DFT,Unstoppable Plan,rare,U,3,Enchantment,True
+94947,DFT,Road Rage,uncommon,R,1,Instant,True
+95066,DFT,Sunbillow Verge,rare,RW,0,Land,True
+94887,DFT,Gas Guzzler,rare,B,1,Creature - Vampire Rogue,True
+95058,DFT,Jungle Hollow,common,BG,0,Land,True
+94990,DFT,Apocalypse Runner,uncommon,BR,4,Artifact - Vehicle,True
+94863,DFT,Skystreak Engineer,common,U,2,Creature - Human Pilot,True
+94991,DFT,Boom Scholar,uncommon,GR,3,Creature - Goblin Advisor,True
+94902,DFT,Quag Feast,rare,B,2,Sorcery,True
+94913,DFT,Wretched Doll,uncommon,B,2,Artifact Creature - Toy,True
+94930,DFT,Gastal Blockbuster,common,R,3,Creature - Human Berserker,True
+94832,DFT,Spotcycle Scouter,common,W,2,Artifact - Vehicle,True
+94842,DFT,"Caelorna, Coral Tyrant",uncommon,U,2,Legendary Creature - Octopus,True
+95016,DFT,"Mimeoplasm, Revered One",mythic,BGU,3,Legendary Creature - Ooze,True
+94924,DFT,Dracosaur Auxiliary,uncommon,R,6,Creature - Dinosaur Dragon Mount,True
+95060,DFT,Night Market,common,,0,Land,True
+94977,DFT,Point the Way,uncommon,G,1,Enchantment,True
+94897,DFT,Locust Spray,uncommon,B,1,Instant,True
+94983,DFT,Stampeding Scurryfoot,common,G,1,Creature - Mouse,True
+94855,DFT,Nimble Thopterist,common,U,4,Creature - Vedalken Artificer,True
+94881,DFT,Chitin Gravestalker,common,B,6,Creature - Insect Warrior,True
+94982,DFT,Silken Strength,common,G,2,Enchantment - Aura,True
+95004,DFT,Explosive Getaway,rare,RW,5,Sorcery,True
+94935,DFT,"Hazoret, Godseeker",mythic,R,2,Legendary Creature - God,True
+95030,DFT,"Winter, Cursed Rider",rare,BU,2,Legendary Creature - Human Warlock,True
+94846,DFT,Glitch Ghost Surveyor,common,U,3,Creature - Spirit Scout,True
+94954,DFT,Alacrian Jaguar,common,G,5,Creature - Cat Mount,True
+95046,DFT,Starting Column,common,,3,Artifact,True
+94964,DFT,Fang Guardian,uncommon,G,4,Creature - Ape Druid,True
+94888,DFT,Gastal Raider,uncommon,B,3,Creature - Vampire Rogue,True
+94864,DFT,Slick Imitator,uncommon,U,2,Creature - Ooze,True
+95034,DFT,Camera Launcher,common,,3,Artifact Creature - Construct,True
+94905,DFT,Risky Shortcut,common,B,3,Sorcery,True
+95067,DFT,Swiftwater Cliffs,common,RU,0,Land,True
+94941,DFT,Outpace Oblivion,uncommon,R,3,Enchantment,True
+95035,DFT,Guidelight Matrix,common,,2,Artifact,True
+94912,DFT,Wreckage Wickerfolk,common,B,2,Artifact Creature - Scarecrow,True
+95007,DFT,Gastal Thrillseeker,uncommon,BR,2,Creature - Lizard Berserker,True
+94933,DFT,Goblin Surveyor,common,R,3,Creature - Goblin Scout,True
+94868,DFT,Stall Out,common,U,2,Sorcery,True
+94827,DFT,Ride's End,common,W,5,Instant,True
+94980,DFT,Rise from the Wreck,uncommon,G,3,Sorcery,True
+94978,DFT,Pothole Mole,common,G,3,Creature - Mole,True
+95008,DFT,Guidelight Pathmaker,uncommon,UW,6,Artifact - Vehicle,True
+94869,DFT,Stock Up,uncommon,U,3,Sorcery,True
+95056,DFT,Dismal Backwater,common,BU,0,Land,True
+94968,DFT,Jibbirik Omnivore,common,G,2,Creature - Beast,True
+95012,DFT,"Kolodin, Triumph Caster",rare,RW,2,Legendary Creature - Human Pilot,True
+94972,DFT,Migrating Ketradon,common,G,6,Creature - Dinosaur,True
+94882,DFT,Cryptcaller Chariot,rare,B,4,Artifact - Vehicle,True
+94814,DFT,Detention Chariot,uncommon,W,6,Artifact - Vehicle,True
+94985,DFT,Thunderous Velocipede,mythic,G,3,Artifact - Vehicle,True
+94903,DFT,Ripclaw Wrangler,common,B,4,Artifact - Vehicle,True
+94919,DFT,Clamorous Ironclad,common,R,4,Artifact - Vehicle,True
+94901,DFT,Pactdoll Terror,common,B,4,Artifact Creature - Toy,True
+94867,DFT,Spikeshell Harrier,uncommon,U,5,Artifact Creature - Robot Turtle,True
+94828,DFT,Roadside Assistance,uncommon,W,3,Enchantment - Aura,True
+94818,DFT,Guidelight Synergist,uncommon,W,4,Artifact Creature - Robot Artificer,True
+95015,DFT,"Mendicant Core, Guidelight",rare,UW,2,Legendary Artifact Creature - Robot,True
+94948,DFT,Skycrash,uncommon,R,2,Instant,True
+94816,DFT,Gloryheath Lynx,uncommon,W,2,Creature - Cat Mount,True
+94817,DFT,Guardian Sunmare,rare,W,5,Creature - Horse Mount,True
+95062,DFT,Riverpyre Verge,rare,RU,0,Land,True
+95027,DFT,Thundering Broodwagon,uncommon,BG,6,Artifact - Vehicle,True
+95003,DFT,Embalmed Ascendant,uncommon,BW,3,Creature - Zombie,True
+94953,DFT,Agonasaur Rex,rare,G,5,Creature - Dinosaur,True
+94916,DFT,Burner Rocket,common,R,2,Artifact - Vehicle,True
+94986,DFT,Veloheart Bike,common,G,3,Artifact - Vehicle,True
+95072,DFT,Willowrush Verge,rare,GU,0,Land,True
+94877,DFT,Ancient Vendetta,uncommon,B,4,Sorcery,True
+95057,DFT,Foul Roads,uncommon,B,0,Land,True
+95018,DFT,Pyrewood Gearhulk,mythic,GR,6,Artifact Creature - Construct,True
+94803,DFT,Air Response Unit,uncommon,W,3,Artifact - Vehicle,True
+94995,DFT,Broodheart Engine,uncommon,BG,2,Artifact,True
+94810,DFT,Canyon Vaulter,uncommon,W,2,Creature - Kor Pilot,True
+94878,DFT,Back on Track,uncommon,B,5,Sorcery,True
+94927,DFT,Endrider Spikespitter,uncommon,R,4,Creature - Human Mercenary,True
+94890,DFT,Grim Bauble,common,B,1,Artifact,True
+94873,DFT,Trip Up,common,U,4,Instant,True
+95069,DFT,Tranquil Cove,common,UW,0,Land,True
+94918,DFT,"Chandra, Spark Hunter",mythic,R,4,Legendary Planeswalker - Chandra,True
+94945,DFT,Push the Limit,uncommon,R,7,Sorcery,True
+94917,DFT,Burnout Bashtronaut,rare,R,1,Creature - Goblin Warrior,True
+94940,DFT,Marauding Mako,uncommon,R,1,Creature - Shark Pirate,True
+94880,DFT,Carrion Cruiser,uncommon,B,3,Artifact - Vehicle,True
+95043,DFT,Rover Blades,uncommon,,3,Artifact - Equipment Vehicle,True
+95025,DFT,"Sita Varma, Masked Racer",rare,GU,2,Legendary Creature - Human Rogue,True
+94860,DFT,Roadside Blowout,uncommon,U,3,Sorcery,True
+94812,DFT,Collision Course,common,W,2,Sorcery,True
+94891,DFT,Grim Javelineer,common,B,3,Creature - Human Warrior,True
+94857,DFT,Rangers' Refueler,uncommon,U,2,Artifact - Vehicle,True
+94959,DFT,Defend the Rider,uncommon,G,1,Instant,True
+94894,DFT,Intimidation Tactics,uncommon,B,1,Sorcery,True
+94837,DFT,Valor's Flagship,mythic,W,7,Legendary Artifact - Vehicle,True
+94943,DFT,Pedal to the Metal,common,R,1,Instant,True
+95042,DFT,Radiant Lotus,mythic,,6,Artifact,True
+94875,DFT,"Vnwxt, Verbose Host",rare,U,2,Legendary Creature - Homunculus,True
+94994,DFT,Broadside Barrage,uncommon,RU,3,Instant,True
+94859,DFT,Riverchurn Monument,rare,U,2,Artifact,True
+95054,DFT,Blossoming Sands,common,GW,0,Land,True
+94981,DFT,Run Over,common,G,2,Instant,True
+95036,DFT,Lifecraft Engine,rare,,3,Artifact - Vehicle,True
+94898,DFT,Maximum Overdrive,common,B,2,Instant,True
+95064,DFT,Rugged Highlands,common,GR,0,Land,True
+95002,DFT,Dune Drifter,uncommon,BW,2,Artifact - Vehicle,True
+94962,DFT,Earthrumbler,uncommon,G,5,Artifact - Vehicle,True
+95044,DFT,Scrap Compactor,common,,1,Artifact,True
+95032,DFT,Aetherjacket,common,,3,Artifact Creature - Thopter,True
+95051,DFT,Avishkar Raceway,common,,0,Land,True
+94895,DFT,"Kalakscion, Hunger Tyrant",uncommon,B,3,Legendary Creature - Crocodile,True
+94988,DFT,Webstrike Elite,rare,G,2,Creature - Insect Archer,True
+95065,DFT,Scoured Barrens,common,BW,0,Land,True
+94929,DFT,Full Throttle,rare,R,6,Sorcery,True
+95074,DFT,Plains,basic,W,0,Basic Land - Plains,True
+94928,DFT,Fuel the Flames,uncommon,R,3,Instant,True
+94840,DFT,Aether Syphon,uncommon,U,3,Artifact,True
+95017,DFT,Oildeep Gearhulk,mythic,BU,4,Artifact Creature - Construct,True
+94934,DFT,Greasewrench Goblin,uncommon,R,1,Creature - Goblin Artificer,True
+95022,DFT,Rocketeer Boostbuggy,uncommon,GR,2,Artifact - Vehicle,True
+94845,DFT,Gearseeker Serpent,common,U,7,Creature - Serpent,True
+94937,DFT,Kickoff Celebrations,common,R,2,Enchantment,True
+94931,DFT,Gastal Thrillroller,rare,R,3,Artifact - Vehicle,True
+94921,DFT,Crash and Burn,common,R,4,Instant,True
+94839,DFT,Voyager Quickwelder,common,W,3,Artifact Creature - Robot Artificer,True
+94843,DFT,Diversion Unit,uncommon,U,2,Artifact Creature - Robot,True
+95052,DFT,Bleachbone Verge,rare,BW,0,Land,True
+94886,DFT,Engine Rat,common,B,1,Creature - Zombie Rat,True
+94841,DFT,Bounce Off,common,U,1,Instant,True
+94825,DFT,Perilous Snare,rare,W,3,Artifact,True
+94926,DFT,Endrider Catalyzer,common,R,2,Creature - Human Warrior,True
+94829,DFT,Salvation Engine,mythic,W,5,Artifact - Vehicle,True
+94970,DFT,Lumbering Worldwagon,rare,G,3,Artifact - Vehicle,True
+95019,DFT,Rangers' Aetherhive,uncommon,GU,3,Artifact - Vehicle,True
+95073,DFT,Wind-Scarred Crag,common,RW,0,Land,True
+95070,DFT,Wastewood Verge,rare,BG,0,Land,True
+94865,DFT,Spectral Interference,common,U,2,Instant,True
+95071,DFT,Wild Roads,uncommon,G,0,Land,True
+95005,DFT,"Far Fortune, End Boss",rare,BR,4,Legendary Creature - Human Mercenary,True
+94961,DFT,Dredger's Insight,uncommon,G,2,Enchantment,True
+94847,DFT,Guidelight Optimizer,common,U,2,Artifact Creature - Robot,True
+95040,DFT,Pit Automaton,uncommon,,2,Artifact Creature - Construct,True
+94819,DFT,Interface Ace,common,W,2,Artifact Creature - Robot Pilot,True
+94976,DFT,Plow Through,uncommon,G,1,Sorcery,True
+95047,DFT,Ticket Tortoise,common,,2,Artifact Creature - Turtle,True
+95059,DFT,Muraganda Raceway,rare,,0,Land,True
+94908,DFT,Spin Out,common,B,3,Instant,True
+94915,DFT,Boommobile,rare,R,4,Artifact - Vehicle,True
+94925,DFT,Dynamite Diver,common,R,1,Creature - Goblin Pilot,True
+94876,DFT,Waxen Shapethief,rare,U,4,Creature - Shapeshifter,True
+95023,DFT,"Sab-Sunen, Luxa Embodied",mythic,GU,5,Legendary Creature - God,True
+95033,DFT,The Aetherspark,mythic,,4,Legendary Artifact Planeswalker - Equipment,True
+94838,DFT,Voyager Glidecar,rare,W,1,Artifact - Vehicle,True
+94805,DFT,"Basri, Tomorrow's Champion",rare,W,1,Legendary Creature - Human Knight,True
+95037,DFT,Marketback Walker,rare,,0,Artifact Creature - Construct,True
+94971,DFT,March of the World Ooze,mythic,G,6,Enchantment,True
+94900,DFT,Mutant Surveyor,common,B,3,Creature - Mutant Scout,True
+94853,DFT,Mindspring Merfolk,rare,U,1,Creature - Merfolk Wizard,True
+94866,DFT,Spell Pierce,uncommon,U,1,Instant,True
+94996,DFT,"Captain Howler, Sea Scourge",rare,RU,4,Legendary Creature - Shark Pirate,True
+94896,DFT,The Last Ride,mythic,B,1,Legendary Artifact - Vehicle,True
+94811,DFT,Cloudspire Captain,uncommon,W,3,Creature - Human Pilot,True
+95061,DFT,Reef Roads,uncommon,U,0,Land,True
+95020,DFT,"Redshift, Rocketeer Chief",rare,GR,2,Legendary Creature - Goblin Pilot,True
+95028,DFT,Veteran Beastrider,uncommon,GW,3,Creature - Human Knight,True
+95009,DFT,Haunt the Network,uncommon,BU,5,Sorcery,True
+94807,DFT,Brightfield Mustang,common,W,4,Creature - Horse Mount,True
+94923,DFT,Draconautics Engineer,rare,R,2,Creature - Goblin Artificer,True
+94835,DFT,Tune Up,uncommon,W,4,Sorcery,True
+94836,DFT,Unswerving Sloth,uncommon,W,5,Creature - Sloth Mount,True
+94804,DFT,Alacrian Armory,uncommon,W,4,Artifact,True
+94939,DFT,Magmakin Artillerist,common,R,3,Creature - Elemental Pirate,True
+94909,DFT,Streaking Oilgorger,common,B,5,Creature - Vampire,True
+95029,DFT,Voyage Home,uncommon,UW,7,Sorcery,True
+94922,DFT,"Daretti, Rocketeer Engineer",rare,R,5,Legendary Creature - Goblin Artificer,True
+94899,DFT,Momentum Breaker,uncommon,B,2,Enchantment,True
+94822,DFT,Lightwheel Enhancements,common,W,1,Enchantment - Aura,True
+94852,DFT,Midnight Mangler,common,U,2,Artifact - Vehicle,True
+94975,DFT,"Oviya, Automech Artisan",rare,G,4,Legendary Creature - Human Artificer,True
+94850,DFT,Keen Buccaneer,common,U,3,Creature - Octopus Pirate,True
+94862,DFT,Scrounging Skyray,uncommon,U,2,Creature - Fish Pirate,True
+95086,DFT,Forest,basic,G,0,Basic Land - Forest,True
+94858,DFT,Repurposing Bay,rare,U,3,Artifact,True
+94966,DFT,Greenbelt Guardian,uncommon,G,2,Creature - Elf Ranger,True
+94907,DFT,The Speed Demon,mythic,B,5,Legendary Creature - Demon,True
+94979,DFT,Regal Imperiosaur,rare,G,3,Creature - Dinosaur,True
+94834,DFT,Swiftwing Assailant,common,W,4,Creature - Bird Warrior,True
+94872,DFT,Transit Mage,uncommon,U,3,Creature - Human Wizard,True
+94952,DFT,Afterburner Expert,rare,G,3,Creature - Goblin Artificer,True
+94820,DFT,Leonin Surveyor,common,W,2,Creature - Cat Scout,True
+95077,DFT,Island,basic,U,0,Basic Land - Island,True
+94831,DFT,Spectacular Pileup,rare,W,5,Sorcery,True
+95053,DFT,Bloodfell Caves,common,BR,0,Land,True
+94999,DFT,Cloudspire Skycycle,uncommon,RW,4,Artifact - Vehicle,True
+94920,DFT,Count on Luck,rare,R,3,Enchantment,True
+94955,DFT,Autarch Mammoth,uncommon,G,6,Creature - Elephant Mount,True
+95045,DFT,Skybox Ferry,common,,5,Artifact - Vehicle,True
+94974,DFT,Ooze Patrol,uncommon,G,4,Creature - Ooze,True
+95049,DFT,Wreck Remover,common,,4,Artifact Creature - Construct,True
+94936,DFT,Howlsquad Heavy,rare,R,3,Creature - Goblin Mercenary,True
+94914,DFT,Adrenaline Jockey,uncommon,R,3,Creature - Minotaur Pilot,True
+94967,DFT,Hazard of the Dunes,common,G,4,Creature - Wurm,True
+94969,DFT,Loxodon Surveyor,common,G,3,Creature - Elephant Scout,True
+95080,DFT,Swamp,basic,B,0,Basic Land - Swamp,True
+94893,DFT,Hour of Victory,uncommon,B,3,Enchantment,True
+94960,DFT,District Mascot,rare,G,1,Creature - Dog Mount,True
+95000,DFT,Coalstoke Gearhulk,mythic,BR,5,Artifact Creature - Construct,True
+94815,DFT,Gallant Strike,uncommon,W,2,Instant,True
+94938,DFT,Lightning Strike,common,R,2,Instant,True
+95048,DFT,Walking Sarcophagus,common,,2,Artifact Creature - Zombie Cat,True
+94861,DFT,Sabotage Strategist,uncommon,U,4,Creature - Vedalken Ranger,True
+94889,DFT,"Gonti, Night Minister",rare,B,4,Legendary Creature - Aetherborn Rogue,True
+95011,DFT,"Ketramose, the New Dawn",mythic,BW,3,Legendary Creature - God,True
+95055,DFT,Country Roads,uncommon,W,0,Land,True
+94958,DFT,Broken Wings,common,G,3,Instant,True
+94944,DFT,Prowcatcher Specialist,common,R,2,Creature - Goblin Warrior,True
+94892,DFT,Hellish Sideswipe,uncommon,B,1,Sorcery,True
+94957,DFT,Bestow Greatness,common,G,3,Instant,True
+94993,DFT,Brightglass Gearhulk,mythic,GW,4,Artifact Creature - Construct,True
+94973,DFT,Molt Tender,uncommon,G,1,Creature - Insect Druid,True
+95083,DFT,Mountain,basic,R,0,Basic Land - Mountain,True
+94879,DFT,Bloodghast,rare,B,2,Creature - Vampire Spirit,True
+95001,DFT,Debris Beetle,rare,BG,4,Artifact - Vehicle,True
+95006,DFT,Fearless Swashbuckler,rare,RU,3,Creature - Fish Pirate,True
+95031,DFT,"Zahur, Glory's Past",rare,BW,2,Legendary Creature - Zombie Cat Warrior,True
+95014,DFT,"Loot, the Pathfinder",mythic,GRU,5,Legendary Creature - Beast Noble,True
+94806,DFT,Brightfield Glider,common,W,1,Creature - Possum Mount,True
+94965,DFT,Fang-Druid Summoner,uncommon,G,4,Creature - Ape Druid,True
+94932,DFT,Gilded Ghoda,common,R,2,Creature - Horse Mount,True
+94849,DFT,Hulldrifter,common,U,5,Artifact - Vehicle,True
+94951,DFT,"Tyrox, Saurid Tyrant",uncommon,R,2,Legendary Creature - Dinosaur Warrior,True
+94992,DFT,Boosted Sloop,uncommon,RU,3,Artifact - Vehicle,True
+94984,DFT,"Terrian, World Tyrant",uncommon,G,5,Legendary Creature - Dinosaur Ooze,True
+94906,DFT,Shefet Archfiend,uncommon,B,7,Creature - Demon,True
+94821,DFT,Lightshield Parry,common,W,1,Instant,True
+95063,DFT,Rocky Roads,uncommon,R,0,Land,True
+95111,SPG,Chandra's Ignition,rare,R,5,Sorcery,True
+95108,SPG,Whir of Invention,rare,U,3,Instant,True
+95110,SPG,Lord of the Undead,rare,B,3,Creature - Zombie,True
+95113,SPG,Pathbreaker Ibex,rare,G,6,Creature - Goat,True
+95114,SPG,Chrome Mox,mythic,,0,Artifact,True
+95112,SPG,Galvanic Blast,common,R,1,Instant,True
+95115,SPG,"Skysovereign, Consul Flagship",mythic,,5,Legendary Artifact - Vehicle,True
+95107,SPG,Thoughtcast,common,U,5,Sorcery,True
+95109,SPG,Bone Miser,rare,B,5,Creature - Zombie Wizard,True
+95106,SPG,Cavalier of Dawn,mythic,W,5,Creature - Elemental Knight,True
+95078,DFT,Island,basic,U,0,Basic Land - Island,True
+95079,DFT,Island,basic,U,0,Basic Land - Island,True
+95090,DFT,Island,basic,U,0,Basic Land - Island,True
+95082,DFT,Swamp,basic,B,0,Basic Land - Swamp,True
+95084,DFT,Mountain,basic,R,0,Basic Land - Mountain,True
+95091,DFT,Swamp,basic,B,0,Basic Land - Swamp,True
+95075,DFT,Plains,basic,W,0,Basic Land - Plains,True
+95089,DFT,Plains,basic,W,0,Basic Land - Plains,True
+95092,DFT,Mountain,basic,R,0,Basic Land - Mountain,True
+95088,DFT,Forest,basic,G,0,Basic Land - Forest,True
+95093,DFT,Forest,basic,G,0,Basic Land - Forest,True
+95076,DFT,Plains,basic,W,0,Basic Land - Plains,True
+95085,DFT,Mountain,basic,R,0,Basic Land - Mountain,True
+95081,DFT,Swamp,basic,B,0,Basic Land - Swamp,True
+95087,DFT,Forest,basic,G,0,Basic Land - Forest,True
+96298,DFT,Bulwark Ox,rare,W,2,Creature - Ox Mount,False
+96299,DFT,Guardian Sunmare,rare,W,5,Creature - Horse Mount,False
+96300,DFT,Mindspring Merfolk,rare,U,1,Creature - Merfolk Wizard,False
+96301,DFT,Waxen Shapethief,rare,U,4,Creature - Shapeshifter,False
+96302,DFT,Bloodghast,rare,B,2,Creature - Vampire Spirit,False
+96303,DFT,Gas Guzzler,rare,B,1,Creature - Vampire Rogue,False
+96304,DFT,The Speed Demon,mythic,B,5,Legendary Creature - Demon,False
+96305,DFT,Burnout Bashtronaut,rare,R,1,Creature - Goblin Warrior,False
+96306,DFT,Draconautics Engineer,rare,R,2,Creature - Goblin Artificer,False
+96307,DFT,Howlsquad Heavy,rare,R,3,Creature - Goblin Mercenary,False
+96308,DFT,Agonasaur Rex,rare,G,5,Creature - Dinosaur,False
+96309,DFT,District Mascot,rare,G,1,Creature - Dog Mount,False
+96310,DFT,Webstrike Elite,rare,G,2,Creature - Insect Archer,False
+96311,DFT,Fearless Swashbuckler,rare,RU,3,Creature - Fish Pirate,False
+95430,DFT,Air Response Unit,uncommon,W,3,Artifact - Vehicle,False
+95431,DFT,Broadcast Rambler,common,W,5,Artifact - Vehicle,False
+95432,DFT,Detention Chariot,uncommon,W,6,Artifact - Vehicle,False
+95433,DFT,Salvation Engine,mythic,W,5,Artifact - Vehicle,False
+95434,DFT,Skyseer's Chariot,rare,W,2,Artifact - Vehicle,False
+95435,DFT,Spotcycle Scouter,common,W,2,Artifact - Vehicle,False
+95436,DFT,Valor's Flagship,mythic,W,7,Legendary Artifact - Vehicle,False
+95437,DFT,Voyager Glidecar,rare,W,1,Artifact - Vehicle,False
+95438,DFT,Hulldrifter,common,U,5,Artifact - Vehicle,False
+95439,DFT,Midnight Mangler,common,U,2,Artifact - Vehicle,False
+95440,DFT,Possession Engine,rare,U,5,Artifact - Vehicle,False
+95441,DFT,Rangers' Refueler,uncommon,U,2,Artifact - Vehicle,False
+95442,DFT,Thopter Fabricator,rare,U,3,Artifact - Vehicle,False
+95443,DFT,Carrion Cruiser,uncommon,B,3,Artifact - Vehicle,False
+95444,DFT,Cryptcaller Chariot,rare,B,4,Artifact - Vehicle,False
+95445,DFT,Demonic Junker,rare,B,7,Artifact - Vehicle,False
+95446,DFT,The Last Ride,mythic,B,1,Legendary Artifact - Vehicle,False
+95447,DFT,Ripclaw Wrangler,common,B,4,Artifact - Vehicle,False
+95448,DFT,Boommobile,rare,R,4,Artifact - Vehicle,False
+95449,DFT,Burner Rocket,common,R,2,Artifact - Vehicle,False
+95450,DFT,Clamorous Ironclad,common,R,4,Artifact - Vehicle,False
+95451,DFT,Gastal Thrillroller,rare,R,3,Artifact - Vehicle,False
+95452,DFT,Spire Mechcycle,uncommon,R,5,Artifact - Vehicle,False
+95453,DFT,Earthrumbler,uncommon,G,5,Artifact - Vehicle,False
+95454,DFT,Lumbering Worldwagon,rare,G,3,Artifact - Vehicle,False
+95455,DFT,Thunderous Velocipede,mythic,G,3,Artifact - Vehicle,False
+95456,DFT,Veloheart Bike,common,G,3,Artifact - Vehicle,False
+95457,DFT,Apocalypse Runner,uncommon,BR,4,Artifact - Vehicle,False
+95458,DFT,Boosted Sloop,uncommon,RU,3,Artifact - Vehicle,False
+95459,DFT,Cloudspire Skycycle,uncommon,RW,4,Artifact - Vehicle,False
+95460,DFT,Debris Beetle,rare,BG,4,Artifact - Vehicle,False
+95461,DFT,Dune Drifter,uncommon,BW,2,Artifact - Vehicle,False
+95462,DFT,Guidelight Pathmaker,uncommon,UW,6,Artifact - Vehicle,False
+95463,DFT,Haunted Hellride,uncommon,BU,3,Artifact - Vehicle,False
+95464,DFT,Rangers' Aetherhive,uncommon,GU,3,Artifact - Vehicle,False
+95465,DFT,Rocketeer Boostbuggy,uncommon,GR,2,Artifact - Vehicle,False
+95466,DFT,Thundering Broodwagon,uncommon,BG,6,Artifact - Vehicle,False
+95467,DFT,Lifecraft Engine,rare,,3,Artifact - Vehicle,False
+95468,DFT,Marshals' Pathcruiser,uncommon,BGRUW,3,Artifact - Vehicle,False
+95469,DFT,Rover Blades,uncommon,,3,Artifact - Equipment Vehicle,False
+95470,DFT,Skybox Ferry,common,,5,Artifact - Vehicle,False
+95471,DFT,"Hazoret, Godseeker",mythic,R,2,Legendary Creature - God,False
+95472,DFT,Brightglass Gearhulk,mythic,GW,4,Artifact Creature - Construct,False
+95473,DFT,Coalstoke Gearhulk,mythic,BR,5,Artifact Creature - Construct,False
+95474,DFT,"Ketramose, the New Dawn",mythic,BW,3,Legendary Creature - God,False
+95475,DFT,Oildeep Gearhulk,mythic,BU,4,Artifact Creature - Construct,False
+95476,DFT,Pyrewood Gearhulk,mythic,GR,6,Artifact Creature - Construct,False
+95477,DFT,Riptide Gearhulk,mythic,UW,5,Artifact Creature - Construct,False
+95478,DFT,"Sab-Sunen, Luxa Embodied",mythic,GU,5,Legendary Creature - God,False
+95479,DFT,Bleachbone Verge,rare,BW,0,Land,False
+95480,DFT,Riverpyre Verge,rare,RU,0,Land,False
+95481,DFT,Sunbillow Verge,rare,RW,0,Land,False
+95482,DFT,Wastewood Verge,rare,BG,0,Land,False
+95483,DFT,Willowrush Verge,rare,GU,0,Land,False
+95484,DFT,"Basri, Tomorrow's Champion",rare,W,1,Legendary Creature - Human Knight,False
+95485,DFT,"Vnwxt, Verbose Host",rare,U,2,Legendary Creature - Homunculus,False
+95486,DFT,"Gonti, Night Minister",rare,B,4,Legendary Creature - Aetherborn Rogue,False
+95487,DFT,"Daretti, Rocketeer Engineer",rare,R,5,Legendary Creature - Goblin Artificer,False
+95488,DFT,"Oviya, Automech Artisan",rare,G,4,Legendary Creature - Human Artificer,False
+95489,DFT,"Aatchik, Emerald Radian",rare,BG,6,Legendary Creature - Insect Druid,False
+95490,DFT,"Captain Howler, Sea Scourge",rare,RU,4,Legendary Creature - Shark Pirate,False
+95491,DFT,"Caradora, Heart of Alacria",rare,GW,4,Legendary Creature - Human Knight,False
+95492,DFT,"Far Fortune, End Boss",rare,BR,4,Legendary Creature - Human Mercenary,False
+95493,DFT,"Kolodin, Triumph Caster",rare,RW,2,Legendary Creature - Human Pilot,False
+95494,DFT,"Mendicant Core, Guidelight",rare,UW,2,Legendary Artifact Creature - Robot,False
+95495,DFT,"Redshift, Rocketeer Chief",rare,GR,2,Legendary Creature - Goblin Pilot,False
+95496,DFT,"Samut, the Driving Force",rare,GRW,6,Legendary Creature - Human Warrior Cleric,False
+95497,DFT,"Sita Varma, Masked Racer",rare,GU,2,Legendary Creature - Human Rogue,False
+95498,DFT,"Winter, Cursed Rider",rare,BU,2,Legendary Creature - Human Warlock,False
+95499,DFT,"Zahur, Glory's Past",rare,BW,2,Legendary Creature - Zombie Cat Warrior,False
+95500,DFT,Lifecraft Engine,rare,,3,Artifact - Vehicle,False
+95501,DFT,Salvation Engine,mythic,W,5,Artifact - Vehicle,False
+95502,DFT,Spectacular Pileup,mythic,W,5,Sorcery,False
+95503,DFT,"Mu Yanling, Wind Rider",mythic,U,4,Legendary Creature - Human Wizard Pilot,False
+95504,DFT,Cursecloth Wrappings,mythic,B,4,Artifact,False
+95505,DFT,"Chandra, Spark Hunter",mythic,R,4,Legendary Planeswalker - Chandra,False
+95506,DFT,March of the World Ooze,mythic,G,6,Enchantment,False
+95507,DFT,Explosive Getaway,mythic,RW,5,Sorcery,False
+95508,DFT,"Loot, the Pathfinder",mythic,GRU,5,Legendary Creature - Beast Noble,False
+95509,DFT,"Mimeoplasm, Revered One",mythic,BGU,3,Legendary Creature - Ooze,False
+95510,DFT,Radiant Lotus,mythic,,6,Artifact,False
+95104,TDFT,Treasure,token,,0,Artifact - Treasure,False
+95105,TDFT,Vehicle,token,,0,Artifact - Vehicle,False
+96296,TDFT,Start Your Engines!,token,,0,,False
+96297,TDFT,Max Speed,token,,0,,False
+95094,TDFT,Pilot,token,,0,Creature - Pilot,False
+95095,TDFT,Cat,token,,0,Creature - Cat,False
+95096,TDFT,Zombie,token,,0,Creature - Zombie,False
+95097,TDFT,Dinosaur Dragon,token,,0,Creature - Dinosaur Dragon,False
+95098,TDFT,Goblin,token,,0,Creature - Goblin,False
+95099,TDFT,Elephant,token,,0,Creature - Elephant,False
+95100,TDFT,Insect,token,,0,Creature - Insect,False
+95101,TDFT,Servo,token,,0,Artifact Creature - Servo,False
+95102,TDFT,Thopter,token,,0,Artifact Creature - Thopter,False
+95103,TDFT,Thopter,token,,0,Artifact Creature - Thopter,False
+96295,TSPG,Golem,token,,0,Artifact Creature - Golem,False
+96431,SLD,Island,rare,U,0,Basic Land - Island,False
+96430,SLD,Plains,rare,W,0,Basic Land - Plains,False
+96433,SLD,Mountain,rare,R,0,Basic Land - Mountain,False
+96434,SLD,Forest,rare,G,0,Basic Land - Forest,False
+96432,SLD,Swamp,rare,B,0,Basic Land - Swamp,False
+95512,DRC,"Pia Nalaar, Chief Mechanic",mythic,GRU,3,Legendary Creature - Human Artificer,False
+95511,DRC,"Hashaton, Scarab's Fist",mythic,BUW,2,Legendary Creature - Zombie Wizard,False
+95513,DRC,"Saheeli, Radiant Creator",mythic,GRU,4,Legendary Creature - Human Artificer,False
+95514,DRC,"Temmet, Naktamun's Will",mythic,BUW,5,Legendary Creature - Zombie Wizard,False
+95515,TDRC,Nalaar Aetherjet,token,,0,Artifact - Vehicle,False
+96384,Y25,Fuel Tank Feaster,uncommon,G,2,Creature - Ooze Druid,True
+96385,Y25,Great Fang Chroniclers,uncommon,G,2,Creature - Ape Druid,True
+96386,Y25,Mitotic Ultimus,mythic,G,9,Legendary Creature - Ooze Giant,True
+96387,Y25,Routeway Moose,rare,G,2,Creature - Elk Mount,True
+96388,Y25,"Arius, Flyby Trawler",rare,RU,2,Legendary Creature - Shark Pirate,True
+96389,Y25,Highway Reaver,rare,BR,4,Creature - Scorpion Dragon,True
+96390,Y25,Ornate Imitations,mythic,GU,2,Sorcery,True
+96391,Y25,Quickbeast Amulet,rare,GW,2,Artifact - Equipment,True
+96392,Y25,"Sala, Deck Boss",rare,RU,3,Legendary Creature - Squid Pirate,True
+96393,Y25,Support Skyforge,rare,UW,5,Artifact - Vehicle,True
+96394,Y25,"Tsagan, Raider Warlord",rare,BRW,3,Legendary Creature - Dinosaur Berserker,True
+96395,Y25,Wish Good Luck,uncommon,GR,2,Sorcery,True
+96396,Y25,Masterpiece Vault,mythic,,3,Artifact,True
+96397,Y25,Rising Chicane,uncommon,,0,Artifact Land,True
+96368,Y25,Hangarback Assembler,rare,W,2,Artifact,True
+96369,Y25,Naktamun Shines Again,rare,W,3,Enchantment - Saga,True
+96370,Y25,Turbocharged Escape,rare,W,5,Sorcery,True
+96371,Y25,Deviant Skytech,uncommon,U,3,Enchantment,True
+96372,Y25,Surge of Acclaim,uncommon,U,2,Instant,True
+96373,Y25,Trackhand Trainer,rare,U,1,Creature - Merfolk,True
+96374,Y25,Bail Out,uncommon,B,1,Instant,True
+96375,Y25,Spectacle of Destruction,rare,B,2,Enchantment,True
+96376,Y25,Speedbrood Stalker,mythic,B,5,Creature - Insect Assassin,True
+96377,Y25,Terrors of the Track,rare,B,2,Creature - Dinosaur,True
+96378,Y25,Unforgiving Overtake,uncommon,B,3,Sorcery,True
+96379,Y25,Chomping Mastasaur,rare,R,6,Creature - Dinosaur,True
+96380,Y25,Goblin Crash Pilot,uncommon,R,2,Creature - Goblin Pilot,True
+96381,Y25,"Kari Zev, Crew of Two",mythic,R,4,Legendary Creature - Human Pirate,True
+96382,Y25,Motivated Muralist,uncommon,R,2,Creature - Dwarf Bard,True
+96383,Y25,Smog Smasher,rare,R,5,Creature - Mutant Berserker,True
+96408,Y25,Air Response Unit,uncommon,W,3,Artifact - Vehicle,False
+96409,Y25,On Wings of Gold,rare,W,4,Enchantment,False
+96410,Y25,Hulldrifter,common,U,5,Artifact - Vehicle,False
+96411,Y25,Training Grounds,rare,U,1,Enchantment,False
+96412,Y25,"Ragavan, Nimble Pilferer",mythic,R,1,Legendary Creature - Monkey Pirate,False
+96413,Y25,Mitotic Slime,rare,G,5,Creature - Ooze,False
+96414,Y25,Muraganda Petroglyphs,rare,G,4,Enchantment,False
+96415,Y25,Aethersphere Harvester,rare,,3,Artifact - Vehicle,False
+96416,Y25,Champion's Helm,rare,,3,Artifact - Equipment,False
+96417,Y25,Hangarback Walker,rare,,0,Artifact Creature - Construct,False
+96418,Y25,Heart of Kiran,mythic,,2,Legendary Artifact - Vehicle,False
+96419,Y25,High-Speed Hoverbike,uncommon,,2,Artifact - Vehicle,False
+96420,Y25,Inspiring Statuary,rare,,3,Artifact,False
+96421,Y25,Lightning Greaves,uncommon,,2,Artifact - Equipment,False
+96422,Y25,Sky Skiff,common,,2,Artifact - Vehicle,False
+96423,Y25,"Skysovereign, Consul Flagship",mythic,,5,Legendary Artifact - Vehicle,False
+96424,Y25,Smuggler's Copter,rare,,2,Artifact - Vehicle,False
+96425,Y25,Sword of Body and Mind,mythic,,3,Artifact - Equipment,False
+96426,Y25,Sword of Feast and Famine,mythic,,3,Artifact - Equipment,False
+96427,Y25,Sword of Fire and Ice,mythic,,3,Artifact - Equipment,False
+96428,Y25,Sword of Light and Shadow,mythic,,3,Artifact - Equipment,False
+96429,Y25,Sword of War and Peace,mythic,,3,Artifact - Equipment,False
+96398,TY25,Zombie,token,,0,Creature - Zombie,False
+96399,TY25,Ooze,token,,0,Creature - Ooze,False
+96400,TY25,Ooze,token,,0,Creature - Ooze,False
+96401,TY25,Wolf,token,,0,Creature - Wolf,False
+96402,TY25,Food,token,,0,Artifact - Food,False
+96403,TY25,Servo,token,,0,Artifact Creature - Servo,False
+96404,TY25,Thopter,token,,0,Artifact Creature - Thopter,False
+96405,TY25,Thopter,token,,0,Artifact Creature - Thopter,False
+96406,TY25,Treasure,token,,0,Artifact - Treasure,False
+96407,TY25,Vehicle,token,,0,Artifact - Vehicle,False
+95530,TDM,Loxodon Battle Priest,uncommon,W,5,Creature - Elephant Cleric,True
+95561,TDM,Essence Anchor,uncommon,U,3,Artifact,True
+95769,TDM,Dragonstorm Globe,common,,3,Artifact,True
+95640,TDM,Shock Brigade,common,R,2,Creature - Goblin Soldier,True
+95793,TDM,Rugged Highlands,common,GR,0,Land,True
+95694,TDM,Barrensteppe Siege,rare,BW,4,Enchantment,True
+95808,TDM,Forest,basic,G,0,Basic Land - Forest,True
+95522,TDM,Dalkovan Packbeasts,uncommon,W,3,Creature - Ox,True
+95665,TDM,Formation Breaker,uncommon,G,2,Creature - Beast,True
+95649,TDM,Twin Bolt,common,R,2,Instant,True
+95597,TDM,Dragon's Prey,common,B,3,Instant,True
+95756,TDM,"Teval, Arbiter of Virtue",mythic,BGU,5,Legendary Creature - Spirit Dragon,True
+95675,TDM,Rite of Renewal,uncommon,G,4,Sorcery,True
+95689,TDM,Warden of the Grove,rare,G,3,Creature - Hydra,True
+95722,TDM,Karakyk Guardian,uncommon,GRU,6,Creature - Dragon,True
+95660,TDM,Craterhoof Behemoth,mythic,G,8,Creature - Beast,True
+95602,TDM,Kin-Tree Nurturer,common,B,3,Creature - Human Druid,True
+95641,TDM,Shocking Sharpshooter,uncommon,R,2,Creature - Human Archer,True
+95763,TDM,Windcrag Siege,rare,RW,3,Enchantment,True
+95733,TDM,"Narset, Jeskai Waymaster",rare,RUW,3,Legendary Creature - Human Monk,True
+95709,TDM,Flamehold Grappler,rare,RUW,3,Creature - Human Monk,True
+95766,TDM,Abzan Monument,uncommon,BGW,2,Artifact,True
+95631,TDM,Magmatic Hellkite,rare,R,4,Creature - Dragon,True
+95590,TDM,Alesha's Legacy,common,B,2,Instant,True
+95683,TDM,Sultai Devotee,common,BGU,2,Creature - Zombie Snake Druid,True
+95553,TDM,Ambling Stormshell,rare,U,5,Creature - Turtle,True
+95549,TDM,Voice of Victory,rare,W,2,Creature - Human Bard,True
+95799,TDM,Wind-Scarred Crag,common,RW,0,Land,True
+95546,TDM,Teeming Dragonstorm,uncommon,W,4,Enchantment,True
+95758,TDM,Twinmaw Stormbrood,uncommon,RW,6,Creature - Dragon,True
+95794,TDM,Sandsteppe Citadel,uncommon,BGW,0,Land,True
+95773,TDM,Mardu Monument,uncommon,BRW,2,Artifact,True
+95516,TDM,"Ugin, Eye of the Storms",mythic,,7,Legendary Planeswalker - Ugin,True
+95764,TDM,Yathan Roadwatcher,rare,BGW,4,Creature - Human Scout,True
+95583,TDM,Wingblade Disciple,uncommon,U,3,Creature - Human Monk,True
+95795,TDM,Scoured Barrens,common,BW,0,Land,True
+95547,TDM,Tempest Hawk,common,W,3,Creature - Bird,True
+95698,TDM,Cori Mountain Stalwart,uncommon,RW,3,Creature - Human Monk,True
+95690,TDM,All-Out Assault,mythic,BRW,5,Enchantment,True
+95730,TDM,Mardu Siegebreaker,rare,BRW,4,Creature - Human Warrior,True
+95728,TDM,Lotuslight Dancers,rare,BGU,5,Creature - Zombie Bard,True
+95526,TDM,"Elspeth, Storm Slayer",mythic,W,5,Legendary Planeswalker - Elspeth,True
+95672,TDM,Nature's Rhythm,rare,G,2,Sorcery,True
+95783,TDM,Evolving Wilds,common,,0,Land,True
+95684,TDM,"Surrak, Elusive Hunter",rare,G,3,Legendary Creature - Human Warrior,True
+95711,TDM,Frostcliff Siege,rare,RU,3,Enchantment,True
+95732,TDM,Monastery Messenger,common,RUW,3,Creature - Bird Scout,True
+95638,TDM,"Sarkhan, Dragon Ascendant",rare,R,2,Legendary Creature - Human Druid,True
+95578,TDM,"Taigam, Master Opportunist",mythic,U,2,Legendary Creature - Human Monk,True
+95622,TDM,Channeled Dragonfire,uncommon,R,1,Sorcery,True
+95570,TDM,Naga Fleshcrafter,rare,U,4,Creature - Snake Shapeshifter,True
+95628,TDM,Fleeting Effigy,uncommon,R,1,Creature - Elemental,True
+95743,TDM,Revival of the Ancestors,rare,BGW,4,Enchantment - Saga,True
+95605,TDM,Qarsi Revenant,rare,B,3,Creature - Vampire,True
+95595,TDM,Delta Bloodflies,common,B,2,Creature - Insect,True
+95721,TDM,Jeskai Shrinekeeper,uncommon,RUW,5,Creature - Dragon,True
+95639,TDM,Seize Opportunity,common,R,3,Instant,True
+95652,TDM,War Effort,uncommon,R,4,Enchantment,True
+95623,TDM,Cori-Steel Cutter,rare,R,2,Artifact - Equipment,True
+95798,TDM,Tranquil Cove,common,UW,0,Land,True
+95700,TDM,Defibrillating Current,uncommon,BRW,3,Sorcery,True
+95806,TDM,Mountain,basic,R,0,Basic Land - Mountain,True
+95601,TDM,Hundred-Battle Veteran,uncommon,B,4,Creature - Zombie Warrior,True
+95653,TDM,Wild Ride,common,R,1,Sorcery,True
+95580,TDM,Unending Whisper,common,U,1,Sorcery,True
+95565,TDM,Humbling Elder,common,U,1,Creature - Human Monk,True
+95667,TDM,Heritage Reclamation,common,G,2,Instant,True
+95534,TDM,Rally the Monastery,uncommon,W,4,Instant,True
+95655,TDM,Ainok Wayfarer,common,G,2,Creature - Dog Scout,True
+95804,TDM,Swamp,basic,B,0,Basic Land - Swamp,True
+95581,TDM,Ureni's Rebuff,uncommon,U,2,Sorcery,True
+95774,TDM,Mox Jasper,mythic,,0,Legendary Artifact,True
+95666,TDM,Herd Heirloom,rare,G,2,Artifact,True
+95717,TDM,Host of the Hereafter,uncommon,BG,4,Creature - Zombie Warlock,True
+95707,TDM,Fangkeeper's Familiar,rare,BGU,4,Creature - Snake,True
+95679,TDM,Sagu Wildling,common,G,5,Creature - Dragon,True
+95664,TDM,Encroaching Dragonstorm,uncommon,G,4,Enchantment,True
+95535,TDM,Rebellious Strike,common,W,2,Instant,True
+95791,TDM,Nomad Outpost,uncommon,BRW,0,Land,True
+95607,TDM,Salt Road Skirmish,uncommon,B,4,Sorcery,True
+95800,TDM,Plains,basic,W,0,Basic Land - Plains,True
+95571,TDM,Ringing Strike Mastery,common,U,1,Enchantment - Aura,True
+95574,TDM,Sibsig Appraiser,common,U,3,Creature - Zombie Advisor,True
+95606,TDM,Rot-Curse Rakshasa,mythic,B,2,Creature - Demon,True
+95723,TDM,Kheru Goldkeeper,uncommon,BGU,4,Creature - Dragon,True
+95786,TDM,Jungle Hollow,common,BG,0,Land,True
+95682,TDM,Snakeskin Veil,common,G,1,Instant,True
+95587,TDM,Adorned Crocodile,common,B,5,Creature - Crocodile,True
+95731,TDM,Marshal of the Lost,uncommon,BW,4,Creature - Orc Warrior,True
+95584,TDM,Wingspan Stride,common,U,1,Enchantment - Aura,True
+95533,TDM,Poised Practitioner,common,W,3,Creature - Human Monk,True
+95787,TDM,Kishla Village,rare,G,0,Land,True
+95765,TDM,"Zurgo, Thunder's Decree",rare,BRW,3,Legendary Creature - Orc Warrior,True
+95520,TDM,Clarion Conqueror,rare,W,3,Creature - Dragon,True
+95568,TDM,Marang River Regent,rare,U,6,Creature - Dragon,True
+95551,TDM,Aegis Sculptor,uncommon,U,4,Creature - Bird Wizard,True
+95784,TDM,Frontier Bivouac,uncommon,GRU,0,Land,True
+95539,TDM,Salt Road Packbeast,common,W,6,Creature - Beast,True
+95550,TDM,Wayspeaker Bodyguard,uncommon,W,4,Creature - Orc Monk,True
+95540,TDM,Smile at Death,mythic,W,5,Enchantment,True
+95699,TDM,Death Begets Life,mythic,BGU,8,Sorcery,True
+95548,TDM,United Battlefront,rare,W,4,Sorcery,True
+95670,TDM,Krotiq Nestguard,common,G,3,Creature - Insect,True
+95600,TDM,Gurmag Rakshasa,uncommon,B,6,Creature - Demon,True
+95678,TDM,Sagu Pummeler,common,G,4,Creature - Beast,True
+95695,TDM,"Betor, Kin to All",mythic,BGW,5,Legendary Creature - Spirit Dragon,True
+95558,TDM,Dispelling Exhale,common,U,2,Instant,True
+95573,TDM,Roiling Dragonstorm,uncommon,U,2,Enchantment,True
+95528,TDM,Furious Forebear,uncommon,W,2,Creature - Spirit Warrior,True
+95726,TDM,"Kotis, the Fangkeeper",rare,BGU,4,Legendary Creature - Zombie Warrior,True
+95635,TDM,Overwhelming Surge,uncommon,R,3,Instant,True
+95780,TDM,Cori Mountain Monastery,rare,R,0,Land,True
+95619,TDM,Worthy Cost,common,B,1,Sorcery,True
+95749,TDM,"Shiko, Paragon of the Way",mythic,RUW,5,Legendary Creature - Spirit Dragon,True
+95704,TDM,Dragonclaw Strike,uncommon,GRU,3,Sorcery,True
+95777,TDM,Watcher of the Wayside,common,,3,Artifact Creature - Golem,True
+95673,TDM,Piercing Exhale,common,G,2,Instant,True
+95627,TDM,Fire-Rim Form,common,R,2,Enchantment - Aura,True
+95582,TDM,Veteran Ice Climber,uncommon,U,2,Creature - Human Scout,True
+95715,TDM,Hardened Tactician,uncommon,BW,3,Creature - Human Warrior,True
+95714,TDM,Gurmag Nightwatch,common,BGU,3,Creature - Human Ranger,True
+95620,TDM,Yathan Tombguard,uncommon,B,3,Creature - Human Warrior,True
+95544,TDM,Stormplain Detainment,common,W,3,Enchantment,True
+95752,TDM,Sonic Shrieker,uncommon,BRW,5,Creature - Dragon,True
+95518,TDM,Arashin Sunshield,common,W,4,Creature - Human Warrior,True
+95713,TDM,Glacierwood Siege,rare,GU,3,Enchantment,True
+95676,TDM,Roamer's Routine,common,G,3,Sorcery,True
+95691,TDM,Armament Dragon,uncommon,BGW,6,Creature - Dragon,True
+95789,TDM,Mistrise Village,rare,U,0,Land,True
+95703,TDM,Dragonback Assault,mythic,GRU,6,Enchantment,True
+95785,TDM,Great Arashin City,rare,B,0,Land,True
+95646,TDM,Summit Intimidator,common,R,4,Creature - Yeti,True
+95779,TDM,Blossoming Sands,common,GW,0,Land,True
+95656,TDM,Attuned Hunter,uncommon,G,3,Creature - Human Ranger,True
+95710,TDM,Frontline Rush,uncommon,RW,2,Instant,True
+95637,TDM,Reverberating Summons,uncommon,R,2,Enchantment,True
+95776,TDM,Temur Monument,uncommon,GRU,2,Artifact,True
+95618,TDM,Wail of War,uncommon,B,3,Instant,True
+95661,TDM,Dragon Sniper,uncommon,G,1,Creature - Human Archer,True
+95604,TDM,Nightblade Brigade,common,B,3,Creature - Goblin Soldier,True
+95669,TDM,Knockout Maneuver,uncommon,G,3,Sorcery,True
+95651,TDM,Unsparing Boltcaster,uncommon,R,3,Creature - Ogre Wizard,True
+95751,TDM,Songcrafter Mage,rare,GRU,3,Creature - Human Bard,True
+95642,TDM,Stadium Headliner,rare,R,1,Creature - Goblin Warrior,True
+95552,TDM,Agent of Kotis,common,U,2,Creature - Human Rogue,True
+95708,TDM,"Felothar, Dawn of the Abzan",rare,BGW,3,Legendary Creature - Human Warrior,True
+95705,TDM,Effortless Master,uncommon,RU,4,Creature - Orc Monk,True
+95745,TDM,Roar of Endless Song,rare,GRU,5,Enchantment - Saga,True
+95521,TDM,Coordinated Maneuver,common,W,2,Instant,True
+95589,TDM,Alchemist's Assistant,uncommon,B,2,Creature - Monkey,True
+95608,TDM,Sandskitter Outrider,common,B,4,Creature - Goblin Soldier,True
+95657,TDM,Bloomvine Regent,rare,G,5,Creature - Dragon,True
+95542,TDM,Static Snare,uncommon,W,5,Enchantment,True
+95781,TDM,Dalkovan Encampment,rare,W,0,Land,True
+95802,TDM,Island,basic,U,0,Basic Land - Island,True
+95681,TDM,Sarkhan's Resolve,common,G,2,Instant,True
+95629,TDM,Iridescent Tiger,uncommon,BGRUW,5,Creature - Cat,True
+95761,TDM,Whirlwing Stormbrood,uncommon,GU,5,Creature - Dragon,True
+95760,TDM,"Ureni, the Song Unending",mythic,GRU,8,Legendary Creature - Spirit Dragon,True
+95592,TDM,Caustic Exhale,common,B,1,Instant,True
+95790,TDM,Mystic Monastery,uncommon,RUW,0,Land,True
+95712,TDM,Glacial Dragonhunt,uncommon,RU,2,Sorcery,True
+95567,TDM,Kishla Trawlers,uncommon,U,3,Creature - Human Citizen,True
+95585,TDM,Winternight Stories,rare,U,3,Sorcery,True
+95529,TDM,Lightfoot Technique,common,W,2,Instant,True
+95775,TDM,Sultai Monument,uncommon,BGU,2,Artifact,True
+95614,TDM,Strategic Betrayal,uncommon,B,2,Sorcery,True
+95532,TDM,Osseous Exhale,common,W,2,Instant,True
+95596,TDM,Desperate Measures,uncommon,B,1,Instant,True
+95556,TDM,Dirgur Island Dragon,common,U,6,Creature - Dragon,True
+95718,TDM,Inevitable Defeat,rare,BRW,4,Instant,True
+95564,TDM,Highspire Bell-Ringer,common,U,3,Creature - Djinn Monk,True
+95686,TDM,Trade Route Envoy,common,G,4,Creature - Dog Soldier,True
+95771,TDM,Jade-Cast Sentinel,common,,4,Artifact Creature - Ape Snake,True
+95536,TDM,Riling Dawnbreaker,common,W,5,Creature - Dragon,True
+95729,TDM,Mammoth Bellow,uncommon,GRU,5,Sorcery,True
+95754,TDM,Temur Battlecrier,rare,GRU,3,Creature - Orc Ranger,True
+95624,TDM,Devoted Duelist,common,R,2,Creature - Goblin Monk,True
+95541,TDM,Starry-Eyed Skyrider,uncommon,W,3,Creature - Human Scout,True
+95598,TDM,Feral Deathgorger,common,B,6,Creature - Dragon,True
+95613,TDM,Sinkhole Surveyor,rare,B,2,Creature - Bird Scout,True
+95616,TDM,Unrooted Ancestor,uncommon,B,3,Creature - Spirit Cleric,True
+95647,TDM,Sunset Strikemaster,uncommon,R,2,Creature - Human Monk,True
+95782,TDM,Dismal Backwater,common,BU,0,Land,True
+95792,TDM,Opulent Palace,uncommon,BGU,0,Land,True
+95575,TDM,Snowmelt Stag,common,U,4,Creature - Elemental Elk,True
+95724,TDM,Kin-Tree Severance,uncommon,BGW,3,Instant,True
+95755,TDM,Temur Tawnyback,common,GRU,3,Creature - Beast,True
+95725,TDM,Kishla Skimmer,uncommon,GU,2,Creature - Bird Scout,True
+95674,TDM,Rainveil Rejuvenator,uncommon,G,4,Creature - Elephant Druid,True
+95750,TDM,Skirmish Rhino,uncommon,BGW,3,Creature - Rhino,True
+95744,TDM,Riverwheel Sweep,uncommon,RUW,3,Sorcery,True
+95644,TDM,Stormshriek Feral,common,R,5,Creature - Dragon,True
+95696,TDM,Bone-Cairn Butcher,uncommon,BRW,4,Creature - Demon,True
+95593,TDM,Corroding Dragonstorm,uncommon,B,2,Enchantment,True
+95579,TDM,Temur Devotee,common,GRU,2,Creature - Human Druid,True
+95797,TDM,Thornwood Falls,common,GU,0,Land,True
+95563,TDM,Fresh Start,uncommon,U,2,Enchantment - Aura,True
+95671,TDM,Lasyd Prowler,rare,G,4,Creature - Snake Ranger,True
+95633,TDM,Molten Exhale,common,R,2,Sorcery,True
+95796,TDM,Swiftwater Cliffs,common,RU,0,Land,True
+95741,TDM,Reigning Victor,common,BRW,3,Creature - Orc Warrior,True
+95617,TDM,Venerated Stormsinger,uncommon,B,4,Creature - Orc Cleric,True
+95719,TDM,Jeskai Brushmaster,uncommon,RUW,4,Creature - Orc Monk,True
+95626,TDM,Equilibrium Adept,uncommon,R,4,Creature - Dog Monk,True
+95685,TDM,Synchronized Charge,uncommon,G,2,Sorcery,True
+95643,TDM,Stormscale Scion,mythic,R,6,Creature - Dragon,True
+95772,TDM,Jeskai Monument,uncommon,RUW,2,Artifact,True
+95701,TDM,Disruptive Stormbrood,uncommon,BG,5,Creature - Dragon,True
+95588,TDM,Aggressive Negotiations,common,B,3,Sorcery,True
+95734,TDM,"Neriv, Heart of the Storm",mythic,BRW,4,Legendary Creature - Spirit Dragon,True
+95767,TDM,Boulderborn Dragon,common,,5,Artifact Creature - Dragon,True
+95636,TDM,Rescue Leopard,common,R,3,Creature - Cat,True
+95692,TDM,Auroral Procession,uncommon,GU,2,Instant,True
+95720,TDM,Jeskai Revelation,mythic,RUW,7,Instant,True
+95523,TDM,Descendant of Storms,uncommon,W,1,Creature - Human Soldier,True
+95770,TDM,Embermouth Sentinel,common,,2,Artifact Creature - Chimera,True
+95525,TDM,Duty Beyond Death,uncommon,W,2,Instant,True
+95654,TDM,Zurgo's Vanguard,uncommon,R,3,Creature - Dog Soldier,True
+95560,TDM,Dragonstorm Forecaster,uncommon,U,1,Creature - Human Scout,True
+95778,TDM,Bloodfell Caves,common,BR,0,Land,True
+95716,TDM,Hollowmurk Siege,rare,BG,2,Enchantment,True
+95611,TDM,The Sibsig Ceremony,rare,B,3,Legendary Enchantment,True
+95650,TDM,Underfoot Underdogs,common,R,3,Creature - Goblin Warrior,True
+95746,TDM,Runescale Stormbrood,uncommon,RU,4,Creature - Dragon,True
+95768,TDM,Dragonfire Blade,rare,,1,Artifact - Equipment,True
+95555,TDM,Constrictor Sage,uncommon,U,5,Creature - Snake Wizard,True
+95625,TDM,Dracogenesis,mythic,R,8,Enchantment,True
+95609,TDM,Scavenger Regent,rare,B,4,Creature - Dragon,True
+95753,TDM,Stalwart Successor,uncommon,BG,3,Creature - Human Warrior,True
+95630,TDM,Jeskai Devotee,common,RUW,2,Creature - Orc Monk,True
+95727,TDM,Lie in Wait,uncommon,BGU,3,Sorcery,True
+95591,TDM,Avenger of the Fallen,rare,B,3,Creature - Human Warrior,True
+95577,TDM,Stillness in Motion,rare,U,2,Enchantment,True
+95562,TDM,Focus the Mind,common,U,5,Instant,True
+95659,TDM,Champion of Dusan,common,G,3,Creature - Human Warrior,True
+95531,TDM,Mardu Devotee,common,BRW,1,Creature - Human Scout,True
+95706,TDM,Eshki Dragonclaw,rare,GRU,4,Legendary Creature - Human Warrior,True
+95736,TDM,Perennation,mythic,BGW,6,Sorcery,True
+95559,TDM,Dragonologist,rare,U,3,Creature - Human Wizard,True
+95737,TDM,Purging Stormbrood,uncommon,BW,5,Creature - Dragon,True
+95668,TDM,Inspirited Vanguard,uncommon,G,5,Creature - Human Soldier,True
+95538,TDM,Sage of the Skies,rare,W,3,Creature - Human Monk,True
+95572,TDM,Riverwalk Technique,common,U,4,Instant,True
+95648,TDM,Tersa Lightshatter,rare,R,3,Legendary Creature - Orc Wizard,True
+95615,TDM,Unburied Earthcarver,common,B,2,Creature - Human Warrior,True
+95688,TDM,Undergrowth Leopard,common,G,2,Creature - Cat,True
+95742,TDM,Reputable Merchant,common,BGW,3,Creature - Human Citizen,True
+95697,TDM,Call the Spirit Dragons,mythic,BGRUW,5,Enchantment,True
+95554,TDM,Bewildering Blizzard,uncommon,U,6,Instant,True
+95527,TDM,Fortress Kin-Guard,common,W,2,Creature - Dog Soldier,True
+95519,TDM,Bearer of Glory,common,W,2,Creature - Human Soldier,True
+95594,TDM,Cruel Truths,common,B,4,Instant,True
+95632,TDM,Meticulous Artisan,common,R,4,Creature - Djinn Artificer,True
+95517,TDM,"Anafenza, Unyielding Lineage",rare,W,3,Legendary Creature - Spirit Soldier,True
+95757,TDM,Thunder of Unity,rare,BRW,3,Enchantment - Saga,True
+95693,TDM,Awaken the Honored Dead,rare,BGU,3,Enchantment - Saga,True
+95524,TDM,Dragonback Lancer,common,W,4,Creature - Human Soldier,True
+95543,TDM,Stormbeacon Blade,uncommon,W,2,Artifact - Equipment,True
+95576,TDM,Spectral Denial,uncommon,U,1,Instant,True
+95621,TDM,Breaching Dragonstorm,uncommon,R,5,Enchantment,True
+95739,TDM,Rakshasa's Bargain,uncommon,BGU,3,Instant,True
+95662,TDM,Dragonbroods' Relic,uncommon,BGRUW,2,Artifact,True
+95735,TDM,New Way Forward,rare,RUW,5,Instant,True
+95663,TDM,Dusyut Earthcarver,common,G,6,Creature - Elephant Druid,True
+95603,TDM,Krumar Initiate,uncommon,B,2,Creature - Human Cleric,True
+95788,TDM,Maelstrom of the Spirit Dragon,rare,,0,Land,True
+95545,TDM,Sunpearl Kirin,uncommon,W,2,Creature - Kirin,True
+95740,TDM,Rediscover the Way,rare,RUW,3,Enchantment - Saga,True
+95748,TDM,Severance Priest,rare,BGW,3,Creature - Djinn Cleric,True
+95687,TDM,Traveling Botanist,uncommon,G,2,Creature - Dog Scout,True
+95634,TDM,Narset's Rebuke,common,RUW,5,Instant,True
+95612,TDM,"Sidisi, Regent of the Mire",rare,B,2,Legendary Creature - Zombie Snake Warlock,True
+95677,TDM,Sage of the Fang,uncommon,G,3,Creature - Human Druid,True
+95566,TDM,Iceridge Serpent,common,U,5,Creature - Serpent,True
+95586,TDM,Abzan Devotee,common,BGW,2,Creature - Dog Cleric,True
+95842,SPG,Marsh Flats,rare,,0,Land,True
+95838,SPG,Genesis Ultimatum,rare,GRU,7,Sorcery,True
+95841,SPG,Arid Mesa,rare,,0,Land,True
+95837,SPG,Emergent Ultimatum,rare,BGU,7,Sorcery,True
+95839,SPG,Inspired Ultimatum,rare,RUW,7,Sorcery,True
+95843,SPG,Misty Rainforest,rare,,0,Land,True
+95840,SPG,Ruinous Ultimatum,rare,BRW,7,Sorcery,True
+95844,SPG,Scalding Tarn,rare,,0,Land,True
+95845,SPG,Verdant Catacombs,rare,,0,Land,True
+95836,SPG,Eerie Ultimatum,rare,BGW,7,Sorcery,True
+95819,TDM,Forest,basic,G,0,Basic Land - Forest,True
+95817,TDM,Swamp,basic,B,0,Basic Land - Swamp,True
+95814,TDM,Forest,basic,G,0,Basic Land - Forest,True
+95801,TDM,Plains,basic,W,0,Basic Land - Plains,True
+95805,TDM,Swamp,basic,B,0,Basic Land - Swamp,True
+95815,TDM,Plains,basic,W,0,Basic Land - Plains,True
+95816,TDM,Island,basic,U,0,Basic Land - Island,True
+95809,TDM,Forest,basic,G,0,Basic Land - Forest,True
+95818,TDM,Mountain,basic,R,0,Basic Land - Mountain,True
+95812,TDM,Swamp,basic,B,0,Basic Land - Swamp,True
+95810,TDM,Plains,basic,W,0,Basic Land - Plains,True
+95807,TDM,Mountain,basic,R,0,Basic Land - Mountain,True
+95803,TDM,Island,basic,U,0,Basic Land - Island,True
+95813,TDM,Mountain,basic,R,0,Basic Land - Mountain,True
+95811,TDM,Island,basic,U,0,Basic Land - Island,True
+96435,TDM,Awaken the Honored Dead,rare,BGU,3,Enchantment - Saga,False
+96436,TDM,Barrensteppe Siege,rare,BW,4,Enchantment,False
+96437,TDM,Frostcliff Siege,rare,RU,3,Enchantment,False
+96438,TDM,Glacierwood Siege,rare,GU,3,Enchantment,False
+96439,TDM,Hollowmurk Siege,rare,BG,2,Enchantment,False
+96440,TDM,Rediscover the Way,rare,RUW,3,Enchantment - Saga,False
+96441,TDM,Revival of the Ancestors,rare,BGW,4,Enchantment - Saga,False
+96442,TDM,Roar of Endless Song,rare,GRU,5,Enchantment - Saga,False
+96443,TDM,Thunder of Unity,rare,BRW,3,Enchantment - Saga,False
+96444,TDM,Windcrag Siege,rare,RW,3,Enchantment,False
+96445,TDM,Cori Mountain Monastery,rare,R,0,Land,False
+96446,TDM,Dalkovan Encampment,rare,W,0,Land,False
+96447,TDM,Great Arashin City,rare,B,0,Land,False
+96448,TDM,Kishla Village,rare,G,0,Land,False
+96449,TDM,Mistrise Village,rare,U,0,Land,False
+96450,TDM,"Elspeth, Storm Slayer",mythic,W,5,Legendary Planeswalker - Elspeth,False
+96451,TDM,Qarsi Revenant,rare,B,3,Creature - Vampire,False
+96452,TDM,Clarion Conqueror,rare,W,3,Creature - Dragon,False
+96453,TDM,Clarion Conqueror,rare,W,3,Creature - Dragon,False
+96454,TDM,Marang River Regent,rare,U,6,Creature - Dragon,False
+96455,TDM,Coil and Catch,rare,U,4,Instant - Omen,False
+96456,TDM,Marang River Regent,rare,U,6,Creature - Dragon,False
+96457,TDM,Coil and Catch,rare,U,4,Instant - Omen,False
+96458,TDM,Scavenger Regent,rare,B,4,Creature - Dragon,False
+96459,TDM,Exude Toxin,rare,B,2,Sorcery - Omen,False
+96460,TDM,Scavenger Regent,rare,B,4,Creature - Dragon,False
+96461,TDM,Exude Toxin,rare,B,2,Sorcery - Omen,False
+96462,TDM,Magmatic Hellkite,rare,R,4,Creature - Dragon,False
+96463,TDM,Magmatic Hellkite,rare,R,4,Creature - Dragon,False
+96464,TDM,Bloomvine Regent,rare,G,5,Creature - Dragon,False
+96465,TDM,Claim Territory,rare,G,3,Sorcery - Omen,False
+96466,TDM,Bloomvine Regent,rare,G,5,Creature - Dragon,False
+96467,TDM,Claim Territory,rare,G,3,Sorcery - Omen,False
+96468,TDM,"Ugin, Eye of the Storms",mythic,,7,Legendary Planeswalker - Ugin,False
+96469,TDM,"Ugin, Eye of the Storms",mythic,,7,Legendary Planeswalker - Ugin,False
+96470,TDM,"Anafenza, Unyielding Lineage",rare,W,3,Legendary Creature - Spirit Soldier,False
+96471,TDM,Sage of the Skies,rare,W,3,Creature - Human Monk,False
+96472,TDM,Smile at Death,mythic,W,5,Enchantment,False
+96473,TDM,United Battlefront,rare,W,4,Sorcery,False
+96474,TDM,Voice of Victory,rare,W,2,Creature - Human Bard,False
+96475,TDM,Ambling Stormshell,rare,U,5,Creature - Turtle,False
+96476,TDM,Naga Fleshcrafter,rare,U,4,Creature - Snake Shapeshifter,False
+96477,TDM,Stillness in Motion,rare,U,2,Enchantment,False
+96478,TDM,"Taigam, Master Opportunist",mythic,U,2,Legendary Creature - Human Monk,False
+96479,TDM,Winternight Stories,rare,U,3,Sorcery,False
+96480,TDM,Avenger of the Fallen,rare,B,3,Creature - Human Warrior,False
+96481,TDM,Qarsi Revenant,rare,B,3,Creature - Vampire,False
+96482,TDM,Rot-Curse Rakshasa,mythic,B,2,Creature - Demon,False
+96483,TDM,The Sibsig Ceremony,rare,B,3,Legendary Enchantment,False
+96484,TDM,"Sidisi, Regent of the Mire",rare,B,2,Legendary Creature - Zombie Snake Warlock,False
+96485,TDM,Sinkhole Surveyor,rare,B,2,Creature - Bird Scout,False
+96486,TDM,Cori-Steel Cutter,rare,R,2,Artifact - Equipment,False
+96487,TDM,Stadium Headliner,rare,R,1,Creature - Goblin Warrior,False
+96488,TDM,Tersa Lightshatter,rare,R,3,Legendary Creature - Orc Wizard,False
+96489,TDM,Craterhoof Behemoth,mythic,G,8,Creature - Beast,False
+96490,TDM,Herd Heirloom,rare,G,2,Artifact,False
+96491,TDM,Lasyd Prowler,rare,G,4,Creature - Snake Ranger,False
+96492,TDM,Nature's Rhythm,rare,G,2,Sorcery,False
+96493,TDM,"Surrak, Elusive Hunter",rare,G,3,Legendary Creature - Human Warrior,False
+96494,TDM,Warden of the Grove,rare,G,3,Creature - Hydra,False
+96495,TDM,All-Out Assault,mythic,BRW,5,Enchantment,False
+96496,TDM,"Betor, Kin to All",mythic,BGW,5,Legendary Creature - Spirit Dragon,False
+96497,TDM,Death Begets Life,mythic,BGU,8,Sorcery,False
+96498,TDM,Dragonback Assault,mythic,GRU,6,Enchantment,False
+96499,TDM,Eshki Dragonclaw,rare,GRU,4,Legendary Creature - Human Warrior,False
+96500,TDM,Fangkeeper's Familiar,rare,BGU,4,Creature - Snake,False
+96501,TDM,"Felothar, Dawn of the Abzan",rare,BGW,3,Legendary Creature - Human Warrior,False
+96502,TDM,Flamehold Grappler,rare,RUW,3,Creature - Human Monk,False
+96503,TDM,Inevitable Defeat,rare,BRW,4,Instant,False
+96504,TDM,Jeskai Revelation,mythic,RUW,7,Instant,False
+96505,TDM,"Kotis, the Fangkeeper",rare,BGU,4,Legendary Creature - Zombie Warrior,False
+96506,TDM,Lotuslight Dancers,rare,BGU,5,Creature - Zombie Bard,False
+96507,TDM,Mardu Siegebreaker,rare,BRW,4,Creature - Human Warrior,False
+96508,TDM,"Narset, Jeskai Waymaster",rare,RUW,3,Legendary Creature - Human Monk,False
+96509,TDM,"Neriv, Heart of the Storm",mythic,BRW,4,Legendary Creature - Spirit Dragon,False
+96510,TDM,New Way Forward,rare,RUW,5,Instant,False
+96511,TDM,Perennation,mythic,BGW,6,Sorcery,False
+96512,TDM,Severance Priest,rare,BGW,3,Creature - Djinn Cleric,False
+96513,TDM,"Shiko, Paragon of the Way",mythic,RUW,5,Legendary Creature - Spirit Dragon,False
+96514,TDM,Songcrafter Mage,rare,GRU,3,Creature - Human Bard,False
+96515,TDM,Temur Battlecrier,rare,GRU,3,Creature - Orc Ranger,False
+96516,TDM,"Teval, Arbiter of Virtue",mythic,BGU,5,Legendary Creature - Spirit Dragon,False
+96517,TDM,"Ureni, the Song Unending",mythic,GRU,8,Legendary Creature - Spirit Dragon,False
+96518,TDM,Yathan Roadwatcher,rare,BGW,4,Creature - Human Scout,False
+96519,TDM,"Zurgo, Thunder's Decree",rare,BRW,3,Legendary Creature - Orc Warrior,False
+96520,TDM,Riling Dawnbreaker,common,W,5,Creature - Dragon,False
+96521,TDM,Signaling Roar,common,W,2,Sorcery - Omen,False
+96522,TDM,Teeming Dragonstorm,uncommon,W,4,Enchantment,False
+96523,TDM,Dirgur Island Dragon,common,U,6,Creature - Dragon,False
+96524,TDM,Skimming Strike,common,U,2,Instant - Omen,False
+96525,TDM,Dragonologist,rare,U,3,Creature - Human Wizard,False
+96526,TDM,Roiling Dragonstorm,uncommon,U,2,Enchantment,False
+96527,TDM,Corroding Dragonstorm,uncommon,B,2,Enchantment,False
+96528,TDM,Feral Deathgorger,common,B,6,Creature - Dragon,False
+96529,TDM,Dusk Sight,common,B,2,Sorcery - Omen,False
+96530,TDM,Breaching Dragonstorm,uncommon,R,5,Enchantment,False
+96531,TDM,Dracogenesis,mythic,R,8,Enchantment,False
+96532,TDM,Magmatic Hellkite,rare,R,4,Creature - Dragon,False
+96533,TDM,"Sarkhan, Dragon Ascendant",rare,R,2,Legendary Creature - Human Druid,False
+96534,TDM,Stormscale Scion,mythic,R,6,Creature - Dragon,False
+96535,TDM,Stormshriek Feral,common,R,5,Creature - Dragon,False
+96536,TDM,Flush Out,common,R,2,Sorcery - Omen,False
+96537,TDM,Encroaching Dragonstorm,uncommon,G,4,Enchantment,False
+96538,TDM,Sagu Wildling,common,G,5,Creature - Dragon,False
+96539,TDM,Roost Seek,common,G,1,Sorcery - Omen,False
+96540,TDM,Armament Dragon,uncommon,BGW,6,Creature - Dragon,False
+96541,TDM,"Betor, Kin to All",mythic,BGW,5,Legendary Creature - Spirit Dragon,False
+96542,TDM,Call the Spirit Dragons,mythic,BGRUW,5,Enchantment,False
+96543,TDM,Disruptive Stormbrood,uncommon,BG,5,Creature - Dragon,False
+96544,TDM,Petty Revenge,uncommon,BG,2,Sorcery - Omen,False
+96545,TDM,Jeskai Shrinekeeper,uncommon,RUW,5,Creature - Dragon,False
+96546,TDM,Karakyk Guardian,uncommon,GRU,6,Creature - Dragon,False
+96547,TDM,Kheru Goldkeeper,uncommon,BGU,4,Creature - Dragon,False
+96548,TDM,"Neriv, Heart of the Storm",mythic,BRW,4,Legendary Creature - Spirit Dragon,False
+96549,TDM,Purging Stormbrood,uncommon,BW,5,Creature - Dragon,False
+96550,TDM,Absorb Essence,uncommon,BW,2,Instant - Omen,False
+96551,TDM,Runescale Stormbrood,uncommon,RU,4,Creature - Dragon,False
+96552,TDM,Chilling Screech,uncommon,RU,2,Instant - Omen,False
+96553,TDM,"Shiko, Paragon of the Way",mythic,RUW,5,Legendary Creature - Spirit Dragon,False
+96554,TDM,Sonic Shrieker,uncommon,BRW,5,Creature - Dragon,False
+96555,TDM,"Teval, Arbiter of Virtue",mythic,BGU,5,Legendary Creature - Spirit Dragon,False
+96556,TDM,Twinmaw Stormbrood,uncommon,RW,6,Creature - Dragon,False
+96557,TDM,Charring Bite,uncommon,RW,2,Sorcery - Omen,False
+96558,TDM,"Ureni, the Song Unending",mythic,GRU,8,Legendary Creature - Spirit Dragon,False
+96559,TDM,Whirlwing Stormbrood,uncommon,GU,5,Creature - Dragon,False
+96560,TDM,Dynamic Soar,uncommon,GU,3,Sorcery - Omen,False
+96561,TDM,Boulderborn Dragon,common,,5,Artifact Creature - Dragon,False
+96562,TDM,Dragonfire Blade,rare,,1,Artifact - Equipment,False
+96563,TDM,Mox Jasper,mythic,,0,Legendary Artifact,False
+96564,TDM,Maelstrom of the Spirit Dragon,rare,,0,Land,False
+95557,TDM,Skimming Strike,common,U,2,Instant - Omen,False
+95569,TDM,Coil and Catch,rare,U,4,Instant - Omen,False
+95599,TDM,Dusk Sight,common,B,2,Sorcery - Omen,False
+95610,TDM,Exude Toxin,rare,B,2,Sorcery - Omen,False
+95537,TDM,Signaling Roar,common,W,2,Sorcery - Omen,False
+95645,TDM,Flush Out,common,R,2,Sorcery - Omen,False
+95658,TDM,Claim Territory,rare,G,3,Sorcery - Omen,False
+95680,TDM,Roost Seek,common,G,1,Sorcery - Omen,False
+95702,TDM,Petty Revenge,uncommon,BG,2,Sorcery - Omen,False
+95738,TDM,Absorb Essence,uncommon,BW,2,Instant - Omen,False
+95747,TDM,Chilling Screech,uncommon,RU,2,Instant - Omen,False
+95759,TDM,Charring Bite,uncommon,RW,2,Sorcery - Omen,False
+95762,TDM,Dynamic Soar,uncommon,GU,3,Sorcery - Omen,False
+95820,TTDM,Copy,token,,0,,False
+95821,TTDM,Bird,token,,0,Creature - Bird,False
+95822,TTDM,Monk,token,,0,Creature - Monk,False
+95823,TTDM,Soldier,token,,0,Creature - Soldier,False
+95824,TTDM,Soldier,token,,0,Creature - Soldier,False
+95825,TTDM,Spirit,token,,0,Creature - Spirit,False
+95826,TTDM,Spirit,token,,0,Creature - Spirit,False
+95827,TTDM,Spirit,token,,0,Creature - Spirit,False
+95828,TTDM,Spirit,token,,0,Creature - Spirit,False
+95829,TTDM,Zombie Druid,token,,0,Creature - Zombie Druid,False
+95830,TTDM,Dragon,token,,0,Creature - Dragon,False
+95831,TTDM,Goblin,token,,0,Creature - Goblin,False
+95832,TTDM,Warrior,token,,0,Creature - Warrior,False
+95833,TTDM,Elephant,token,,0,Creature - Elephant,False
+95834,TTDM,Reliquary Dragon,token,,0,Creature - Dragon,False
+95835,TTDM,Treasure,token,,0,Artifact - Treasure,False
+97027,SLD,Dragonlord Atarka,mythic,GR,7,Legendary Creature - Elder Dragon,False
+97028,SLD,Dragonlord Atarka,mythic,GR,7,Legendary Creature - Elder Dragon,False
+97029,SLD,Dragonlord Dromoka,mythic,GW,6,Legendary Creature - Elder Dragon,False
+97030,SLD,Dragonlord Dromoka,mythic,GW,6,Legendary Creature - Elder Dragon,False
+97031,SLD,Dragonlord Kolaghan,mythic,BR,6,Legendary Creature - Elder Dragon,False
+97032,SLD,Dragonlord Kolaghan,mythic,BR,6,Legendary Creature - Elder Dragon,False
+97033,SLD,Dragonlord Ojutai,mythic,UW,5,Legendary Creature - Elder Dragon,False
+97034,SLD,Dragonlord Ojutai,mythic,UW,5,Legendary Creature - Elder Dragon,False
+97035,SLD,Dragonlord Silumgar,mythic,BU,6,Legendary Creature - Elder Dragon,False
+97036,SLD,Dragonlord Silumgar,mythic,BU,6,Legendary Creature - Elder Dragon,False
+96568,TDC,Felothar the Steadfast,mythic,BGW,4,Legendary Creature - Human Warrior,False
+96565,TDC,"Betor, Ancestor's Voice",mythic,BGW,5,Legendary Creature - Spirit Dragon,False
+96572,TDC,"Teval, the Balanced Scale",mythic,BGU,4,Legendary Creature - Spirit Dragon,False
+96569,TDC,"Kotis, Sibsig Champion",mythic,BGU,3,Legendary Creature - Zombie Warrior,False
+96566,TDC,"Elsha, Threefold Master",mythic,RUW,3,Legendary Creature - Djinn Monk,False
+96573,TDC,Ureni of the Unwritten,mythic,GRU,7,Legendary Creature - Spirit Dragon,False
+96574,TDC,Zurgo Stormrender,mythic,BRW,3,Legendary Creature - Orc Warrior,False
+96571,TDC,"Shiko and Narset, Unified",mythic,RUW,4,Legendary Creature - Human Spirit Dragon,False
+96567,TDC,"Eshki, Temur's Roar",mythic,GRU,3,Legendary Creature - Human Warrior,False
+96570,TDC,"Neriv, Crackling Vanguard",mythic,BRW,5,Legendary Creature - Spirit Dragon,False
