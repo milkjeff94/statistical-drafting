@@ -15090,7 +15090,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 90297,Y24,Caldera Breaker,mythic,R,6,Artifact Creature - Golem,True
 90298,Y24,"Kamachal, Ship's Mascot",rare,R,3,Legendary Creature - Dinosaur Pirate,True
 90299,Y24,Pirate's Landing,uncommon,R,1,Sorcery,True
-90300,Y24,Ribald Shanty,uncommon,R,1,Instant - Chorus,True
+90300,Y24,Ribald Shanty,uncommon,R,2,Instant - Chorus,True
 90301,Y24,Colossal Chorus,mythic,G,8,Sorcery - Chorus,True
 90302,Y24,Mythweaver Poq,mythic,G,4,Legendary Creature - Cat Shaman,True
 90303,Y24,Propagator Primordium,rare,G,2,Creature - Fungus,True
@@ -17927,7 +17927,7 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 95353,Y25,Verdant Dread,mythic,G,2,Enchantment,True
 95354,Y25,Wary Zone Guard,uncommon,G,3,Creature - Human Survivor,True
 95355,Y25,"Effie, Fast Learner",rare,GW,3,Legendary Creature - Human Survivor,True
-95356,Y25,Enduring Friendship,rare,RU,2,Enchantment Creature - Otter Glimmer,True
+95356,Y25,Enduring Friendship,rare,RU,3,Enchantment Creature - Otter Glimmer,True
 95357,Y25,Fear of Change,uncommon,GU,2,Enchantment Creature - Nightmare,True
 95358,Y25,Gilded Ambusher,rare,BR,3,Enchantment Creature - Lizard Glimmer,True
 95359,Y25,Golden Sidekick,uncommon,BW,2,Enchantment Creature - Bat Glimmer,True
@@ -20925,3 +20925,663 @@ id,expansion,name,rarity,color_identity,mana_value,types,is_booster
 96571,TDC,"Shiko and Narset, Unified",mythic,RUW,4,Legendary Creature - Human Spirit Dragon,False
 96567,TDC,"Eshki, Temur's Roar",mythic,GRU,3,Legendary Creature - Human Warrior,False
 96570,TDC,"Neriv, Crackling Vanguard",mythic,BRW,5,Legendary Creature - Spirit Dragon,False
+97038,Y25,Swiftspear's Teachings,uncommon,R,1,Sorcery,True
+97039,Y25,"Hamza, Might of the Yathan",mythic,BGW,5,Legendary Creature - Elephant Warrior,True
+97040,Y25,Waystone's Guidance,uncommon,W,2,Enchantment,True
+97041,Y25,"Lam, Storm Crane Elder",mythic,W,4,Legendary Creature - Human Monk,True
+97042,Y25,Thunderbond Vanguard,rare,W,3,Creature - Human Warrior,True
+97043,Y25,Ureni's Counsel,uncommon,RU,7,Sorcery,True
+97044,Y25,Cunning Azurescale,rare,U,6,Creature - Dragon,True
+97046,Y25,Pearl Lake Warden,rare,GU,4,Creature - Dragon,True
+97048,Y25,Draconic Fealty,uncommon,B,1,Sorcery,True
+97049,Y25,Runeblade Raiser,uncommon,B,1,Creature - Human Warrior,True
+97050,Y25,Sibsig's Artisan,rare,B,2,Creature - Human Artificer,True
+97051,Y25,Dragonblood Twins,uncommon,R,2,Creature - Human Monk,True
+97052,Y25,Dragonsoul Prodigy,rare,R,3,Creature - Human Monk,True
+97053,Y25,Dragon Typhoon,rare,R,6,Kindred Enchantment - Dragon,True
+97054,Y25,Hardened Bonds,rare,G,1,Enchantment,True
+97055,Y25,Amber-Plate Ainok,uncommon,G,2,Creature - Dog Mercenary,True
+97056,Y25,Pampered Loamfrill,rare,G,1,Creature - Lizard,True
+97057,Y25,Illuminating Lash,uncommon,RU,2,Sorcery,True
+97058,Y25,Stonehide Ancient,mythic,GRU,6,Creature - Dragon,True
+97060,Y25,Song of Seasons,uncommon,GR,3,Sorcery,True
+97061,Y25,Mardu Thunderkite,mythic,BRW,3,Creature - Dragon,True
+97062,Y25,Call the Crash,rare,BGW,6,Sorcery,True
+97063,Y25,Stormforged Armor,rare,R,3,Legendary Artifact - Equipment,True
+97064,Y25,Territorial Strike,uncommon,BG,3,Sorcery,True
+97065,Y25,Audacious Knuckleblade,rare,GRU,3,Creature - Ogre Warrior Wizard,True
+97066,Y25,"Xho Cai, Flickering Talon",mythic,RUW,3,Legendary Creature - Bird Monk,True
+97067,Y25,Dalkovan Outrider,rare,BR,3,Creature - Orc Warrior,True
+97068,Y25,Oasis of Renewal,rare,BGU,3,Legendary Enchantment,True
+97069,Y25,Dragonweave Tapestry,rare,,4,Artifact,True
+97070,Y25,Desert Cenote,rare,,0,Land - Desert,True
+97045,Y25,Divining Dive,rare,U,2,Instant - Omen,False
+97047,Y25,Nesting Instinct,rare,GU,3,Sorcery - Omen,False
+97059,Y25,Warning Tremor,mythic,GRU,3,Sorcery - Omen,False
+97075,Y25,Monastery Mentor,mythic,W,3,Creature - Human Monk,False
+97076,Y25,Ball Lightning,rare,R,3,Creature - Elemental,False
+97077,Y25,Siege Rhino,rare,BGW,4,Creature - Rhino,False
+97078,Y25,Thunderbreak Regent,rare,R,4,Creature - Dragon,False
+97079,Y25,Stormscale Scion,mythic,R,6,Creature - Dragon,False
+97080,Y25,Magmatic Hellkite,rare,R,4,Creature - Dragon,False
+97081,Y25,Boltwing Marauder,rare,BR,5,Creature - Dragon,False
+97082,Y25,Caldera Pyremaw,rare,R,5,Creature - Dragon,False
+97083,Y25,Thundermane Dragon,rare,R,4,Creature - Dragon,False
+97085,Y25,"Neriv, Heart of the Storm",mythic,BRW,4,Legendary Creature - Spirit Dragon,False
+97086,Y25,Purging Stormbrood,uncommon,BW,5,Creature - Dragon,False
+97087,Y25,Absorb Essence,uncommon,BW,2,Instant - Omen,False
+97088,Y25,Twinmaw Stormbrood,uncommon,RW,6,Creature - Dragon,False
+97089,Y25,Charring Bite,uncommon,RW,2,Sorcery - Omen,False
+97090,Y25,Runescale Stormbrood,uncommon,RU,4,Creature - Dragon,False
+97091,Y25,Chilling Screech,uncommon,RU,2,Instant - Omen,False
+97092,Y25,Disruptive Stormbrood,uncommon,BG,5,Creature - Dragon,False
+97093,Y25,Petty Revenge,uncommon,BG,2,Sorcery - Omen,False
+97094,Y25,Whirlwing Stormbrood,uncommon,GU,5,Creature - Dragon,False
+97095,Y25,Dynamic Soar,uncommon,GU,3,Sorcery - Omen,False
+97072,TY25,Monk,token,,0,Creature - Monk,False
+97073,TY25,Spirit,token,,0,Creature - Spirit,False
+97074,TY25,Dragon,token,,0,Creature - Dragon,False
+97071,TY25,Warrior,token,,0,Creature - Warrior,False
+95974,FIN,Resentful Revelation,common,B,2,Sorcery,True
+95874,FIN,From Father to Son,rare,W,2,Sorcery,True
+95925,FIN,Retrieve the Esper,common,U,4,Sorcery,True
+96173,FIN,"Treno, Dark City",common,BU,0,Land - Town,True
+96198,FIN,"Rosa, Resolute White Mage",rare,W,4,Legendary Creature - Human Noble Cleric,False
+96014,FIN,Queen Brahne,uncommon,R,3,Legendary Creature - Human Noble,True
+96057,FIN,Gysahl Greens,common,G,2,Sorcery,True
+95977,FIN,Sephiroth's Intervention,common,B,4,Instant,True
+96111,FIN,"Omega, Heartless Evolution",uncommon,GU,7,Legendary Artifact Creature - Robot,True
+96153,FIN,Capital City,uncommon,,0,Land - Town,True
+95901,FIN,Zack Fair,uncommon,W,1,Legendary Creature - Human Soldier,True
+96150,FIN,"Balamb Garden, SeeD Academy",rare,GU,0,Land - Town,True
+96160,FIN,"Guadosalam, Farplane Gateway",common,GU,0,Land - Town,True
+95910,FIN,"Gogo, Master of Mimicry",mythic,U,3,Legendary Creature - Wizard,True
+95923,FIN,Quistis Trepe,uncommon,U,3,Legendary Creature - Human Wizard,True
+96020,FIN,Sandworm,uncommon,R,5,Creature - Worm,True
+95933,FIN,Stolen Uniform,uncommon,U,1,Instant,True
+95945,FIN,Ahriman,common,B,3,Creature - Eye Horror,True
+95859,FIN,"Ashe, Princess of Dalmasca",uncommon,W,3,Legendary Creature - Human Rebel Noble,True
+95904,FIN,Combat Tutorial,common,U,3,Sorcery,True
+95913,FIN,Il Mheg Pixie,uncommon,U,2,Creature - Faerie,True
+96101,FIN,"Joshua, Phoenix's Dominant",rare,RW,3,Legendary Creature - Human Noble Wizard,True
+95951,FIN,Circle of Power,uncommon,B,4,Sorcery,True
+96074,FIN,Tifa Lockhart,rare,G,2,Legendary Creature - Human Monk,True
+95906,FIN,Dreams of Laguna,common,U,2,Instant,True
+96094,FIN,"Garnet, Princess of Alexandria",uncommon,GW,2,Legendary Creature - Human Noble Cleric,True
+96136,FIN,Genji Glove,rare,,5,Artifact - Equipment,True
+95898,FIN,White Mage's Staff,common,W,2,Artifact - Equipment,True
+95966,FIN,Malboro,common,B,6,Creature - Plant Horror,True
+95926,FIN,Rook Turret,common,U,4,Artifact Creature - Construct,True
+95969,FIN,Overkill,uncommon,B,3,Instant,True
+95972,FIN,Qutrub Forayer,common,B,3,Creature - Zombie Horror,True
+96050,FIN,The Earth Crystal,rare,G,4,Legendary Artifact,True
+95965,FIN,"Kain, Traitorous Dragoon",rare,B,3,Legendary Creature - Human Knight,True
+95891,FIN,Summon: Knights of Round,mythic,W,8,Enchantment Creature - Saga Knight,True
+95967,FIN,Namazu Trader,common,B,4,Creature - Fish Citizen,True
+96202,FIN,Judgment Bolt,rare,R,4,Instant,False
+96078,FIN,Traveling Chocobo,mythic,G,3,Creature - Bird,True
+96041,FIN,Bartz and Boko,rare,G,5,Legendary Creature - Human Bird,True
+95984,FIN,Tonberry,uncommon,B,1,Creature - Salamander Horror,True
+96036,FIN,Zell Dincht,rare,R,3,Legendary Creature - Human Monk,True
+96039,FIN,Balamb T-Rexaur,common,G,6,Creature - Dinosaur,True
+96040,FIN,Bard's Bow,common,G,3,Artifact - Equipment,True
+95944,FIN,Y'shtola Rhul,mythic,U,6,Legendary Creature - Cat Druid,True
+95883,FIN,Phoenix Down,uncommon,W,1,Artifact,True
+95992,FIN,"Zodiark, Umbral God",rare,B,5,Legendary Creature - God,True
+95918,FIN,Magic Damper,common,U,1,Instant,True
+95960,FIN,The Final Days,uncommon,B,4,Sorcery,True
+95878,FIN,Magitek Armor,uncommon,W,4,Artifact - Vehicle,True
+95949,FIN,"Cecil, Dark Knight",rare,BW,1,Legendary Creature - Human Knight,True
+95986,FIN,Vayne's Treachery,common,B,2,Instant,True
+95952,FIN,Cornered by Black Mages,common,B,3,Sorcery,True
+95955,FIN,The Darkness Crystal,rare,B,4,Legendary Artifact,True
+96205,FIN,Magitek Scythe,rare,,4,Artifact - Equipment,False
+95958,FIN,"Fang, Fearless l'Cie",uncommon,B,3,Legendary Creature - Human Warrior,True
+95875,FIN,G'raha Tia,uncommon,W,5,Legendary Creature - Cat Archer,True
+96138,FIN,Iron Giant,common,,7,Artifact Creature - Demon,True
+96090,FIN,"Exdeath, Void Warlock",uncommon,BG,3,Legendary Creature - Spirit Warlock,True
+95882,FIN,Paladin's Arms,common,W,3,Artifact - Equipment,True
+95995,FIN,Call the Mountain Chocobo,common,R,4,Sorcery,True
+96027,FIN,Summon: Esper Ramuh,uncommon,R,4,Enchantment Creature - Saga Wizard,True
+95905,FIN,Dragoon's Wyvern,common,U,3,Creature - Drake,True
+95899,FIN,The Wind Crystal,rare,W,4,Legendary Artifact,True
+96168,FIN,"Midgar, City of Mako",rare,B,0,Land - Town,True
+95864,FIN,Coeurl,common,W,2,Creature - Cat Beast,True
+95934,FIN,Stuck in Summoner's Sanctum,common,U,3,Enchantment - Aura,True
+95980,FIN,Sidequest: Hunt the Mark,uncommon,B,5,Enchantment,True
+95911,FIN,Ice Flan,common,U,6,Creature - Elemental Ooze,True
+96008,FIN,Laughing Mad,common,R,3,Instant,True
+96026,FIN,Summon: Brynhildr,rare,R,2,Enchantment Creature - Saga Knight,True
+96079,FIN,"Vanille, Cheerful l'Cie",uncommon,BG,4,Legendary Creature - Human Cleric,True
+96047,FIN,Coliseum Behemoth,uncommon,G,7,Creature - Beast,True
+96077,FIN,Town Greeter,common,G,2,Creature - Human Citizen,True
+96145,FIN,The Regalia,rare,,4,Legendary Artifact - Vehicle,True
+95856,FIN,Aerith Gainsborough,rare,W,3,Legendary Creature - Human Cleric,True
+96172,FIN,Starting Town,rare,,0,Land - Town,True
+96033,FIN,Unexpected Request,uncommon,R,3,Sorcery,True
+96108,FIN,"Lightning, Army of One",mythic,RW,3,Legendary Creature - Human Soldier,True
+96017,FIN,Red Mage's Rapier,common,R,2,Artifact - Equipment,True
+96066,FIN,Sazh Katzroy,rare,G,4,Legendary Creature - Human Pilot,True
+96010,FIN,Mysidian Elder,common,R,3,Creature - Human Wizard,True
+95917,FIN,The Lunar Whale,rare,U,4,Legendary Artifact - Vehicle,True
+95978,FIN,Shambling Cie'th,uncommon,B,3,Creature - Mutant Horror,True
+95975,FIN,"Sephiroth, Fabled SOLDIER",mythic,B,3,Legendary Creature - Human Avatar Soldier,True
+96018,FIN,Sabotender,common,R,2,Creature - Plant,True
+95890,FIN,Summon: Choco/Mog,common,W,3,Enchantment Creature - Saga Bird Moogle,True
+96029,FIN,Summon: G.F. Ifrit,common,R,3,Enchantment Creature - Saga Demon,True
+95908,FIN,Eject,uncommon,U,4,Instant,True
+96204,FIN,"Xande, Dark Mage",rare,BU,4,Legendary Creature - Human Wizard,False
+95983,FIN,Summon: Primal Odin,rare,B,6,Enchantment Creature - Saga Knight,True
+95860,FIN,Auron's Inspiration,uncommon,W,3,Instant,True
+96043,FIN,Cactuar,uncommon,G,1,Creature - Plant,True
+96016,FIN,"Raubahn, Bull of Ala Mhigo",rare,R,2,Legendary Creature - Human Warrior,True
+95962,FIN,Hecteyes,common,B,2,Creature - Ooze Horror,True
+95865,FIN,Crystal Fragments,uncommon,W,1,Artifact - Equipment,True
+95970,FIN,Phantom Train,uncommon,B,4,Artifact - Vehicle,True
+96035,FIN,Warrior's Sword,common,R,4,Artifact - Equipment,True
+96144,FIN,PuPu UFO,uncommon,,2,Artifact Creature - Construct Alien,True
+96123,FIN,"Tidus, Blitzball Star",uncommon,UW,3,Legendary Creature - Human Warrior,True
+95871,FIN,Dragoon's Lance,uncommon,W,2,Artifact - Equipment,True
+96164,FIN,"Jidoor, Aristocratic Capital",rare,U,0,Land - Town,True
+96005,FIN,Haste Magic,common,R,2,Instant,True
+96127,FIN,The Wandering Minstrel,rare,BGRUW,2,Legendary Creature - Human Bard,True
+96013,FIN,Prompto Argentum,uncommon,R,2,Legendary Creature - Human Scout,True
+96064,FIN,Ride the Shoopuf,uncommon,G,2,Enchantment,True
+96106,FIN,"Kuja, Genome Sorcerer",rare,BR,4,Legendary Creature - Human Mutant Wizard,True
+96075,FIN,Tifa's Limit Break,uncommon,G,1,Instant,True
+95973,FIN,Reno and Rude,uncommon,B,2,Legendary Creature - Human Assassin,True
+96080,FIN,Absolute Virtue,mythic,UW,8,Legendary Creature - Avatar Warrior,True
+95857,FIN,Aerith Rescue Mission,common,W,4,Sorcery,True
+95940,FIN,Travel the Overworld,uncommon,U,7,Sorcery,True
+96130,FIN,Adventurer's Airship,common,,3,Artifact - Vehicle,True
+95935,FIN,Summon: Leviathan,rare,U,6,Enchantment Creature - Saga Leviathan,True
+95876,FIN,Gaelicat,common,W,3,Creature - Cat,True
+96085,FIN,Cloud of Darkness,uncommon,BG,5,Legendary Creature - Avatar,True
+96022,FIN,Self-Destruct,uncommon,R,2,Instant,True
+95928,FIN,Sahagin,common,U,2,Creature - Merfolk Warrior,True
+95985,FIN,Undercity Dire Rat,common,B,2,Creature - Rat,True
+96044,FIN,Chocobo Kick,common,G,2,Sorcery,True
+96188,FIN,Mountain,basic,R,0,Basic Land - Mountain,True
+95990,FIN,Zenos yae Galvus,rare,B,5,Legendary Creature - Human Noble Warrior,True
+96025,FIN,Sorceress's Schemes,uncommon,R,4,Sorcery,True
+95853,FIN,Summon: Bahamut,mythic,,9,Enchantment Creature - Saga Dragon,True
+96012,FIN,Opera Love Song,uncommon,R,2,Instant,True
+96147,FIN,Ring of the Lucii,uncommon,,4,Legendary Artifact,True
+96174,FIN,"Vector, Imperial Capital",common,BR,0,Land - Town,True
+96117,FIN,"Shantotto, Tactician Magician",uncommon,RU,3,Legendary Creature - Dwarf Wizard,True
+96128,FIN,"Yuna, Hope of Spira",mythic,GW,5,Legendary Creature - Human Cleric,True
+96146,FIN,Relentless X-ATM092,uncommon,,6,Artifact Creature - Robot Spider,True
+95954,FIN,Dark Knight's Greatsword,uncommon,B,3,Artifact - Equipment,True
+95879,FIN,Magitek Infantry,common,W,1,Artifact Creature - Robot Soldier,True
+96104,FIN,"Kefka, Court Mage",mythic,BRU,5,Legendary Creature - Human Wizard,True
+96034,FIN,"Vaan, Street Thief",rare,R,3,Legendary Creature - Human Scout,True
+96161,FIN,"Insomnia, Crown City",common,BW,0,Land - Town,True
+96055,FIN,Goobbue Gardener,common,G,2,Creature - Plant Beast,True
+96179,FIN,Plains,basic,W,0,Basic Land - Plains,True
+96009,FIN,Light of Judgment,common,R,5,Instant,True
+96038,FIN,Ancient Adamantoise,mythic,G,8,Creature - Turtle,True
+96062,FIN,Reach the Horizon,uncommon,G,4,Sorcery,True
+96141,FIN,Magic Pot,common,,3,Artifact Creature - Goblin Construct,True
+95862,FIN,"Cloud, Midgar Mercenary",mythic,W,2,Legendary Creature - Human Soldier Mercenary,True
+95921,FIN,The Prima Vista,uncommon,U,5,Legendary Artifact - Vehicle,True
+96170,FIN,"Rabanastre, Royal City",common,RW,0,Land - Town,True
+96148,FIN,World Map,common,,1,Artifact,True
+96098,FIN,Hope Estheim,rare,UW,2,Legendary Creature - Human Wizard,True
+95922,FIN,Qiqirn Merchant,common,U,3,Creature - Beast Citizen,True
+96182,FIN,Island,basic,U,0,Basic Land - Island,True
+96086,FIN,"Emet-Selch, Unsundered",mythic,BU,3,Legendary Creature - Elder Wizard,True
+95858,FIN,Ambrosia Whiteheart,uncommon,W,2,Legendary Creature - Bird,True
+95914,FIN,"Jill, Shiva's Dominant",rare,U,3,Legendary Creature - Human Noble Warrior,True
+96021,FIN,Seifer Almasy,rare,R,4,Legendary Creature - Human Knight,True
+96156,FIN,"Eden, Seat of the Sanctum",uncommon,,0,Land - Town,True
+96126,FIN,Vivi Ornitier,mythic,RU,3,Legendary Creature - Wizard,True
+95961,FIN,Gaius van Baelsar,uncommon,B,4,Legendary Creature - Human Soldier,True
+96206,FIN,Ultima Weapon,rare,,7,Legendary Artifact - Equipment,False
+96121,FIN,"Terra, Magical Adept",mythic,BGRUW,3,Legendary Creature - Human Wizard Warrior,True
+95968,FIN,Ninja's Blades,rare,B,3,Artifact - Equipment,True
+95948,FIN,Black Mage's Rod,common,B,2,Artifact - Equipment,True
+96046,FIN,Clash of the Eikons,uncommon,G,1,Sorcery,True
+95885,FIN,Sidequest: Catch a Fish,uncommon,W,3,Enchantment,True
+95887,FIN,Slash of Light,common,W,2,Instant,True
+95854,FIN,"Ultima, Origin of Oblivion",rare,,5,Legendary Creature - God,True
+96003,FIN,Freya Crescent,uncommon,R,1,Legendary Creature - Rat Knight,True
+95938,FIN,Syncopate,common,U,1,Instant,True
+96142,FIN,The Masamune,rare,,3,Legendary Artifact - Equipment,True
+95894,FIN,"Venat, Heart of Hydaelyn",rare,W,3,Legendary Creature - Elder Wizard,True
+96199,FIN,"Ultimecia, Temporal Threat",rare,U,6,Legendary Creature - Human Warlock,False
+96100,FIN,"Jenova, Ancient Calamity",rare,BG,4,Legendary Creature - Alien,True
+96058,FIN,Jumbo Cactuar,rare,G,7,Creature - Plant,True
+95892,FIN,Summon: Primal Garuda,uncommon,W,4,Enchantment Creature - Saga Harpy,True
+96015,FIN,Random Encounter,uncommon,R,6,Sorcery,True
+96110,FIN,"Noctis, Prince of Lucis",rare,BUW,4,Legendary Creature - Human Noble,True
+95912,FIN,Ice Magic,common,U,2,Instant,True
+96115,FIN,Serah Farron,rare,GW,3,Legendary Creature - Human Citizen,True
+95900,FIN,You're Not Alone,common,W,1,Instant,True
+96049,FIN,Diamond Weapon,uncommon,G,9,Legendary Artifact Creature - Elemental,True
+95863,FIN,Cloudbound Moogle,common,W,5,Creature - Moogle,True
+96197,FIN,"Beatrix, Loyal General",rare,W,6,Legendary Creature - Human Soldier,False
+96166,FIN,"Lindblum, Industrial Regency",rare,R,0,Land - Town,True
+95996,FIN,Choco-Comet,uncommon,R,2,Sorcery,True
+95909,FIN,Ether,uncommon,U,4,Artifact,True
+96070,FIN,Summon: Fat Chocobo,common,G,5,Enchantment Creature - Saga Bird,True
+96037,FIN,Airship Crash,common,G,3,Instant,True
+96140,FIN,Lunatic Pandora,common,,1,Legendary Artifact,True
+95902,FIN,Astrologian's Planisphere,rare,U,2,Artifact - Equipment,True
+95943,FIN,The Water Crystal,rare,U,4,Legendary Artifact,True
+95897,FIN,White Auracite,common,W,4,Artifact,True
+95939,FIN,Thief's Knife,uncommon,U,3,Artifact - Equipment,True
+96081,FIN,Balthier and Fran,rare,GR,3,Legendary Creature - Human Rabbit,True
+96056,FIN,Gran Pulse Ochu,common,G,1,Creature - Plant Beast,True
+95907,FIN,"Edgar, King of Figaro",rare,U,6,Legendary Creature - Human Artificer Noble,True
+96112,FIN,Rinoa Heartilly,uncommon,GW,5,Legendary Creature - Human Rebel Warlock,True
+95916,FIN,Louisoix's Sacrifice,rare,U,1,Instant,True
+95979,FIN,Shinra Reinforcements,common,B,3,Creature - Human Soldier,True
+96088,FIN,The Emperor of Palamecia,uncommon,RU,2,Legendary Creature - Human Noble Wizard,True
+95861,FIN,Battle Menu,uncommon,W,2,Instant,True
+96004,FIN,"Gilgamesh, Master-at-Arms",rare,R,6,Legendary Creature - Human Samurai,True
+96053,FIN,Galuf's Final Act,uncommon,G,2,Instant,True
+96031,FIN,Thunder Magic,common,R,1,Instant,True
+96191,FIN,Forest,basic,G,0,Basic Land - Forest,True
+95997,FIN,"Clive, Ifrit's Dominant",mythic,R,6,Legendary Creature - Human Noble Warrior,True
+96139,FIN,Lion Heart,uncommon,,4,Artifact - Equipment,True
+95889,FIN,"Stiltzkin, Moogle Merchant",rare,W,1,Legendary Creature - Moogle,True
+95993,FIN,Barret Wallace,uncommon,R,4,Legendary Creature - Human Rebel,True
+96059,FIN,Loporrit Scout,common,G,3,Creature - Rabbit Scout,True
+96200,FIN,Deadly Embrace,rare,B,5,Sorcery,False
+96083,FIN,"Choco, Seeker of Paradise",rare,GUW,4,Legendary Creature - Bird,True
+96134,FIN,Elixir,uncommon,,1,Artifact,True
+96109,FIN,Locke Cole,uncommon,BU,3,Legendary Creature - Human Rogue,True
+95868,FIN,Delivery Moogle,uncommon,W,4,Creature - Moogle,True
+96103,FIN,Judge Magister Gabranth,uncommon,BW,2,Legendary Creature - Human Advisor Knight,True
+96095,FIN,"Giott, King of the Dwarves",uncommon,RW,2,Legendary Creature - Dwarf Noble,True
+96157,FIN,"Gohn, Town of Ruin",common,BG,0,Land - Town,True
+96042,FIN,Blitzball Shot,common,G,2,Instant,True
+95920,FIN,Memories Returning,rare,U,4,Sorcery,True
+96000,FIN,The Fire Crystal,rare,R,4,Legendary Artifact,True
+95873,FIN,Fate of the Sun-Cryst,common,W,5,Instant,True
+96073,FIN,Summoner's Grimoire,rare,G,4,Artifact - Equipment,True
+95884,FIN,Restoration Magic,uncommon,W,1,Instant,True
+96155,FIN,Crossroads Village,common,,0,Land - Town,True
+96063,FIN,A Realm Reborn,rare,G,6,Enchantment,True
+96032,FIN,Triple Triad,rare,R,6,Enchantment,True
+95855,FIN,Adelbert Steiner,uncommon,W,2,Legendary Creature - Human Knight,True
+95936,FIN,Summon: Shiva,uncommon,U,5,Enchantment Creature - Saga Elemental,True
+95924,FIN,Relm's Sketching,uncommon,U,4,Sorcery,True
+95867,FIN,The Crystal's Chosen,uncommon,W,7,Sorcery,True
+96001,FIN,Fire Magic,uncommon,R,1,Instant,True
+95987,FIN,Vincent Valentine,rare,B,4,Legendary Creature - Assassin,True
+95982,FIN,Summon: Anima,uncommon,B,6,Enchantment Creature - Saga Horror,True
+95927,FIN,Sage's Nouliths,common,U,2,Artifact - Equipment,True
+96092,FIN,"Garland, Knight of Cornelia",uncommon,BR,2,Legendary Creature - Human Knight,True
+96143,FIN,Monk's Fist,common,,2,Artifact - Equipment,True
+96194,FIN,Wastes,basic,,0,Basic Land,True
+96071,FIN,Summon: Fenrir,uncommon,G,3,Enchantment Creature - Saga Wolf,True
+96045,FIN,Chocobo Racetrack,uncommon,G,5,Artifact,True
+96065,FIN,Rydia's Return,uncommon,G,5,Sorcery,True
+95937,FIN,Swallowed by Leviathan,uncommon,U,3,Instant,True
+96120,FIN,"Tellah, Great Sage",rare,RU,5,Legendary Creature - Human Wizard,True
+96002,FIN,"Firion, Wild Rose Warrior",rare,R,3,Legendary Creature - Human Rebel Warrior,True
+96185,FIN,Swamp,basic,B,0,Basic Land - Swamp,True
+96159,FIN,"Gongaga, Reactor Town",common,GR,0,Land - Town,True
+95941,FIN,"Ultros, Obnoxious Octopus",uncommon,U,2,Legendary Creature - Octopus,True
+95956,FIN,Demon Wall,uncommon,B,2,Artifact Creature - Demon Wall,True
+96171,FIN,"Sharlayan, Nation of Scholars",common,UW,0,Land - Town,True
+96076,FIN,"Torgal, A Fine Hound",uncommon,G,2,Legendary Creature - Wolf,True
+96137,FIN,Instant Ramen,common,,2,Artifact - Food,True
+96196,FIN,"Sephiroth, Planet's Heir",mythic,BU,6,Legendary Creature - Human Avatar Soldier,False
+96060,FIN,Prishe's Wanderings,common,G,3,Instant,True
+96119,FIN,"Squall, SeeD Mercenary",rare,BW,4,Legendary Creature - Human Knight Mercenary,True
+95942,FIN,Valkyrie Aerial Unit,uncommon,U,7,Artifact Creature - Construct,True
+95896,FIN,Weapons Vendor,common,W,4,Creature - Human Artificer,True
+95880,FIN,"Minwu, White Mage",rare,W,5,Legendary Creature - Human Cleric,True
+96030,FIN,Suplex,common,R,2,Sorcery,True
+96084,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,True
+96124,FIN,"Ultimecia, Time Sorceress",uncommon,BU,5,Legendary Creature - Human Warlock,True
+96096,FIN,Gladiolus Amicitia,uncommon,GR,6,Legendary Creature - Human Warrior,True
+96068,FIN,Sidequest: Raise a Chocobo,uncommon,G,2,Enchantment,True
+96176,FIN,"Zanarkand, Ancient Metropolis",rare,G,0,Land - Town,True
+96051,FIN,Esper Origins,rare,G,2,Sorcery,True
+96028,FIN,Summon: G.F. Cerberus,rare,R,4,Enchantment Creature - Saga Dog,True
+96067,FIN,Sazh's Chocobo,uncommon,G,1,Creature - Bird,True
+96007,FIN,Item Shopkeep,common,R,2,Creature - Human Citizen,True
+96118,FIN,"Sin, Spira's Punishment",rare,BGU,7,Legendary Creature - Leviathan Avatar,True
+96019,FIN,Samurai's Katana,uncommon,R,3,Artifact - Equipment,True
+95881,FIN,Moogles' Valor,rare,W,5,Instant,True
+95877,FIN,Machinist's Arsenal,rare,W,5,Artifact - Equipment,True
+96149,FIN,Adventurer's Inn,common,,0,Land - Town,True
+96162,FIN,"Ishgard, the Holy See",rare,W,0,Land - Town,True
+96023,FIN,Sidequest: Play Blitzball,uncommon,R,3,Enchantment,True
+95893,FIN,Ultima,rare,W,5,Sorcery,True
+95971,FIN,Poison the Waters,uncommon,B,2,Sorcery,True
+96131,FIN,Aettir and Priwen,mythic,,6,Legendary Artifact - Equipment,True
+96061,FIN,"Quina, Qu Gourmet",uncommon,G,3,Legendary Creature - Qu,True
+95930,FIN,Sidequest: Card Collection,uncommon,U,4,Enchantment,True
+95947,FIN,"Ardyn, the Usurper",rare,B,8,Legendary Creature - Elder Human Noble,True
+96048,FIN,Commune with Beavers,common,G,1,Sorcery,True
+95929,FIN,Scorpion Sentinel,common,U,2,Artifact Creature - Robot Scorpion,True
+95946,FIN,Al Bhed Salvagers,uncommon,B,3,Creature - Human Artificer Warrior,True
+96132,FIN,Blitzball,common,,3,Artifact,True
+96114,FIN,"Rydia, Summoner of Mist",uncommon,GR,2,Legendary Creature - Human Shaman,True
+95957,FIN,Evil Reawakened,uncommon,B,5,Sorcery,True
+95932,FIN,Sleep Magic,uncommon,U,1,Enchantment - Aura,True
+96072,FIN,Summon: Titan,rare,G,5,Enchantment Creature - Saga Giant,True
+96099,FIN,Ignis Scientia,uncommon,GU,3,Legendary Creature - Human Advisor,True
+96082,FIN,Black Waltz No. 3,uncommon,BR,4,Legendary Creature - Wizard,True
+96203,FIN,"Lightning, Security Sergeant",rare,R,3,Legendary Creature - Human Soldier,False
+96201,FIN,Seymour Flux,rare,B,5,Legendary Creature - Spirit Avatar,False
+96054,FIN,Gigantoad,common,G,4,Creature - Frog,True
+96129,FIN,"Zidane, Tantalus Thief",uncommon,RW,5,Legendary Creature - Human Mutant Scout,True
+96097,FIN,"Golbez, Crystal Collector",rare,BU,2,Legendary Creature - Human Wizard,True
+96011,FIN,Nibelheim Aflame,mythic,R,4,Sorcery,True
+96135,FIN,Excalibur II,rare,,1,Legendary Artifact - Equipment,True
+95959,FIN,Fight On!,common,B,3,Instant,True
+96154,FIN,Clive's Hideaway,rare,,0,Land - Town,True
+96158,FIN,The Gold Saucer,uncommon,,0,Land - Town,True
+95999,FIN,Coral Sword,uncommon,R,1,Artifact - Equipment,True
+96175,FIN,"Windurst, Federation Center",common,GW,0,Land - Town,True
+95903,FIN,Cargo Ship,uncommon,U,2,Artifact - Vehicle,True
+95994,FIN,Blazing Bomb,common,R,1,Creature - Elemental,True
+95963,FIN,"Jecht, Reluctant Guardian",rare,B,4,Legendary Creature - Human Warrior,True
+95869,FIN,"Dion, Bahamut's Dominant",rare,W,4,Legendary Creature - Human Noble Knight,True
+95919,FIN,"Matoya, Archon Elder",rare,U,3,Legendary Creature - Human Warlock,True
+95888,FIN,Snow Villiers,uncommon,W,3,Legendary Creature - Human Rebel Monk,True
+96113,FIN,Rufus Shinra,uncommon,BW,3,Legendary Creature - Human Noble,True
+95953,FIN,Dark Confidant,mythic,B,2,Creature - Human Wizard,True
+95989,FIN,Vincent's Limit Break,common,B,2,Instant,True
+96133,FIN,Buster Sword,mythic,,3,Artifact - Equipment,True
+95872,FIN,Dwarven Castle Guard,common,W,2,Creature - Dwarf Soldier,True
+96152,FIN,"Baron, Airship Kingdom",common,RU,0,Land - Town,True
+96195,FIN,"Cloud, Planet's Champion",mythic,RW,5,Legendary Creature - Human Soldier Mercenary,False
+96006,FIN,Hill Gigas,common,R,6,Creature - Giant,True
+96249,FCA,"Traxos, Scourge of Kroog",rare,,4,Legendary Artifact Creature - Construct,True
+96264,FCA,"Gix, Yawgmoth Praetor",mythic,B,3,Legendary Creature - Phyrexian Praetor,True
+96260,FCA,Rhystic Study,mythic,U,3,Enchantment,True
+96281,FCA,"Inalla, Archmage Ritualist",rare,BRU,5,Legendary Creature - Human Wizard,True
+96261,FCA,"Teferi, Mage of Zhalfir",rare,U,5,Legendary Creature - Human Wizard,True
+96231,FCA,Ranger-Captain of Eos,mythic,W,3,Creature - Human Soldier Ranger,True
+96237,FCA,Dark Ritual,rare,B,1,Instant,True
+96274,FCA,Farseek,uncommon,G,2,Sorcery,True
+96268,FCA,Light Up the Stage,uncommon,R,3,Sorcery,True
+96283,FCA,"Isshin, Two Heavens as One",rare,BRW,3,Legendary Creature - Human Samurai,True
+96255,FCA,Stroke of Midnight,uncommon,W,3,Instant,True
+96269,FCA,Lightning Bolt,uncommon,R,1,Instant,True
+96242,FCA,"Godo, Bandit Warlord",rare,R,6,Legendary Creature - Human Barbarian,True
+96266,FCA,"Varragoth, Bloodsky Sire",rare,B,3,Legendary Creature - Demon Rogue,True
+96236,FCA,Bolas's Citadel,rare,B,6,Legendary Artifact,True
+96277,FCA,Primeval Titan,rare,G,6,Creature - Giant,True
+96286,FCA,"Muldrotha, the Gravetide",rare,BGU,6,Legendary Creature - Elemental Avatar,True
+96279,FCA,"Bruse Tarl, Boorish Herder",rare,RW,4,Legendary Creature - Human Ally,True
+96246,FCA,"Jodah, the Unifier",rare,BGRUW,5,Legendary Creature - Human Wizard,True
+96271,FCA,"Najeela, the Blade-Blossom",mythic,BGRUW,3,Legendary Creature - Human Warrior,True
+96273,FCA,Carpet of Flowers,rare,G,1,Enchantment,True
+96285,FCA,"Kraum, Ludevic's Opus",rare,RU,5,Legendary Creature - Zombie Horror,True
+96240,FCA,"Yawgmoth, Thran Physician",mythic,B,4,Legendary Creature - Human Cleric,True
+96256,FCA,Wall of Omens,uncommon,W,2,Creature - Wall,True
+96282,FCA,"Ishai, Ojutai Dragonspeaker",rare,UW,4,Legendary Creature - Bird Monk,True
+96252,FCA,"Kenrith, the Returned King",rare,BGRUW,5,Legendary Creature - Human Noble,True
+96265,FCA,"K'rrik, Son of Yawgmoth",rare,B,7,Legendary Creature - Phyrexian Horror Minion,True
+96234,FCA,"Urza, Lord High Artificer",mythic,U,4,Legendary Creature - Human Artificer,True
+96275,FCA,"Fynn, the Fangbearer",uncommon,G,2,Legendary Creature - Human Warrior,True
+96267,FCA,Captain Lannery Storm,uncommon,R,3,Legendary Creature - Human Pirate,True
+96270,FCA,Mizzix's Mastery,rare,R,4,Sorcery,True
+96280,FCA,Dovin's Veto,uncommon,UW,2,Instant,True
+96288,FCA,Vial Smasher the Fierce,mythic,BR,3,Legendary Creature - Goblin Berserker,True
+96251,FCA,"Danitha Capashen, Paragon",uncommon,W,3,Legendary Creature - Human Knight,True
+96238,FCA,Fatal Push,uncommon,B,1,Instant,True
+96258,FCA,Cryptic Command,rare,U,4,Instant,True
+96230,FCA,"Adeline, Resplendent Cathar",rare,W,3,Legendary Creature - Human Knight,True
+96290,FCA,Chromatic Lantern,rare,,3,Artifact,True
+96253,FCA,Loran of the Third Path,rare,W,3,Legendary Creature - Human Artificer,True
+96263,FCA,Diabolic Intent,rare,B,2,Sorcery,True
+96250,FCA,Akroma's Will,mythic,W,4,Instant,True
+96244,FCA,"Azusa, Lost but Seeking",rare,G,3,Legendary Creature - Human Monk,True
+96254,FCA,"Mangara, the Diplomat",rare,W,4,Legendary Creature - Human Cleric,True
+96257,FCA,Brainstorm,uncommon,U,1,Instant,True
+96292,FCA,Strixhaven Stadium,uncommon,,3,Artifact,True
+96248,FCA,"Winota, Joiner of Forces",rare,RW,4,Legendary Creature - Human Warrior,True
+96278,FCA,"Atraxa, Grand Unifier",mythic,BGUW,7,Legendary Creature - Phyrexian Angel,True
+96259,FCA,Laboratory Maniac,uncommon,U,3,Creature - Human Wizard,True
+96276,FCA,Nature's Claim,uncommon,G,1,Instant,True
+96272,FCA,"Ragavan, Nimble Pilferer",mythic,R,1,Legendary Creature - Monkey Pirate,True
+96241,FCA,Ancient Copper Dragon,mythic,R,6,Creature - Elder Dragon,True
+96293,FCA,Command Beacon,rare,,0,Land,True
+96232,FCA,"Sram, Senior Edificer",rare,W,2,Legendary Creature - Dwarf Advisor,True
+96239,FCA,"Syr Konrad, the Grim",uncommon,B,5,Legendary Creature - Human Knight,True
+96245,FCA,Nyxbloom Ancient,mythic,G,7,Enchantment Creature - Elemental,True
+96291,FCA,Smuggler's Copter,rare,,2,Artifact - Vehicle,True
+96284,FCA,"Kinnan, Bonder Prodigy",mythic,GU,2,Legendary Creature - Human Druid,True
+96243,FCA,"Purphoros, God of the Forge",mythic,R,4,Legendary Enchantment Creature - God,True
+96262,FCA,Deadly Dispute,uncommon,B,2,Instant,True
+96235,FCA,"Venser, Shaper Savant",rare,U,4,Legendary Creature - Human Wizard,True
+96233,FCA,Counterspell,uncommon,U,2,Instant,True
+96287,FCA,"Thrasios, Triton Hero",mythic,GU,2,Legendary Creature - Merfolk Wizard,True
+96247,FCA,Tymna the Weaver,rare,BW,3,Legendary Creature - Human Cleric,True
+96289,FCA,"Yuriko, the Tiger's Shadow",rare,BU,3,Legendary Creature - Human Ninja,True
+96207,TFIN,Copy,token,,0,,False
+96208,TFIN,Hero,token,,0,Creature - Hero,False
+96209,TFIN,Hero,token,,0,Creature - Hero,False
+96210,TFIN,Hero,token,,0,Creature - Hero,False
+96211,TFIN,Hero,token,,0,Creature - Hero,False
+96212,TFIN,Hero,token,,0,Creature - Hero,False
+96213,TFIN,Hero,token,,0,Creature - Hero,False
+96214,TFIN,Hero,token,,0,Creature - Hero,False
+96215,TFIN,Hero,token,,0,Creature - Hero,False
+96216,TFIN,Knight,token,,0,Creature - Knight,False
+96217,TFIN,Moogle,token,,0,Creature - Moogle,False
+96218,TFIN,Robot Warrior,token,,0,Artifact Creature - Robot Warrior,False
+96219,TFIN,Horror,token,,0,Creature - Horror,False
+96220,TFIN,Wizard,token,,0,Creature - Wizard,False
+96221,TFIN,Wizard,token,,0,Creature - Wizard,False
+96222,TFIN,Bird,token,,0,Creature - Bird,False
+96223,TFIN,Bird,token,,0,Creature - Bird,False
+96224,TFIN,Frog,token,,0,Creature - Frog,False
+96225,TFIN,Angelo,token,,0,Legendary Creature - Dog,False
+96226,TFIN,Darkstar,token,,0,Legendary Creature - Dog,False
+96227,TFIN,Elemental,token,,0,Creature - Elemental,False
+96228,TFIN,Food,token,,0,Artifact - Food,False
+96229,TFIN,Treasure,token,,0,Artifact - Treasure,False
+97096,TFCA,Human,token,,0,Creature - Human,False
+97097,TFCA,Warrior,token,,0,Creature - Warrior,False
+97098,TFCA,Construct,token,,0,Artifact Creature - Construct,False
+96294,FCA,"A-Winota, Joiner of Forces",rare,RW,4,Legendary Creature - Human Warrior,False
+67052,TOGW,Eldrazi Scion,token,,0,Creature - Eldrazi Scion,False
+62099,BFZ,Sanctum of Ugin,rare,,0,Land,True
+98056,ANA,Encroaching Wastes,uncommon,,0,Land,False
+96183,FIN,Island,basic,U,0,Basic Land - Island,True
+96880,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96878,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96877,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96186,FIN,Swamp,basic,B,0,Basic Land - Swamp,True
+96190,FIN,Mountain,basic,R,0,Basic Land - Mountain,True
+96886,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96881,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96879,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96187,FIN,Swamp,basic,B,0,Basic Land - Swamp,True
+96884,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96876,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96882,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96181,FIN,Plains,basic,W,0,Basic Land - Plains,True
+96192,FIN,Forest,basic,G,0,Basic Land - Forest,True
+96184,FIN,Island,basic,U,0,Basic Land - Island,True
+96887,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96875,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96885,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96888,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+96189,FIN,Mountain,basic,R,0,Basic Land - Mountain,True
+96193,FIN,Forest,basic,G,0,Basic Land - Forest,True
+96180,FIN,Plains,basic,W,0,Basic Land - Plains,True
+96883,FIN,"Cid, Timeless Artificer",uncommon,UW,4,Legendary Creature - Human Artificer,False
+95866,FIN,Summon: Alexander,uncommon,W,0,Enchantment Creature - Saga Construct,False
+95870,FIN,"Bahamut, Warden of Light",rare,W,0,Legendary Enchantment Creature - Saga Dragon,False
+95886,FIN,Cooking Campsite,uncommon,W,0,Land,False
+95895,FIN,"Hydaelyn, the Mothercrystal",rare,W,0,Legendary Creature - God,False
+95915,FIN,"Shiva, Warden of Ice",rare,U,0,Legendary Enchantment Creature - Saga Elemental,False
+95931,FIN,Magicked Card,uncommon,U,0,Artifact - Vehicle,False
+95950,FIN,"Cecil, Redeemed Paladin",rare,BW,0,Legendary Creature - Human Knight,False
+95964,FIN,Braska's Final Aeon,rare,B,0,Legendary Enchantment Creature - Saga Nightmare,False
+95976,FIN,"Sephiroth, One-Winged Angel",mythic,B,0,Legendary Creature - Angel Nightmare Avatar,False
+96889,FIN,"Ultima, Origin of Oblivion",rare,,5,Legendary Creature - God,False
+96890,FIN,Ambrosia Whiteheart,uncommon,W,2,Legendary Creature - Bird,False
+96891,FIN,Moogles' Valor,rare,W,5,Instant,False
+96892,FIN,"Stiltzkin, Moogle Merchant",rare,W,1,Legendary Creature - Moogle,False
+96893,FIN,Ultima,rare,W,5,Sorcery,False
+96894,FIN,"Venat, Heart of Hydaelyn",rare,W,3,Legendary Creature - Elder Wizard,False
+96895,FIN,"Hydaelyn, the Mothercrystal",rare,W,0,Legendary Creature - God,False
+96896,FIN,The Wind Crystal,rare,W,4,Legendary Artifact,False
+96897,FIN,Memories Returning,rare,U,4,Sorcery,False
+96898,FIN,Stolen Uniform,uncommon,U,1,Instant,False
+96899,FIN,The Water Crystal,rare,U,4,Legendary Artifact,False
+96900,FIN,Dark Confidant,mythic,B,2,Creature - Human Wizard,False
+96901,FIN,The Darkness Crystal,rare,B,4,Legendary Artifact,False
+96902,FIN,"Zodiark, Umbral God",rare,B,5,Legendary Creature - God,False
+96903,FIN,The Fire Crystal,rare,R,4,Legendary Artifact,False
+96904,FIN,"Gilgamesh, Master-at-Arms",rare,R,6,Legendary Creature - Human Samurai,False
+96905,FIN,Nibelheim Aflame,mythic,R,4,Sorcery,False
+96906,FIN,Triple Triad,rare,R,6,Enchantment,False
+96907,FIN,Clash of the Eikons,uncommon,G,1,Sorcery,False
+96908,FIN,The Earth Crystal,rare,G,4,Legendary Artifact,False
+96909,FIN,Jumbo Cactuar,rare,G,7,Creature - Plant,False
+96910,FIN,A Realm Reborn,rare,G,6,Enchantment,False
+96911,FIN,"Torgal, A Fine Hound",uncommon,G,2,Legendary Creature - Wolf,False
+96912,FIN,"Jenova, Ancient Calamity",rare,BG,4,Legendary Creature - Alien,False
+96913,FIN,"Omega, Heartless Evolution",uncommon,GU,7,Legendary Artifact Creature - Robot,False
+96914,FIN,"Sin, Spira's Punishment",rare,BGU,7,Legendary Creature - Leviathan Avatar,False
+96915,FIN,"Tellah, Great Sage",rare,RU,5,Legendary Creature - Human Wizard,False
+96916,FIN,Aettir and Priwen,mythic,,6,Legendary Artifact - Equipment,False
+96917,FIN,Buster Sword,mythic,,3,Artifact - Equipment,False
+96918,FIN,Excalibur II,rare,,1,Legendary Artifact - Equipment,False
+96919,FIN,The Masamune,rare,,3,Legendary Artifact - Equipment,False
+96920,FIN,"Balamb Garden, SeeD Academy",rare,GU,0,Land - Town,False
+96921,FIN,"Balamb Garden, Airborne",rare,GU,0,Legendary Artifact - Vehicle,False
+96922,FIN,"Eden, Seat of the Sanctum",uncommon,,0,Land - Town,False
+96923,FIN,"Kefka, Court Mage",mythic,BRU,5,Legendary Creature - Human Wizard,False
+96924,FIN,"Kefka, Ruler of Ruin",mythic,BRU,0,Legendary Creature - Avatar Wizard,False
+96925,FIN,"Terra, Magical Adept",mythic,BGRUW,3,Legendary Creature - Human Wizard Warrior,False
+96926,FIN,Esper Terra,mythic,BGRUW,0,Legendary Enchantment Creature - Saga Wizard,False
+96927,FIN,"Ragnarok, Divine Deliverance",uncommon,BG,0,Legendary Creature - Beast Avatar,False
+96928,FIN,Aerith Gainsborough,rare,W,3,Legendary Creature - Human Cleric,False
+96929,FIN,"Cloud, Midgar Mercenary",mythic,W,2,Legendary Creature - Human Soldier Mercenary,False
+96930,FIN,"Dion, Bahamut's Dominant",rare,W,4,Legendary Creature - Human Noble Knight,False
+96931,FIN,"Bahamut, Warden of Light",rare,W,0,Legendary Enchantment Creature - Saga Dragon,False
+96932,FIN,"Gogo, Master of Mimicry",mythic,U,3,Legendary Creature - Wizard,False
+96933,FIN,"Jill, Shiva's Dominant",rare,U,3,Legendary Creature - Human Noble Warrior,False
+96934,FIN,"Shiva, Warden of Ice",rare,U,0,Legendary Enchantment Creature - Saga Elemental,False
+96935,FIN,"Ardyn, the Usurper",rare,B,8,Legendary Creature - Elder Human Noble,False
+96936,FIN,"Cecil, Dark Knight",rare,BW,1,Legendary Creature - Human Knight,False
+96937,FIN,"Cecil, Redeemed Paladin",rare,BW,0,Legendary Creature - Human Knight,False
+96938,FIN,"Fang, Fearless l'Cie",uncommon,B,3,Legendary Creature - Human Warrior,False
+96939,FIN,"Sephiroth, Fabled SOLDIER",mythic,B,3,Legendary Creature - Human Avatar Soldier,False
+96940,FIN,"Sephiroth, One-Winged Angel",mythic,B,0,Legendary Creature - Angel Nightmare Avatar,False
+96941,FIN,Vincent Valentine,rare,B,4,Legendary Creature - Assassin,False
+96942,FIN,Galian Beast,rare,B,0,Legendary Creature - Werewolf Beast,False
+96943,FIN,Zenos yae Galvus,rare,B,5,Legendary Creature - Human Noble Warrior,False
+96944,FIN,"Shinryu, Transcendent Rival",rare,B,0,Legendary Creature - Dragon,False
+96945,FIN,"Clive, Ifrit's Dominant",mythic,R,6,Legendary Creature - Human Noble Warrior,False
+96946,FIN,"Ifrit, Warden of Inferno",mythic,R,0,Legendary Enchantment Creature - Saga Demon,False
+96947,FIN,"Firion, Wild Rose Warrior",rare,R,3,Legendary Creature - Human Rebel Warrior,False
+96948,FIN,Prompto Argentum,uncommon,R,2,Legendary Creature - Human Scout,False
+96949,FIN,"Raubahn, Bull of Ala Mhigo",rare,R,2,Legendary Creature - Human Warrior,False
+96950,FIN,Seifer Almasy,rare,R,4,Legendary Creature - Human Knight,False
+96951,FIN,"Vaan, Street Thief",rare,R,3,Legendary Creature - Human Scout,False
+96952,FIN,Tifa Lockhart,rare,G,2,Legendary Creature - Human Monk,False
+96953,FIN,"Vanille, Cheerful l'Cie",uncommon,BG,4,Legendary Creature - Human Cleric,False
+96954,FIN,Balthier and Fran,rare,GR,3,Legendary Creature - Human Rabbit,False
+96955,FIN,"Emet-Selch, Unsundered",mythic,BU,3,Legendary Creature - Elder Wizard,False
+96956,FIN,"Hades, Sorcerer of Eld",mythic,BU,0,Legendary Creature - Avatar,False
+96957,FIN,"Golbez, Crystal Collector",rare,BU,2,Legendary Creature - Human Wizard,False
+96958,FIN,Hope Estheim,rare,UW,2,Legendary Creature - Human Wizard,False
+96959,FIN,"Joshua, Phoenix's Dominant",rare,RW,3,Legendary Creature - Human Noble Wizard,False
+96960,FIN,"Phoenix, Warden of Fire",rare,RW,0,Legendary Enchantment Creature - Saga Phoenix,False
+96961,FIN,"Kefka, Court Mage",mythic,BRU,5,Legendary Creature - Human Wizard,False
+96962,FIN,"Kefka, Ruler of Ruin",mythic,BRU,0,Legendary Creature - Avatar Wizard,False
+96963,FIN,"Kuja, Genome Sorcerer",rare,BR,4,Legendary Creature - Human Mutant Wizard,False
+96964,FIN,"Trance Kuja, Fate Defied",rare,BR,0,Legendary Creature - Avatar Wizard,False
+96965,FIN,"Lightning, Army of One",mythic,RW,3,Legendary Creature - Human Soldier,False
+96966,FIN,"Noctis, Prince of Lucis",rare,BUW,4,Legendary Creature - Human Noble,False
+96967,FIN,"Squall, SeeD Mercenary",rare,BW,4,Legendary Creature - Human Knight Mercenary,False
+96968,FIN,The Wandering Minstrel,rare,BGRUW,2,Legendary Creature - Human Bard,False
+96969,FIN,"Yuna, Hope of Spira",mythic,GW,5,Legendary Creature - Human Cleric,False
+96970,FIN,"Zidane, Tantalus Thief",uncommon,RW,5,Legendary Creature - Human Mutant Scout,False
+96971,FIN,Traveling Chocobo,mythic,G,3,Creature - Bird,False
+96972,FIN,Summon: Bahamut,mythic,,9,Enchantment Creature - Saga Dragon,False
+96973,FIN,Crystal Fragments,uncommon,W,1,Artifact - Equipment,False
+96974,FIN,Summon: Alexander,uncommon,W,0,Enchantment Creature - Saga Construct,False
+96975,FIN,Summon: Choco/Mog,common,W,3,Enchantment Creature - Saga Bird Moogle,False
+96976,FIN,Summon: Knights of Round,mythic,W,8,Enchantment Creature - Saga Knight,False
+96977,FIN,Summon: Primal Garuda,uncommon,W,4,Enchantment Creature - Saga Harpy,False
+96978,FIN,Summon: Leviathan,rare,U,6,Enchantment Creature - Saga Leviathan,False
+96979,FIN,Summon: Shiva,uncommon,U,5,Enchantment Creature - Saga Elemental,False
+96980,FIN,"Jecht, Reluctant Guardian",rare,B,4,Legendary Creature - Human Warrior,False
+96981,FIN,Braska's Final Aeon,rare,B,0,Legendary Enchantment Creature - Saga Nightmare,False
+96982,FIN,Summon: Anima,uncommon,B,6,Enchantment Creature - Saga Horror,False
+96983,FIN,Summon: Primal Odin,rare,B,6,Enchantment Creature - Saga Knight,False
+96984,FIN,Summon: Brynhildr,rare,R,2,Enchantment Creature - Saga Knight,False
+96985,FIN,Summon: Esper Ramuh,uncommon,R,4,Enchantment Creature - Saga Wizard,False
+96986,FIN,Summon: G.F. Cerberus,rare,R,4,Enchantment Creature - Saga Dog,False
+96987,FIN,Summon: G.F. Ifrit,common,R,3,Enchantment Creature - Saga Demon,False
+96988,FIN,Esper Origins,rare,G,2,Sorcery,False
+96989,FIN,Summon: Esper Maduin,rare,G,0,Enchantment Creature - Saga Elemental,False
+96990,FIN,Summon: Fat Chocobo,common,G,5,Enchantment Creature - Saga Bird,False
+96991,FIN,Summon: Fenrir,uncommon,G,3,Enchantment Creature - Saga Wolf,False
+96992,FIN,Summon: Titan,rare,G,5,Enchantment Creature - Saga Giant,False
+96993,FIN,"Ishgard, the Holy See",rare,W,0,Land - Town,False
+96994,FIN,Faith & Grief,rare,W,5,Sorcery - Adventure,False
+96995,FIN,"Jidoor, Aristocratic Capital",rare,U,0,Land - Town,False
+96996,FIN,Overture,rare,U,6,Sorcery - Adventure,False
+96997,FIN,"Lindblum, Industrial Regency",rare,R,0,Land - Town,False
+96998,FIN,Mage Siege,rare,R,3,Instant - Adventure,False
+96999,FIN,"Midgar, City of Mako",rare,B,0,Land - Town,False
+97000,FIN,Reactor Raid,rare,B,3,Sorcery - Adventure,False
+97001,FIN,"Zanarkand, Ancient Metropolis",rare,G,0,Land - Town,False
+97002,FIN,Lasting Fayth,rare,G,6,Sorcery - Adventure,False
+97003,FIN,"Ardyn, the Usurper",rare,B,8,Legendary Creature - Elder Human Noble,False
+97004,FIN,"Kain, Traitorous Dragoon",rare,B,3,Legendary Creature - Human Knight,False
+97005,FIN,"Sephiroth, Fabled SOLDIER",mythic,B,3,Legendary Creature - Human Avatar Soldier,False
+97006,FIN,"Sephiroth, One-Winged Angel",mythic,B,0,Legendary Creature - Angel Nightmare Avatar,False
+97007,FIN,"Clive, Ifrit's Dominant",mythic,R,6,Legendary Creature - Human Noble Warrior,False
+97008,FIN,"Ifrit, Warden of Inferno",mythic,R,0,Legendary Enchantment Creature - Saga Demon,False
+97009,FIN,Balthier and Fran,rare,GR,3,Legendary Creature - Human Rabbit,False
+97010,FIN,"Lightning, Army of One",mythic,RW,3,Legendary Creature - Human Soldier,False
+97011,FIN,Vivi Ornitier,mythic,RU,3,Legendary Creature - Wizard,False
+97012,FIN,Y'shtola Rhul,mythic,U,6,Legendary Creature - Cat Druid,False
+95981,FIN,"Yiazmat, Ultimate Mark",uncommon,B,0,Legendary Creature - Dragon,False
+95988,FIN,Galian Beast,rare,B,0,Legendary Creature - Werewolf Beast,False
+95991,FIN,"Shinryu, Transcendent Rival",rare,B,0,Legendary Creature - Dragon,False
+95998,FIN,"Ifrit, Warden of Inferno",mythic,R,0,Legendary Enchantment Creature - Saga Demon,False
+96024,FIN,"World Champion, Celestial Weapon",uncommon,R,0,Legendary Artifact - Equipment,False
+96052,FIN,Summon: Esper Maduin,rare,G,0,Enchantment Creature - Saga Elemental,False
+96069,FIN,Black Chocobo,uncommon,G,0,Creature - Bird,False
+96087,FIN,"Hades, Sorcerer of Eld",mythic,BU,0,Legendary Creature - Avatar,False
+96089,FIN,The Lord Master of Hell,uncommon,RU,0,Legendary Creature - Demon Noble Wizard,False
+96091,FIN,"Neo Exdeath, Dimension's End",uncommon,BG,0,Legendary Creature - Spirit Avatar,False
+96093,FIN,"Chaos, the Endless",uncommon,BR,0,Legendary Creature - Demon,False
+96102,FIN,"Phoenix, Warden of Fire",rare,RW,0,Legendary Enchantment Creature - Saga Phoenix,False
+96105,FIN,"Kefka, Ruler of Ruin",mythic,BRU,0,Legendary Creature - Avatar Wizard,False
+96107,FIN,"Trance Kuja, Fate Defied",rare,BR,0,Legendary Creature - Avatar Wizard,False
+96116,FIN,Crystallized Serah,rare,GW,0,Legendary Artifact,False
+96122,FIN,Esper Terra,mythic,BGRUW,0,Legendary Enchantment Creature - Saga Wizard,False
+96125,FIN,"Ultimecia, Omnipotent",uncommon,BU,0,Legendary Creature - Nightmare Warlock,False
+96151,FIN,"Balamb Garden, Airborne",rare,GU,0,Legendary Artifact - Vehicle,False
+96163,FIN,Faith & Grief,rare,W,5,Sorcery - Adventure,False
+96165,FIN,Overture,rare,U,6,Sorcery - Adventure,False
+96167,FIN,Mage Siege,rare,R,3,Instant - Adventure,False
+96169,FIN,Reactor Raid,rare,B,3,Sorcery - Adventure,False
+96177,FIN,Lasting Fayth,rare,G,6,Sorcery - Adventure,False
+96178,FIN,"Ragnarok, Divine Deliverance",uncommon,BG,0,Legendary Creature - Beast Avatar,False
+55263,JOU,Triton Shorestalker,common,U,1,Creature - Merfolk Rogue,True
+62387,OGW,Kazuul's Toll Collector,uncommon,R,3,Creature - Ogre Warrior,True
+62187,OGW,Warping Wail,uncommon,,2,Instant,True
+61379,ORI,Magmatic Insight,uncommon,R,1,Sorcery,True
+89540,C16,Rakdos Charm,uncommon,BR,2,Instant,False
+60835,DTK,Roast,uncommon,R,2,Sorcery,True
+64319,AER,Battle at the Bridge,rare,B,1,Sorcery,True
+65723,HOU,Nissa's Defeat,uncommon,G,3,Sorcery,True
+96868,FIC,"Cloud, Ex-SOLDIER",mythic,GRW,5,Legendary Creature - Human Soldier Mercenary,False
+97013,FIC,Herald's Horn,rare,,3,Artifact,False
+96872,FIC,"Tifa, Martial Artist",mythic,GRW,4,Legendary Creature - Human Monk,False
+96869,FIC,"G'raha Tia, Scion Reborn",mythic,BUW,3,Legendary Creature - Cat Wizard,False
+96870,FIC,"Terra, Herald of Hope",mythic,BRW,3,Legendary Creature - Human Wizard Warrior,False
+96871,FIC,"Tidus, Yuna's Guardian",mythic,GUW,3,Legendary Creature - Human Warrior,False
+96873,FIC,"Y'shtola, Night's Blessed",mythic,BUW,4,Legendary Creature - Cat Warlock,False
+96874,FIC,"Yuna, Grand Summoner",mythic,GUW,4,Legendary Creature - Human Cleric,False
+96867,FIC,"Celes, Rune Knight",mythic,BRW,4,Legendary Creature - Human Wizard Knight,False
