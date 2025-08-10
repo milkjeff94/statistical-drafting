@@ -1,5 +1,5 @@
 # statisticaldrafting
-MTG drafting model trained on human draft data from 18+ sets.
+MTG drafting model trained on human draft data from 20+ sets.
 
 This repo contains the python model training code. 
 
