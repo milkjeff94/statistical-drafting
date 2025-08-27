@@ -160,4 +160,16 @@ def default_training_pipeline(
         experiment_name=f"{set_abbreviation}_{draft_mode}",
     )
 
-    # TODO: export final model to ONNX. 
+    # Export final model to ONNX.
+    model_path = f"../data/models/{set_abbreviation}_{draft_mode}.pt"
+    onnx_path = f"../data/onnx/{set_abbreviation}_{draft_mode}.onnx"
+    
+    try:
+        print(f"Exporting model to ONNX format: {onnx_path}")
+        sd.create_onnx_model(
+            model_path=model_path,
+            cardnames=train_dataset.cardnames,
+            onnx_path=onnx_path
+        )
+    except Exception as e:
+        print(f"Failed to export ONNX model: {e}") 
