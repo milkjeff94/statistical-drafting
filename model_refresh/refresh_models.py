@@ -103,6 +103,12 @@ def check_and_download_cards(tracker_data: Dict, latest_set_info: Dict) -> bool:
         if download_file(CARDS_URL, CARDS_DATA_PATH):
             tracker_data["most_recent_set"] = latest_set
             tracker_data["last_cards_update"] = datetime.now().strftime('%Y-%m-%d')
+            
+            # Reset draft data tracking for new set (they will be downloaded fresh)
+            tracker_data["premier_draft_last_updated"] = None
+            tracker_data["traditional_draft_last_updated"] = None
+            print("🔄 Reset draft data tracking for new set")
+            
             return True
         else:
             print("❌ Failed to download cards.csv")
@@ -137,15 +143,17 @@ def check_and_download_draft_data(tracker_data: Dict, latest_set_info: Dict) -> 
     # If this is the first run (null tracker) or data has been updated
     if premier_last_modified and (current_premier_date is None or premier_last_modified != current_premier_date):
         if current_premier_date is None:
-            print(f"🆕 First run - Premier Draft data needs training: {premier_last_modified}")
+            print(f"🆕 First run - Premier Draft data needs download: {premier_last_modified}")
         else:
             print(f"🆕 Premier Draft data updated: {current_premier_date} -> {premier_last_modified}")
         
         # Download Premier Draft data
         gz_path = os.path.join(DRAFT_DATA_PATH, f"draft_data_public.{latest_set}.PremierDraft.csv.gz")
         if download_file(premier_url, gz_path):
+            # Update tracker immediately after successful download
             tracker_data["premier_draft_last_updated"] = premier_last_modified
             premier_updated = True
+            print(f"✅ Premier Draft download tracked: {premier_last_modified}")
         else:
             print("❌ Failed to download Premier Draft data")
     else:
@@ -159,15 +167,17 @@ def check_and_download_draft_data(tracker_data: Dict, latest_set_info: Dict) -> 
     # If this is the first run (null tracker) or data has been updated
     if traditional_last_modified and (current_traditional_date is None or traditional_last_modified != current_traditional_date):
         if current_traditional_date is None:
-            print(f"🆕 First run - Traditional Draft data needs training: {traditional_last_modified}")
+            print(f"🆕 First run - Traditional Draft data needs download: {traditional_last_modified}")
         else:
             print(f"🆕 Traditional Draft data updated: {current_traditional_date} -> {traditional_last_modified}")
         
         # Download Traditional Draft data
         gz_path = os.path.join(DRAFT_DATA_PATH, f"draft_data_public.{latest_set}.TradDraft.csv.gz")
         if download_file(traditional_url, gz_path):
+            # Update tracker immediately after successful download
             tracker_data["traditional_draft_last_updated"] = traditional_last_modified
             traditional_updated = True
+            print(f"✅ Traditional Draft download tracked: {traditional_last_modified}")
         else:
             print("❌ Failed to download Traditional Draft data")
     else:
@@ -176,7 +186,7 @@ def check_and_download_draft_data(tracker_data: Dict, latest_set_info: Dict) -> 
     return premier_updated, traditional_updated
 
 
-def run_training_pipeline(set_code: str, draft_mode: str) -> bool:
+def run_training_pipeline(set_code: str, draft_mode: str) -> Tuple[bool, Dict]:
     """Run the training pipeline for a given set and draft mode."""
     try:
         print(f"\n🚀 Starting training pipeline for {set_code} {draft_mode} Draft...")
@@ -188,19 +198,29 @@ def run_training_pipeline(set_code: str, draft_mode: str) -> bool:
         print(f"📁 Changed working directory to: {os.getcwd()}")
         
         try:
-            sd.default_training_pipeline(
+            training_info = sd.default_training_pipeline(
                 set_abbreviation=set_code,
                 draft_mode=draft_mode,
                 overwrite_dataset=True
             )
+            
+            # Log training information
+            print(f"📊 Training Summary:")
+            print(f"   • Experiment: {training_info['experiment_name']}")
+            print(f"   • Training date: {training_info['training_date']}")
+            print(f"   • Training picks: {training_info['training_picks']:,}")
+            print(f"   • Validation picks: {training_info['validation_picks']:,}")
+            print(f"   • Best validation accuracy: {training_info['validation_accuracy']:.2f}%")
+            print(f"   • Best epoch: {training_info['num_epochs']}")
+            
             print(f"✅ Training completed for {set_code} {draft_mode} Draft")
-            return True
+            return True, training_info
         finally:
             os.chdir(original_cwd)
             
     except Exception as e:
         print(f"❌ Training failed for {set_code} {draft_mode} Draft: {e}")
-        return False
+        return False, {}
 
 
 def main():
@@ -230,16 +250,26 @@ def main():
     
     # Run training pipelines if data was updated
     latest_set = latest_set_info.get("most_recent_set")
+    training_logs = []
     
     if premier_updated:
-        success = run_training_pipeline(latest_set, "Premier")
-        if not success:
+        success, training_info = run_training_pipeline(latest_set, "Premier")
+        if success:
+            training_logs.append(training_info)
+        else:
             print(f"⚠️  Training failed for {latest_set} Premier Draft")
     
     if traditional_updated:
-        success = run_training_pipeline(latest_set, "Trad")
-        if not success:
+        success, training_info = run_training_pipeline(latest_set, "Trad")
+        if success:
+            training_logs.append(training_info)
+        else:
             print(f"⚠️  Training failed for {latest_set} Traditional Draft")
+    
+    # Add training logs to tracker data
+    if training_logs:
+        tracker_data["last_training_logs"] = training_logs
+        tracker_data["last_training_timestamp"] = datetime.now().isoformat()
     
     # Save updated tracker data
     save_data_tracker(tracker_data)
@@ -249,9 +279,16 @@ def main():
     print("📋 SUMMARY")
     print("=" * 50)
     print(f"🎯 Latest Set: {latest_set}")
-    print(f"📦 Cards Updated: {'✅' if cards_updated else '❌'}")
-    print(f"🏆 Premier Draft Updated: {'✅' if premier_updated else '❌'}")
-    print(f"🎲 Traditional Draft Updated: {'✅' if traditional_updated else '❌'}")
+    print(f"📦 Cards Downloaded: {'✅' if cards_updated else '❌'}")
+    print(f"🏆 Premier Draft Downloaded: {'✅' if premier_updated else '❌'}")
+    print(f"🎲 Traditional Draft Downloaded: {'✅' if traditional_updated else '❌'}")
+    
+    # Show training logs if any models were trained
+    if training_logs:
+        print(f"\n📊 Training Results:")
+        for log in training_logs:
+            print(f"   • {log['experiment_name']}: {log['validation_accuracy']:.2f}% accuracy ({log['training_picks']:,} training picks, {log['num_epochs']} epochs)")
+            print(f"     Trained on: {log['training_date']}")
     
     if not any([cards_updated, premier_updated, traditional_updated]):
         print("✨ All data is up to date - no action needed!")

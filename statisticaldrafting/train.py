@@ -1,5 +1,8 @@
 import time
 import warnings
+import json
+import os
+from datetime import datetime
 
 warnings.filterwarnings("ignore")
 
@@ -118,7 +121,50 @@ def train_model(
         epoch += 1
         scheduler.step() # Update learning rate. 
     print(f"Training complete for {weights_path}. Best performance={round(best_percent_correct, 2)}% Time={round(time.time()-t0)} seconds\n")
-    return network
+    
+    # Return training information dictionary
+    training_info = {
+        "experiment_name": experiment_name,
+        "training_picks": len(train_dataloader.dataset),
+        "validation_picks": len(val_dataloader.dataset),
+        "validation_accuracy": best_percent_correct,
+        "num_epochs": best_epoch,
+        "training_date": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    }
+    
+    return network, training_info
+
+
+def _log_training_info(training_info: dict) -> None:
+    """
+    Append training information to model_refresh/training_logs.json
+    """
+    # Determine the path to training_logs.json
+    # This function is called from notebooks/ directory, so we need to go up and into model_refresh/
+    logs_path = "../model_refresh/training_logs.json"
+    
+    try:
+        # Load existing logs or create empty list
+        if os.path.exists(logs_path):
+            with open(logs_path, 'r') as f:
+                logs = json.load(f)
+        else:
+            logs = []
+        
+        # Append new training info
+        logs.append(training_info)
+        
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(logs_path), exist_ok=True)
+        
+        # Write updated logs
+        with open(logs_path, 'w') as f:
+            json.dump(logs, f, indent=2)
+        
+        print(f"📝 Training log saved to {logs_path}")
+        
+    except Exception as e:
+        print(f"⚠️  Failed to save training log: {e}")
 
 
 def default_training_pipeline(
@@ -153,7 +199,7 @@ def default_training_pipeline(
     # Train network.
     network = sd.DraftNet(cardnames=train_dataset.cardnames, dropout_input=dropout_input)
 
-    sd.train_model(
+    network, training_info = sd.train_model(
         train_dataloader,
         val_dataloader,
         network,
@@ -172,4 +218,9 @@ def default_training_pipeline(
             onnx_path=onnx_path
         )
     except Exception as e:
-        print(f"Failed to export ONNX model: {e}") 
+        print(f"Failed to export ONNX model: {e}")
+    
+    # Log training information to training_logs.json
+    _log_training_info(training_info)
+    
+    return training_info 
