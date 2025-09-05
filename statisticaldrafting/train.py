@@ -190,10 +190,10 @@ def default_training_pipeline(
 
     dataset_folder = "../data/training_sets/"
 
-    train_dataset = torch.load(train_path)
+    train_dataset = torch.load(train_path, weights_only=False)
     train_dataloader = DataLoader(train_dataset, batch_size=10000, shuffle=True)
 
-    val_dataset = torch.load(val_path)
+    val_dataset = torch.load(val_path, weights_only=False)
     val_dataloader = DataLoader(val_dataset, batch_size=1, shuffle=False)
 
     # Train network.

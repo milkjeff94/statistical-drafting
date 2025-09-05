@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "experiment_name": "EOE_Premier",
+    "training_picks": 178464,
+    "validation_picks": 44616,
+    "validation_accuracy": 70.85350546889009,
+    "num_epochs": 72,
+    "training_date": "2025-09-04 18:52:11"
+  },
+  {
+    "experiment_name": "EOE_Trad",
+    "training_picks": 85956,
+    "validation_picks": 21489,
+    "validation_accuracy": 69.73800549118154,
+    "num_epochs": 74,
+    "training_date": "2025-09-04 18:57:54"
+  },
+  {
+    "experiment_name": "EOE_Premier",
+    "training_picks": 178464,
+    "validation_picks": 44616,
+    "validation_accuracy": 70.90057378518917,
+    "num_epochs": 114,
+    "training_date": "2025-09-04 19:56:54"
+  },
+  {
+    "experiment_name": "EOE_Trad",
+    "training_picks": 85956,
+    "validation_picks": 21489,
+    "validation_accuracy": 69.57978500628228,
+    "num_epochs": 100,
+    "training_date": "2025-09-04 20:03:42"
+  }
+]

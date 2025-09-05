@@ -12,7 +12,7 @@ def create_onnx_model(model_path, cardnames, onnx_path):
     """
     # Creates an onnx model. 
     network = sd.DraftNet(cardnames=cardnames)
-    network.load_state_dict(torch.load(model_path))
+    network.load_state_dict(torch.load(model_path, weights_only=True))
     network.eval()
 
     # Dummy inputs (match the forward signature: collection, pack)
