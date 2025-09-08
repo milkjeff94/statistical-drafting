@@ -8,23 +8,29 @@ import numpy as np
 import pandas as pd
 import torch
 
-import statisticaldrafting as sd
+from .model import DraftNet
 
 pd.options.display.max_rows = 1000
 
 
 class DraftModel:
-    def __init__(self, set: str = "FDN", draft_mode: str = "Premier"):
+    def __init__(self, set: str = "FDN", draft_mode: str = "Premier", data_dir: str | None = None):
         # Get data from set.
         self.set = set
+        # Resolve data directory robustly (defaults to repo data/ next to package)
+        if data_dir is None:
+            pkg_dir = os.path.dirname(__file__)
+            data_dir = os.path.abspath(os.path.join(pkg_dir, "..", "data"))
+        self._data_dir = data_dir
+
         self.pick_table = pd.read_csv(
-            f"../data/cards/{self.set}.csv"
+            os.path.join(self._data_dir, "cards", f"{self.set}.csv")
         )  # will be sorted.
         self.cardnames = self.pick_table["name"].tolist()
 
         # Load model.
-        model_path = f"../data/models/{set}_{draft_mode}.pt"
-        self.network = sd.DraftNet(cardnames=self.cardnames)
+        model_path = os.path.join(self._data_dir, "models", f"{set}_{draft_mode}.pt")
+        self.network = DraftNet(cardnames=self.cardnames)
         self.network.load_state_dict(torch.load(model_path, weights_only=True))
 
         # Assign p1p1 ratings.
